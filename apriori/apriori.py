@@ -6,27 +6,34 @@ import sys
 import random
 import itertools
 
-    
-# These are the frequent itemsets for all k's.
-# Keys are '1', ..., 'k' and values are sets of 
-# n-membered sets for each key 'n' in [1, k].
+'''    
+    These are the frequent itemsets for all k's.
+    Keys are '1', ..., 'k' and values are sets of 
+    n-membered sets for each key 'n' in [1, k].
+'''
 frequent_itemsets = dict()
 
-# Frequencies of all the itemsets. Keys are forzensets and values are floats.
+'''
+    Frequencies of all the itemsets. Keys are forzensets and values are floats.
+'''
 itemset_frequencies = dict()
-    
-# Percentage of the transactions which need to have certain itemset before it's
-# considered 'frequent itemset'.
+
+'''    
+    Percentage of the transactions which need to have certain itemset before it's
+    considered 'frequent itemset'.
+'''
 threshold = 0.5
 
-#    Map names to indexes.
-#
-#    Parameters:
-#        filepath -    (absolute) path to file to read.
-#                      File should have one name / line.
-#
-#    Returns dictionary with keys as course names and 
-#    values mapped to indexes starting from 0.
+'''
+    Map names to indexes.
+
+    Parameters:
+        filepath -    (absolute) path to file to read.
+                      File should have one name / line.
+
+    Returns dictionary with keys as course names and 
+    values mapped to indexes starting from 0.
+'''
 def map_course_names(filepath = None):
     
     if filepath is None:
@@ -62,23 +69,23 @@ def map_course_names(filepath = None):
         
     return name_map
 
+'''
+    Read transactions to matrix using given name map.
 
-#    Read transactions to matrix using given name map.
-#
-#    Supposes that given file contains one transaction 
-#    in line and each item in transaction is separated by 
-#    " ".
-#
-#    Parameters:
-#        filepath -    (absolute) path to file to read.
-#                      File should have one name / line.
-#        name_map - dictionary with keys as names and values
-#                   as column indexes for items. 
-#
-#    Returns transactions matrix with each transaction
-#    in one row and each column index representing item 
-#    that is mapped to that particular index in name_map.
-#   
+    Supposes that given file contains one transaction 
+    in line and each item in transaction is separated by 
+    " ".
+
+    Parameters:
+        filepath -    (absolute) path to file to read.
+                      File should have one name / line.
+        name_map - dictionary with keys as names and values
+                   as column indexes for items. 
+
+    Returns transactions matrix with each transaction
+    in one row and each column index representing item 
+    that is mapped to that particular index in name_map.
+'''
 def read_transactions(filepath = None, name_map = None):
     
     if filepath is None:
@@ -114,22 +121,23 @@ def read_transactions(filepath = None, name_map = None):
              
     return transactions
 
+'''
+    Sort the transactions (reverse-)lexicographically so that 
+    transactions which have items in small indexes are 
+    in the first rows. Resulting matrix could be something 
+    like this for "boolean" values:
 
-# Sort the transactions (reverse-)lexicographically so that 
-# transactions which have items in small indexes are 
-# in the first rows. Resulting matrix could be something 
-# like this for "boolean" values:
-#
-#    [1, 1, 0, ..., 0, 1, 0]
-#    [1, 0, 1, ..., 1, 0, 1]
-#    [0, 1, 0, ..., 0, 0, 1]
-#    ...
-#    [0, 0, 0, ..., 1, 1, 1]
-#
-#    Params:
-#        matrix - 2d numpy.matrix object
-#    
-#    Returns the sorted transactions matrix.
+        [1, 1, 0, ..., 0, 1, 0]
+        [1, 0, 1, ..., 1, 0, 1]
+        [0, 1, 0, ..., 0, 0, 1]
+        ...
+        [0, 0, 0, ..., 1, 1, 1]
+
+    Params:
+        matrix - 2d numpy.matrix object
+    
+    Returns the sorted transactions matrix.
+'''
 def lexsort_2d_matrix(matrix = None):
     
     if matrix is None:
@@ -151,16 +159,17 @@ def lexsort_2d_matrix(matrix = None):
     # Flip the matrix to get it in right (ie. reversed) order.
     return numpy.flipud(matrix[indices])
 
+'''
+    Calculate frequency percentage in transactions for each k-itemset in 
+    itemsets.
 
-#    Calculate frequency percentage in transactions for each k-itemset in 
-#    itemsets.
-#
-#    Params:
-#        itemsets     - sequence of k-membered sets. Each member representing column.
-#        transactions - numpy.matrix from which the frequencies are 
-#                       calculated from.
-#
-#    Returns dictionary with k-itemsets as keys and frequencies as values.
+    Params:
+        itemsets     - sequence of k-membered sets. Each member representing column.
+        transactions - numpy.matrix from which the frequencies are 
+                       calculated from.
+
+    Returns dictionary with k-itemsets as keys and frequencies as values.
+'''
 def calculate_frequencies(itemsets = None, transactions = None):
     
     transactions_count = transactions.shape[0] 
@@ -179,12 +188,14 @@ def calculate_frequencies(itemsets = None, transactions = None):
         # Store the percentage
         itemset_frequencies[itemset] = float(current_freq) / float(transactions_count)    
 
-#    Prune off itemsets' which have lower frequency than threshold.
-#    Store rest to frequent_itemsets. All itemsets must have same amount
-#    of members.
-#
-#    Params:
-#        itemsets    - set of itemset's to be pruned.      
+'''
+    Prune off itemsets' which have lower frequency than threshold.
+    Store rest to frequent_itemsets. All itemsets must have same amount
+    of members.
+
+    Params:
+        itemsets    - set of itemset's to be pruned.
+'''      
 def prune_itemsets(itemsets = None, threshold = 0.5):  
     
     k = len(random.choice(list(itemsets)))
@@ -195,13 +206,15 @@ def prune_itemsets(itemsets = None, threshold = 0.5):
     for itemset in itemsets:
         if itemset_frequencies[itemset] > threshold:
             frequent_itemsets[k].add(itemset)     
-        
-#    Generate k+1-itemsets from previous frequent itemsets.
-#
-#    Params:
-#        k - positive integer. frequent_itemsets needs to have value for key k-1.
-#
-#    Returns new k+1-itemsets which have all their subsets in frequent_itemsets[k-1].
+ 
+'''       
+    Generate k+1-itemsets from previous frequent itemsets.
+
+    Params:
+        k - positive integer. frequent_itemsets needs to have value for key k.
+
+    Returns new k+1-itemsets which have all their subsets in frequent_itemsets[k].
+'''
 def generate_itemsets(k):
     
     if len(frequent_itemsets[k]) == 0:
@@ -225,11 +238,13 @@ def generate_itemsets(k):
                 new_itemset.add(cur_set)
                 
     return new_itemset
-         
-def print_itemsets(k, names= None):
+     
     
+'''
+    Print the itemsets to std out.
+'''    
+def print_itemsets(k, names= None):
 
-        
     for x in frequent_itemsets[k]:
         frequency = itemset_frequencies[frozenset(x)]
         cur_names = [names[i] for i in x]
@@ -237,8 +252,9 @@ def print_itemsets(k, names= None):
 
         
     
-       
-                         
+'''      
+    Apriori logic
+'''                         
 def main():
     
     if len(sys.argv) < 3:
@@ -277,8 +293,9 @@ def main():
         calculate_frequencies(new_itemsets, transactions)
         prune_itemsets(new_itemsets, threshold)
     
-  
-# make this runnable from commandline with arguments  
+'''  
+    make this runnable from commandline with arguments
+'''  
 if __name__ == "__main__":
 
     
