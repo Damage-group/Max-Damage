@@ -85,7 +85,7 @@ def map_course_names(filepath = None):
     in one row and each column index representing item 
     that is mapped to that particular index in name_map.
 '''
-def read_transactions(filepath = None, name_map = None):
+def read_transactions(filepath = None, name_map = None, strip = 2):
     
     if filepath is None:
         raise ValueError("There was no filepath given to read_transactions.")
@@ -104,6 +104,7 @@ def read_transactions(filepath = None, name_map = None):
         return None
     
     lines = f.readlines()
+    lines = [l for l in lines if len(l.split()) > strip]
     columns = len(name_map.keys())
     rows = len(lines)
     transactions = numpy.zeros((rows, columns), dtype = int)
@@ -113,11 +114,11 @@ def read_transactions(filepath = None, name_map = None):
     
     for l in lines:
         items = l.split()
-        for item in items:
-            transactions[current_row][name_map[item]] = 1 
-        
-        current_row = current_row + 1
-             
+        if len(items) > 2:
+            for item in items:
+                transactions[current_row][name_map[item]] = 1 
+            current_row = current_row + 1
+
     return transactions
 
 '''
@@ -197,6 +198,9 @@ def calculate_frequencies(itemsets = None, transactions = None):
 '''      
 def prune_itemsets(itemsets = None, threshold = 0.5):  
     
+    if len(itemsets) == 0:
+        return None
+    
     k = len(random.choice(list(itemsets)))
     
     if k not in frequent_itemsets:
@@ -215,6 +219,9 @@ def prune_itemsets(itemsets = None, threshold = 0.5):
     Returns new k+1-itemsets which have all their subsets in frequent_itemsets[k].
 '''
 def generate_itemsets(k):
+    
+    if not k in frequent_itemsets:
+        return None
     
     if len(frequent_itemsets[k]) == 0:
         return None
@@ -257,14 +264,18 @@ def print_itemsets(k, names= None):
 def main():
     
     if len(sys.argv) < 3:
-        print("Usage: %s input_file %%-threshold" % (sys.argv[0]))
+        print("Usage: %s input_file %%-threshold [strip]" % (sys.argv[0]))
         sys.exit(0)
     
     input_file = sys.argv[1]
     threshold = float(sys.argv[2])
+    strip = 0
+    
+    if (len(sys.argv) >= 4):
+        strip = float(sys.argv[3])
     
     name_map = map_course_names(input_file)
-    transactions = read_transactions(input_file, name_map)
+    transactions = read_transactions(input_file, name_map, strip)
     transactions = lexsort_2d_matrix(transactions)
     
     # Something stupid
@@ -283,14 +294,13 @@ def main():
     prune_itemsets(itemsets, threshold)
         
     # Then loop through the rest
-    for x in range(5):
-        print_itemsets(x+1, names)
-        k = x + 2
-        new_itemsets = generate_itemsets(k-1) 
+    for k in range(1,5):
+        new_itemsets = generate_itemsets(k) 
         if new_itemsets is None:
             break
         calculate_frequencies(new_itemsets, transactions)
         prune_itemsets(new_itemsets, threshold)
+        print_itemsets(k, names)
     
 '''  
     make this runnable from commandline with arguments
