@@ -194,9 +194,7 @@ def prune_itemsets(itemsets = None, threshold = 0.5):
 
     for itemset in itemsets:
         if itemset_frequencies[itemset] > threshold:
-            frequent_itemsets[k].add(itemset) 
-            print "%d: %s, %s" % (k, itemset, itemset_frequencies[frozenset(itemset)]) 
-            
+            frequent_itemsets[k].add(itemset)     
         
 #    Generate k+1-itemsets from previous frequent itemsets.
 #
@@ -227,7 +225,19 @@ def generate_itemsets(k):
                 new_itemset.add(cur_set)
                 
     return new_itemset
-            
+         
+def print_itemsets(k, names= None):
+    
+
+        
+    for x in frequent_itemsets[k]:
+        frequency = itemset_frequencies[frozenset(x)]
+        cur_names = [names[i] for i in x]
+        print "%d: %s : %f" % (k, cur_names, frequency)
+
+        
+    
+       
                          
 def main():
     
@@ -242,6 +252,11 @@ def main():
     transactions = read_transactions(input_file, name_map)
     transactions = lexsort_2d_matrix(transactions)
     
+    # Something stupid
+    names = [i for i in range(len(name_map))]
+    for key, value in name_map.items():
+        names[value] = key
+    
     # First create all 1-itemsets
     itemsets = set()
     for x in range(transactions.shape[1]):
@@ -254,6 +269,7 @@ def main():
         
     # Then loop through the rest
     for x in range(5):
+        print_itemsets(x+1, names)
         k = x + 2
         new_itemsets = generate_itemsets(k-1) 
         if new_itemsets is None:
