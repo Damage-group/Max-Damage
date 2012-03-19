@@ -231,7 +231,6 @@ def generate_candidates(k):
     #idea of a loop:
     #expects frequentitemsets to be lexicographically ordered. (1.itemsets souhld be ordered, the rest is ordered automatically)
     #example: ABCD, ABCE, ABCG --> prefix=ABC, items={D,E,G} when i=2,j=0
-    #j = 0
     #first_itemset = tuple(frequent_itemsets[k][0])
     #prefix = first_itemset[:-1]
     #items = set(first_itemset[-1])
@@ -244,8 +243,8 @@ def generate_candidates(k):
     #            for item in items:
     #                candidate = prefix + item
     #                # handle candidate
-    #        j = i
     #        prefix = itemset[:-1]
+    #        items = set()
     for itemsets in itertools.combinations(frequent_itemsets[k], 2):
         cur_set = itemsets[0].union(itemsets[1])
         
