@@ -1,0 +1,91 @@
+The answers are listed after the reporting help text.
+
+Group report
+
+   Group work for the problems may be reported and presented in various forms (presentations, posters, etc) during the course, depending on the problem. For every
+   problem, each group also submits a brief written report in Moodle. Where appropriate, the group report should cover aspects such as:
+
+   0. Identification of group and problem
+
+   1. Substance
+
+     * How did you approach the problem?
+     * What kind of choices did you make and why?
+     * What kind of results did you get? What did you learn from them?
+     * What kind of difficulties did you face?
+     * In hindsight, propose improvements to solving the problem.
+
+   Remember that many of the problems are open and no perfect or right solutions exist, so do not try to find one. Instead, try to understand and describe what the
+   methods you consider can do and what not. Propose ideas that could perhaps be helpful in solving the remaining issues.
+
+   2. Group learning:
+
+     * What did you set as your learning objectives for this problem?
+     * How did you study and learn as a group?
+     * How did you divide and organize work in the group?
+
+   3. Group self evaluation:
+
+     * Did the group work well together? Why?
+     * Did all group members contribute at least satisfactorily?
+     * How will you improve the way your group works?
+
+   4. Evaluation of the problem and teaching:
+
+     * Was the problem too large or too small? Was it too difficult or too easy? Too specific or too vague?
+     * Did you have, as a group, suitable background to work on the problem?
+     * How could the problem description be improved (for the next course of later problems in this course)?
+     * How could teaching be improved?
+
+   5. Other comments, ideas, observations, feedback?
+--------------------------------------------------------------------------------
+
+0:
+	group name: damage
+	group memebers:
+		Teemu Kuusisto		hlub
+		Simo Linkola		assamite
+		Chunxiang Li		czli
+		Nicole Althermeler	altherme
+		Ganjalf				?
+
+1:
+	approach: 
+		implementing the algorithm, 
+		experiments with the algorithm
+	choices made:
+		We choose to implement the algorithm in Python language. 
+	results:
+		Frequencies of single courses
+		Excluding sutdents who have taken only few courses resulted more interesting numbers than using the whole data
+	learned:
+		The basic idea behind the apriori algorithm
+		The algorithmcan be improved in many ways
+		Improving candidate generation were discussed much
+	difficulties:
+		The data was a bit odd:
+			listed course names did not match the names in the data
+			There were year numbers in the course names messing the data up
+		The book has no pseudo code of candidate generation (F_{k-1} \times F_{k-1} method)
+	improvements to solve:
+		More discussion of the problem and data could be good idea
+2. Group learning:
+	learning objectives for this problem:
+		the idea of the algorithm
+		getting started with tools and getting familiar with the group
+	studying and learning:
+		
+	organization of the group:
+		Some of the members implemented the algorithm and others experimented with it
+3. Group self evaluation:
+	Did the group work well together? Why?
+	Did all group members contribute at least satisfactorily?
+	How will you improve the way your group works?
+
+4. Evaluation of the problem and teaching:
+	Was the problem too large or too small? Was it too difficult or too easy? Too specific or too vague?
+		The problem was not too large. The assignment wa a bit too open.
+		This was anyway quite good problem to start the course.
+	Did you have, as a group, suitable background to work on the problem?
+	How could the problem description be improved (for the next course of later problems in this course)?
+	How could teaching be improved?
