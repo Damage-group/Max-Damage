@@ -225,23 +225,20 @@ def generate_itemsets(k):
     
     if len(frequent_itemsets[k]) == 0:
         return None
-        
-    old_is1 = frequent_itemsets[k]
-    old_is2 = frequent_itemsets[k]
+
     new_itemset = set()
     
-    for itemset1 in old_is1:
-        for itemset2 in old_is2:
-            # If sets intersection is k-1 then they have exatcly one different
-            # member in both of them.
-            if len(itemset1.union(itemset2)) == k+1:
-                cur_set = itemset1.union(itemset2)
-                # Test that all the subsets of the candidate are in 
-                #frequent_itemsets.
-                for subset in set(itertools.combinations(cur_set, k)):
-                    if subset not in frequent_itemsets[k]:
-                        break
-                new_itemset.add(cur_set)
+    for itemsets in itertools.combinations(frequent_itemsets[k], 2):
+        cur_set = itemsets[0].union(itemsets[1])
+        
+        # If sets union is k+1 then they have exatcly one different member.
+        if len(cur_set) == k+1:
+            # Test that all the subsets of the candidate are in 
+            #frequent_itemsets.
+            for subset in set(itertools.combinations(cur_set, k)):
+                if subset not in frequent_itemsets[k]:
+                    break
+            new_itemset.add(cur_set)
                 
     return new_itemset
      
@@ -254,7 +251,7 @@ def print_itemsets(k, names= None):
     for x in frequent_itemsets[k]:
         frequency = itemset_frequencies[frozenset(x)]
         cur_names = [names[i] for i in x]
-        print "%d: %s : %f" % (k, cur_names, frequency)
+        print "%d: %f \t %s " % (k, frequency, cur_names)
 
         
     
