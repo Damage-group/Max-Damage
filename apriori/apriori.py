@@ -196,7 +196,7 @@ def calculate_frequencies(itemsets = None, transactions = None):
     Params:
         itemsets    - set of itemset's to be pruned.
 '''      
-def prune_itemsets(itemsets = None, threshold = 0.5):  
+def prune_infrequent(itemsets = None, threshold = 0.5):  
     
     if len(itemsets) == 0:
         return None
@@ -218,7 +218,7 @@ def prune_itemsets(itemsets = None, threshold = 0.5):
 
     Returns new k+1-itemsets which have all their subsets in frequent_itemsets[k].
 '''
-def generate_itemsets(k):
+def generate_candidates(k):
     
     if not k in frequent_itemsets:
         return None
@@ -226,7 +226,7 @@ def generate_itemsets(k):
     if len(frequent_itemsets[k]) == 0:
         return None
 
-    new_itemset = set()
+    candidates = set()
     
     #idea of a loop:
     #expects frequentitemsets to be lexicographically ordered. (1.itemsets souhld be ordered, the rest is ordered automatically)
@@ -256,9 +256,9 @@ def generate_itemsets(k):
             for subset in set(itertools.combinations(cur_set, k)):
                 if subset not in frequent_itemsets[k]:
                     break
-            new_itemset.add(cur_set)
+            candidates.add(cur_set)
                 
-    return new_itemset
+    return candidates
      
     
 '''
@@ -306,15 +306,15 @@ def main():
         itemsets.add(frozenset(itemset))
         
     calculate_frequencies(itemsets, transactions)
-    prune_itemsets(itemsets, threshold)
+    prune_infrequent(itemsets, threshold)
         
     # Then loop through the rest
     for k in range(1,5):
-        new_itemsets = generate_itemsets(k) 
-        if new_itemsets is None:
+        candidates = generate_candidates(k) 
+        if candidates is None:
             break
-        calculate_frequencies(new_itemsets, transactions)
-        prune_itemsets(new_itemsets, threshold)
+        calculate_frequencies(candidates, transactions)
+        prune_infrequent(candidates, threshold)
         print_itemsets(k, names)
     
 '''  
