@@ -1,1 +1,1 @@
-"""Reading input data from files."""
+"""A place for data transfromation processes."""
