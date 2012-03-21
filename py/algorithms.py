@@ -126,3 +126,32 @@ def ap_frequent_itemsets(transactions, minSupport=0.5):
         prune_infrequent(candidates, minSupport)
         frequent_itemsets[k] = candidates
     return frequent_itemsets
+
+def ap_rule_generation(frequent_itemsets, k):
+	rules = []
+	for itemset in frequent_itemsets[k]:
+		ap_genrules(frequent_itemsets, rules, itemset, itemset)
+	rules.sort(cmp=lambda x: 1 - x[2])
+	return rules
+
+def get_frequency(frequent_itemsets, itemset):
+	return frequent_itemsets[len(itemset)].get(itemset).frequency
+
+def ap_genrules(frequent_itemsets, rules, f, H):
+	frequency = lambda itemset: get_frequency(frequent_itemsets, itemset)
+	k = len(f)
+	m = len(H)
+
+	if k > m+1:
+		candidates = generate_candidates(H, k)
+		i = 0
+		while i < len(candidates):
+			# for rule X -> Y - X: confidence = support(Y) / support(Y - X)
+			# frequencies can be used because of the division operation.
+			confidence = frequency(f) / frequency(f - candidates[i])
+			if confidence >= minConfidence:
+				rules.apend( (f, f - candidates[i], confidence) )
+				i = i + 1
+			else:
+				del candidates[i]
+		ap_genrules(frequent_itemsets, rules, f, candidates)
