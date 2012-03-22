@@ -100,10 +100,12 @@ def generate_candidates(frequent_itemsets, k):
         if len(cur_set) == k+1:
             # Test that all the subsets of the candidate are in 
             #frequent_itemsets.
+            accept = True
             for subset in set(itertools.combinations(cur_set, k)):
-                if subset not in frequent_itemsets:
+                if frozenset(subset) not in frequent_itemsets:
+                    accept = False
                     break
-            candidates.append(cur_set)
+            if accept: candidates.append(cur_set)
                 
     return candidates
 
