@@ -139,7 +139,7 @@ def ap_rule_generation(frequent_itemsets, k, minConfidence):
 	rules = []
 	for itemset in frequent_itemsets[k]:
 		ap_genrules(frequent_itemsets, rules, minConfidence, itemset, [frozenset( (A,) ) for A in itemset])
-	rules.sort(cmp=lambda a,b: a[2] <= b[2])
+	rules.sort(cmp=lambda a,b: -1 if a[2] < b[2] else 1 if a[2] > b[2] else 0)
 	return rules
 
 def get_frequency(frequent_itemsets, itemset):
