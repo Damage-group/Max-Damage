@@ -15,12 +15,12 @@ def main(argv):
 	for k in frequent_itemsets:
 		for S in frequent_itemsets[k]:
 			res.append( (S, frequent_itemsets[k][S].frequency) )
-	res.sort(cmp=lambda a,b: a[1] < b[1])
+	res.sort(cmp=lambda a,b: -1 if a[1] < b[1] else 1 if a[1] > b[1] else 0)
 	for S,f in res:
 		print "%s (%f)" % (' '.join([items[j] for j in S]), f)
 	rules = ap_rule_generation(frequent_itemsets, 3, 0.2)
 	for rule in rules:
-		print rule
+		print "%s --> %s %f" % (" ".join([str(i) for i in rule[0]]), " ".join([str(i) for i in rule[1]]), rule[2])
 
 if __name__ == '__main__':
 	main(sys.argv)
