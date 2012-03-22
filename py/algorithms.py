@@ -6,7 +6,21 @@ import numpy
 import sys
 import random
 import itertools
-from blist import sortedlist
+#from blist import sortedlist
+
+class FreqSet(dict):
+	class Info(object):
+		def __init__(self, frequency=0):
+			self.frequency = frequency
+
+	def __init__(self, iterable=None):
+		dict.__init__(self)
+		if iterable:
+			for i in iterable:
+				self[i] = FreqSet.Info()
+	def append(self, X):
+		self[X] = FreqSet.Info()
+	add = append
 
 '''
     Calculate frequency percentage in transactions for each k-itemset in 
@@ -22,7 +36,6 @@ from blist import sortedlist
 def calculate_frequencies(itemsets, transactions):
     
     transactions_count = transactions.shape[0] 
-    
     for itemset in itemsets:
         # Extract only itemset's columns from transactions
         set_as_list = list(itemset)
@@ -35,7 +48,7 @@ def calculate_frequencies(itemsets, transactions):
                 current_freq = current_freq + 1
                 
         # Store the percentage
-        itemset.frequency = float(current_freq) / float(transactions_count)    
+        itemsets[itemset].frequency = float(current_freq) / float(transactions_count)    
 
 '''
     Prune off itemsets' which have lower frequency than threshold.
@@ -44,13 +57,8 @@ def calculate_frequencies(itemsets, transactions):
         itemsets    - set of itemset's to be pruned.
 '''      
 def prune_infrequent(itemsets, threshold = 0.5):  
-    # iterates from end to begin:
-    i = 0
-    while i < len(itemsets):
-    	if itemsets[i].frequency < threshold:
-    		del itemsets[i]
-    	else:
-    		i = i + 1
+    for j in [i for i in itemsets if itemsets[i].frequency < threshold]:
+    	del itemsets[j]
 
 ''' (update this)      
     Generate k+1-itemsets from previous frequent itemsets.
@@ -66,7 +74,7 @@ def generate_candidates(frequent_itemsets, k):
     if len(frequent_itemsets) == 0:
         return None
 
-    candidates = sortedlist()
+    candidates = FreqSet()
     
     #idea of a loop:
     #expects frequentitemsets to be lexicographically ordered. (1.itemsets souhld be ordered, the rest is ordered automatically)
@@ -110,9 +118,9 @@ def ap_frequent_itemsets(transactions, minSupport=0.5):
 
     # First create all 1-itemsets
     k = 1
-    frequent_itemsets = {k : sortedlist()}
+    frequent_itemsets = {k : FreqSet()}
     for x in range(transactions.shape[1]):
-        frequent_itemsets[k].append(frozenset( (x,) )) # add 1-itemset {x}
+    	frequent_itemsets[k].append( frozenset( (x,) ) )
         
     calculate_frequencies(frequent_itemsets[k], transactions)
     prune_infrequent(frequent_itemsets[k], minSupport)
@@ -127,31 +135,31 @@ def ap_frequent_itemsets(transactions, minSupport=0.5):
         frequent_itemsets[k] = candidates
     return frequent_itemsets
 
-def ap_rule_generation(frequent_itemsets, k):
+def ap_rule_generation(frequent_itemsets, k, minConfidence):
 	rules = []
 	for itemset in frequent_itemsets[k]:
-		ap_genrules(frequent_itemsets, rules, itemset, itemset)
-	rules.sort(cmp=lambda x: 1 - x[2])
+		ap_genrules(frequent_itemsets, rules, minConfidence, itemset, [frozenset( (A,) ) for A in itemset])
+	rules.sort(cmp=lambda a,b: a[2] <= b[2])
 	return rules
 
 def get_frequency(frequent_itemsets, itemset):
-	return frequent_itemsets[len(itemset)].get(itemset).frequency
+	return frequent_itemsets[len(itemset)][itemset].frequency
 
-def ap_genrules(frequent_itemsets, rules, f, H):
+def ap_genrules(frequent_itemsets, rules, minConfidence, f, H):
 	frequency = lambda itemset: get_frequency(frequent_itemsets, itemset)
 	k = len(f)
 	m = len(H)
 
+	toRemove = []
+	for c in H:
+		# for rule X -> Y - X: confidence = support(Y) / support(Y - X)
+		# frequencies can be used because of the division operation.
+		confidence = frequency(f) / frequency(f - c)
+		if confidence >= minConfidence:
+			rules.append( (f - c, c, confidence) )
+		else:
+			toRemove.append(c)
+	for c in toRemove: del c
 	if k > m+1:
 		candidates = generate_candidates(H, k)
-		i = 0
-		while i < len(candidates):
-			# for rule X -> Y - X: confidence = support(Y) / support(Y - X)
-			# frequencies can be used because of the division operation.
-			confidence = frequency(f) / frequency(f - candidates[i])
-			if confidence >= minConfidence:
-				rules.apend( (f, f - candidates[i], confidence) )
-				i = i + 1
-			else:
-				del candidates[i]
-		ap_genrules(frequent_itemsets, rules, f, candidates)
+		ap_genrules(frequent_itemsets, rules, minConfidence, f, candidates)
