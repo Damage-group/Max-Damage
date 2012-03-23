@@ -135,7 +135,7 @@ def ap_frequent_itemsets(transactions, minSupport=0.5):
         calculate_frequencies(candidates, transactions)
         prune_infrequent(candidates, minSupport)
         frequent_itemsets[k] = candidates
-    return frequent_itemsets
+	return frequent_itemsets
 
 def ap_rule_generation(frequent_itemsets, k, minConfidence):
 	rules = []
