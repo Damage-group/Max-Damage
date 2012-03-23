@@ -78,9 +78,10 @@ def map_course_names(filepath = None):
 
     Parameters:
         filepath -    (absolute) path to file to read.
-                      File should have one name / line.
         name_map - dictionary with keys as names and values
                    as column indexes for items. 
+        strip - Lines with equal or less objects than this after split()
+        		will be omitted.
 
     Returns transactions matrix with each transaction
     in one row and each column index representing item 
@@ -210,7 +211,7 @@ def prune_infrequent(itemsets = None, threshold = 0.5):
     for itemset in itemsets:
         if itemset_frequencies[itemset] > threshold:
             frequent_itemsets[k].add(itemset)     
- 
+
 '''       
     Generate k+1-itemsets from previous frequent itemsets.
 
@@ -271,8 +272,7 @@ def print_itemsets(k, names= None):
         cur_names = [names[i] for i in x]
         print "%d: %f \t %s " % (k, frequency, cur_names)
 
-        
-    
+         
 '''      
     Apriori logic
 '''                         
