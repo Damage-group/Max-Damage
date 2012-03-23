@@ -34,12 +34,12 @@ OMIT_COLUMNS = ['TERM', 'CODE']
 META_ID_COLUMN = 0
 
 # Settings for itemsets.
-FREQUENT_ITEMSET_THRESHOLD = 0.5	# Minimum %-frequency of frequent itemsets.
+FREQUENT_ITEMSET_THRESHOLD = 0.1	# Minimum %-frequency of frequent itemsets.
 CLOSED_ITEMSETS = False	# Use closed itemsets.
 MAXIMAL_ITEMSETS =  False # Use maximal itemsets.
 
 # Settings for rule generation.
-RULE_MIN_CONFIDENCE = 0.2 	# Minimum confidence of accepted rules.
+RULE_MIN_CONFIDENCE = 0.01 	# Minimum confidence of accepted rules.
 
 
 

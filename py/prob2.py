@@ -1,35 +1,40 @@
 import sys
 from input import *
 from algorithms import *
+import settings 
+import numpy
 
 def main(argv):
 	# very simple main... must be improved
-	fileName = argv[1]
-	f = open(argv[2], "r")
-	items = [line.split('\t')[0] for line in f.readlines() if line]
-	f.close()
+	arg_count = len(argv)
 	
-	threshold = 0
-	confidence = 0
+	if arg_count >= 2:
+		settings.DATA_FILE = argv[1]
 	
-	if len(argv) >= 4:
-		threshold = float(argv[3])
+	if arg_count >= 3:
+		settings.META_FILE = argv[2]
 		
-	if len(argv) >= 5:
-		confidence = float(argv[4])
+	if arg_count >= 4:
+		settings.FREQUENT_ITEMSET_THRESHOLD = float(argv[3])
+		
+	if arg_count >= 5:
+		settings.RULE_MIN_CONFIDENCE = float(argv[4])
+			
+	variables_meta = read_meta_file()
+	fids = [var.fid for var in variables_meta]
 
-	matrix = to01Matrix(items, transactionsFromFile(fileName))
-	frequent_itemsets = ap_frequent_itemsets(matrix, threshold)
+	matrix = to01Matrix(fids, transactionsFromFile(settings.DATA_FILE))
+	frequent_itemsets = ap_frequent_itemsets(matrix, settings.FREQUENT_ITEMSET_THRESHOLD)
 	res = []
 	for k in frequent_itemsets:
 		for S in frequent_itemsets[k]:
 			res.append( (S, frequent_itemsets[k][S].frequency) )
 	res.sort(cmp=lambda a,b: -1 if a[1] < b[1] else 1 if a[1] > b[1] else 0)
 	for S,f in res:
-		print "%s (%f)" % (' '.join([items[j] for j in S]), f)
+		print "%s (%f)" % (' '.join(["%s:%s" % (variables_meta[j].fid, variables_meta[j].name) for j in S]), f)
 	
 	for k in xrange(2, len(frequent_itemsets)):	
-		rules = ap_rule_generation(frequent_itemsets, k, confidence)
+		rules = ap_rule_generation(frequent_itemsets, k, settings.RULE_MIN_CONFIDENCE)
 		for rule in rules:
 			print "%s --> %s %f" % (" ".join([str(i) for i in rule[0]]), " ".join([str(i) for i in rule[1]]), rule[2])
 

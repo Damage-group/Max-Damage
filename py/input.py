@@ -28,6 +28,7 @@ def to01Matrix(items, iterable):
 	for i,col in enumerate(items):
 		mapping[col] = i
 
+	
 	L = list(iterable) # read transactions to alist, because we need the number of transactions
 	transactions = numpy.zeros((len(L), len(items)), dtype = int)
 	
@@ -88,8 +89,11 @@ def read_meta_file(filepath = None):
 	variables_with_meta = []				
 	for value in variables.values():
 		current = variable(dictionary = value, id = keys[META_ID_COLUMN])
-		print current
-		variables_with_meta.append(variable)
+		variables_with_meta.append(current)
+	
+	print "File reading done. Found %d variables with meta information." % (len(variables_with_meta))
+		
+	return variables_with_meta
 		
 		
 	
