@@ -1,0 +1,1580 @@
+100	presenting_computer_science	2000	K	M	P	581355	Perusopetus	Presenting Computer Science		
+100	presenting_computer_science	2001	K	M	P	581355	Perusopetus	Presenting Computer Science		
+100	presenting_computer_science	2002	K	M	P	581355	Perusopetus	Presenting Computer Science		
+100	presenting_computer_science	2002	S	M	P	581355	Perusopetus	Presenting Computer Science		
+100	presenting_computer_science	2003	S	M	P	581355	Perusopetus	Presenting Computer Science		
+100	presenting_computer_science	2004	S	M	P	581355	Perusopetus	Presenting Computer Science		
+101	from_innovation_to_software_business	2000	K	L	?	581356	Ohjelmistojärjestelmät	From Innovation to Software Business		
+101	from_innovation_to_software_business	2001	K	L	?	581356	Ohjelmistojärjestelmät	From Innovation to Software Business		
+102	introduktion_till_datorn_som_arbetsredskap	1999	S	A	?	581357	Perusopetus	Introduktion till datorn som arbetsredskap		
+103	software_architecture	2000	K	L	V	581358	Ohjelmistojärjestelmät	Software Architecture		
+103	software_architecture	2001	K	L	V	581358	Ohjelmistojärjestelmät	Software Architecture		
+103	software_architecture	2002	K	L	V	581358	Ohjelmistojärjestelmät	Software Architecture		
+103	software_architecture	2003	K	L	V	581358	Ohjelmistojärjestelmät	Software Architecture		
+103	software_architecture	2004	K	L	V	581358	Ohjelmistojärjestelmät	Software Architecture		
+103	software_architecture	2005	K	L	V	581358	Ohjelmistojärjestelmät	Software Architecture		
+103	software_architecture	2006	K	L	V	581358	Ohjelmistojärjestelmät	Software Architecture		
+103	software_architecture	2007	K	L	V	581358	Ohjelmistojärjestelmät	Software Architecture		
+103	software_architecture	2008	K	L	V	581358	Ohjelmistojärjestelmät	Software Architecture		
+103	software_architecture	2008	S	L	V	581358	Ohjelmistojärjestelmät	Software Architecture		
+103	software_architecture	2009	S	L	V	581358	Ohjelmistojärjestelmät	Software Architecture		
+103	software_architecture	2010	S	L	V	581358	Ohjelmistojärjestelmät	Software Architecture		
+103	software_architecture	2011	S	L	V	581358	Ohjelmistojärjestelmät	Software Architecture		
+104	software_processes_and_quality	1999	S	L	V	581359	Ohjelmistojärjestelmät	Software Processes and Quality		
+104	software_processes_and_quality	2000	S	L	V	581359	Ohjelmistojärjestelmät	Software Processes and Quality		
+104	software_processes_and_quality	2001	S	L	V	581359	Ohjelmistojärjestelmät	Software Processes and Quality		
+104	software_processes_and_quality	2002	S	L	V	581359	Ohjelmistojärjestelmät	Software Processes and Quality		
+104	software_processes_and_quality	2003	S	L	V	581359	Ohjelmistojärjestelmät	Software Processes and Quality		
+104	software_processes_and_quality	2004	S	L	V	581359	Ohjelmistojärjestelmät	Software Processes and Quality		
+104	software_processes_and_quality	2005	S	L	V	581359	Ohjelmistojärjestelmät	Software Processes and Quality		
+104	software_processes_and_quality	2006	S	L	V	581359	Ohjelmistojärjestelmät	Software Processes and Quality		
+104	software_processes_and_quality	2007	S	L	V	581359	Ohjelmistojärjestelmät	Software Processes and Quality		
+104	software_processes_and_quality	2009	K	L	V	581359	Ohjelmistojärjestelmät	Software Processes and Quality		
+104	software_processes_and_quality	2010	K	L	V	581359	Ohjelmistojärjestelmät	Software Processes and Quality		
+104	software_processes_and_quality	2011	K	L	V	581359	Ohjelmistojärjestelmät	Software Processes and Quality		
+105	software_project_management_and_group_dynamics	1999	S	L	V	581360	Ohjelmistojärjestelmät	Software Project Management and Group Dynamics		
+105	software_project_management_and_group_dynamics	2001	K	L	V	581360	Ohjelmistojärjestelmät	Software Project Management and Group Dynamics		
+105	software_project_management_and_group_dynamics	2002	K	L	V	581360	Ohjelmistojärjestelmät	Software Project Management and Group Dynamics		
+105	software_project_management_and_group_dynamics	2007	K	L	V	581360	Ohjelmistojärjestelmät	Software Project Management and Group Dynamics		
+105	software_project_management_and_group_dynamics	2009	S	L	V	581360	Ohjelmistojärjestelmät	Software Project Management and Group Dynamics		
+105	software_project_management_and_group_dynamics	2012	K	L	V	581360	Ohjelmistojärjestelmät	Software Project Management and Group Dynamics		
+107	principles_of_programming_languages	2000	K	L	V	581362	Ohjelmistojärjestelmät	Principles of Programming Languages		
+107	principles_of_programming_languages	2004	K	L	V	581362	Ohjelmistojärjestelmät	Principles of Programming Languages		
+107	principles_of_programming_languages	2007	K	L	V	581362	Ohjelmistojärjestelmät	Principles of Programming Languages		
+107	principles_of_programming_languages	2009	K	L	V	581362	Ohjelmistojärjestelmät	Principles of Programming Languages		
+107	principles_of_programming_languages	2011	K	L	V	581362	Ohjelmistojärjestelmät	Principles of Programming Languages		
+108	data_communications_ii	2001	K	L	V	581363	Hajaut.järj. ja tietoliikenne	Data Communications II		
+108	data_communications_ii	2001	S	L	V	581363	Hajaut.järj. ja tietoliikenne	Data Communications II		
+108	data_communications_ii	2002	S	L	V	581363	Hajaut.järj. ja tietoliikenne	Data Communications II		
+108	data_communications_ii	2003	S	L	V	581363	Hajaut.järj. ja tietoliikenne	Data Communications II		
+108	data_communications_ii	2004	S	L	V	581363	Hajaut.järj. ja tietoliikenne	Data Communications II		
+108	data_communications_ii	2005	S	L	V	581363	Hajaut.järj. ja tietoliikenne	Data Communications II		
+109	computer_organization_ii	1999	S	C	V	581365	Hajaut.järj. ja tietoliikenne	Computer Organization II		
+109	computer_organization_ii	2000	S	C	V	581365	Hajaut.järj. ja tietoliikenne	Computer Organization II		
+109	computer_organization_ii	2001	S	C	V	581365	Hajaut.järj. ja tietoliikenne	Computer Organization II		
+109	computer_organization_ii	2002	S	C	V	581365	Hajaut.järj. ja tietoliikenne	Computer Organization II		
+109	computer_organization_ii	2003	S	C	V	581365	Hajaut.järj. ja tietoliikenne	Computer Organization II		
+109	computer_organization_ii	2004	S	C	V	581365	Hajaut.järj. ja tietoliikenne	Computer Organization II		
+109	computer_organization_ii	2005	S	C	V	581365	Hajaut.järj. ja tietoliikenne	Computer Organization II		
+109	computer_organization_ii	2006	S	C	V	581365	Hajaut.järj. ja tietoliikenne	Computer Organization II		
+109	computer_organization_ii	2007	S	C	V	581365	Hajaut.järj. ja tietoliikenne	Computer Organization II		
+109	computer_organization_ii	2009	K	C	V	581365	Hajaut.järj. ja tietoliikenne	Computer Organization II		
+109	computer_organization_ii	2010	K	C	V	581365	Hajaut.järj. ja tietoliikenne	Computer Organization II		
+109	computer_organization_ii	2010	S	C	V	581365	Hajaut.järj. ja tietoliikenne	Computer Organization II		
+109	computer_organization_ii	2012	K	C	V	581365	Hajaut.järj. ja tietoliikenne	Computer Organization II		
+110	introduction_to_specification_and_verification	2001	K	L	V	581366	Hajaut.järj. ja tietoliikenne	Introduction to Specification and Verification		
+110	introduction_to_specification_and_verification	2002	K	L	V	581366	Hajaut.järj. ja tietoliikenne	Introduction to Specification and Verification		
+110	introduction_to_specification_and_verification	2003	K	L	V	581366	Hajaut.järj. ja tietoliikenne	Introduction to Specification and Verification		
+110	introduction_to_specification_and_verification	2003	S	L	V	581366	Hajaut.järj. ja tietoliikenne	Introduction to Specification and Verification		
+110	introduction_to_specification_and_verification	2004	K	L	V	581366	Hajaut.järj. ja tietoliikenne	Introduction to Specification and Verification		
+110	introduction_to_specification_and_verification	2005	K	L	V	581366	Hajaut.järj. ja tietoliikenne	Introduction to Specification and Verification		
+110	introduction_to_specification_and_verification	2006	K	L	V	581366	Hajaut.järj. ja tietoliikenne	Introduction to Specification and Verification		
+110	introduction_to_specification_and_verification	2007	K	L	V	581366	Hajaut.järj. ja tietoliikenne	Introduction to Specification and Verification		
+110	introduction_to_specification_and_verification	2008	K	L	V	581366	Hajaut.järj. ja tietoliikenne	Introduction to Specification and Verification		
+110	introduction_to_specification_and_verification	2009	K	L	V	581366	Hajaut.järj. ja tietoliikenne	Introduction to Specification and Verification		
+110	introduction_to_specification_and_verification	2009	S	L	V	581366	Hajaut.järj. ja tietoliikenne	Introduction to Specification and Verification		
+110	introduction_to_specification_and_verification	2011	S	L	V	581366	Hajaut.järj. ja tietoliikenne	Introduction to Specification and Verification		
+111	implementing_concurrent_systems	1996	K	C	?	581371	Hajaut.järj. ja tietoliikenne	Implementing concurrent systems		
+111	implementing_concurrent_systems	1996	S	C	?	581371	Hajaut.järj. ja tietoliikenne	Implementing concurrent systems		
+111	implementing_concurrent_systems	1997	S	C	?	581371	Hajaut.järj. ja tietoliikenne	Implementing concurrent systems		
+111	implementing_concurrent_systems	1998	S	C	?	581371	Hajaut.järj. ja tietoliikenne	Implementing concurrent systems		
+111	implementing_concurrent_systems	1999	S	C	?	581371	Hajaut.järj. ja tietoliikenne	Implementing concurrent systems		
+112	performance_analysis	1995	S	L	V	581372	Hajaut.järj. ja tietoliikenne	Performance Analysis		
+112	performance_analysis	1998	S	L	V	581372	Hajaut.järj. ja tietoliikenne	Performance Analysis		
+112	performance_analysis	2002	K	L	V	581372	Hajaut.järj. ja tietoliikenne	Performance Analysis		
+112	performance_analysis	2004	K	L	V	581372	Hajaut.järj. ja tietoliikenne	Performance Analysis		
+112	performance_analysis	2005	S	L	V	581372	Hajaut.järj. ja tietoliikenne	Performance Analysis		
+115	principles_of_concurrent_programming_i	1996	K	L	?	581375	Ohjelmistojärjestelmät	Principles of Concurrent Programming I		
+115	principles_of_concurrent_programming_i	1997	S	L	?	581375	Ohjelmistojärjestelmät	Principles of Concurrent Programming I		
+117	techniques_for_new_media_applications	1999	S	C	?	581377	Ohjelmistojärjestelmät	Techniques for new media applications		
+117	techniques_for_new_media_applications	2000	K	C	?	581377	Ohjelmistojärjestelmät	Techniques for new media applications		
+118	principles_of_algorithmics	1999	S	C	?	581378	Algoritmit	Principles of algorithmics		
+118	principles_of_algorithmics	2000	S	C	?	581378	Algoritmit	Principles of algorithmics		
+119	basics_for_upgrading_studies	1999	S	C	?	581379	Muuntokoulutus	Basics for Upgrading Studies		
+119	basics_for_upgrading_studies	2000	S	C	?	581379	Muuntokoulutus	Basics for Upgrading Studies		
+119	basics_for_upgrading_studies	2001	S	C	?	581379	Muuntokoulutus	Basics for Upgrading Studies		
+119	basics_for_upgrading_studies	2002	S	C	?	581379	Muuntokoulutus	Basics for Upgrading Studies		
+11	introduction_to_computing	1995	K	A	?	580211	Perusopetus	Introduction to Computing		
+11	introduction_to_computing	1995	S	A	?	580211	Perusopetus	Introduction to Computing		
+11	introduction_to_computing	1995	S	A	?	580212	Perusopetus	Introduction to computing		
+11	introduction_to_computing	1995	S	A	?	580213	Perusopetus	Introduction to computing		
+11	introduction_to_computing	1995	V	A	?	580211	Perusopetus	Introduction to Computing		
+11	introduction_to_computing	1996	K	A	?	580211	Perusopetus	Introduction to Computing		
+11	introduction_to_computing	1996	K	A	?	580214	Perusopetus	Introduction to computing		
+11	introduction_to_computing	1996	S	A	?	580211	Perusopetus	Introduction to Computing		
+11	introduction_to_computing	1996	S	A	?	580212	Perusopetus	Introduction to computing		
+11	introduction_to_computing	1996	S	A	?	580213	Perusopetus	Introduction to computing		
+11	introduction_to_computing	1996	S	A	?	580214	Perusopetus	Introduction to computing		
+11	introduction_to_computing	1996	V	A	?	580211	Perusopetus	Introduction to Computing		
+11	introduction_to_computing	1997	K	A	?	580211	Perusopetus	Introduction to Computing		
+11	introduction_to_computing	1997	K	A	?	580214	Perusopetus	Introduction to computing		
+11	introduction_to_computing	1997	S	A	?	580211	Perusopetus	Introduction to Computing		
+11	introduction_to_computing	1997	S	A	?	580212	Perusopetus	Introduction to computing		
+11	introduction_to_computing	1997	S	A	?	580213	Perusopetus	Introduction to computing		
+11	introduction_to_computing	1997	V	A	?	580211	Perusopetus	Introduction to Computing		
+11	introduction_to_computing	1998	K	A	?	580211	Perusopetus	Introduction to Computing		
+11	introduction_to_computing	1998	K	A	?	580214	Perusopetus	Introduction to computing		
+11	introduction_to_computing	1998	S	A	?	580211	Perusopetus	Introduction to Computing		
+11	introduction_to_computing	1998	S	A	?	580212	Perusopetus	Introduction to computing		
+11	introduction_to_computing	1998	S	A	?	580213	Perusopetus	Introduction to computing		
+11	introduction_to_computing	1999	K	A	?	580211	Perusopetus	Introduction to Computing		
+11	introduction_to_computing	1999	K	A	?	580214	Perusopetus	Introduction to computing		
+120	computational_complexity	1999	S	L	V	581380	Algoritmit	Computational Complexity		
+120	computational_complexity	2005	S	L	V	581380	Algoritmit	Computational Complexity		
+121	user_interfaces_ii	1999	S	L	V	581381	Ohjelmistojärjestelmät	User Interfaces II		
+121	user_interfaces_ii	2000	S	L	V	581381	Ohjelmistojärjestelmät	User Interfaces II		
+121	user_interfaces_ii	2002	S	L	V	581381	Ohjelmistojärjestelmät	User Interfaces II		
+121	user_interfaces_ii	2004	S	L	V	581381	Ohjelmistojärjestelmät	User Interfaces II		
+121	user_interfaces_ii	2006	S	L	V	581381	Ohjelmistojärjestelmät	User Interfaces II		
+122	agent_technology	1999	S	L	?	581382	Hajaut.järj. ja tietoliikenne	Agent technology		
+123	atmdata_communications	1999	S	L	?	581383	Hajaut.järj. ja tietoliikenne	ATM-Data Communications		
+123	atmdata_communications	2000	S	L	?	581383	Hajaut.järj. ja tietoliikenne	ATM-Data Communications		
+125	advanced_wireless_communication_systems	2000	K	L	?	581385	Hajaut.järj. ja tietoliikenne	Advanced Wireless Communication Systems		
+126	externally_observable_behaviour_of_concurrent_systems	2000	K	L	?	581386	Hajaut.järj. ja tietoliikenne	Externally observable behaviour of concurrent syst		
+126	externally_observable_behaviour_of_concurrent_systems	2002	S	L	?	581386	Hajaut.järj. ja tietoliikenne	Externally observable behaviour of concurrent syst		
+127	information_technology_now	2000	K	M	V	581387	Ei suuntautumisvaihtoehtoa	Information Technology: Now!		
+127	information_technology_now	2001	K	M	V	581387	Ei suuntautumisvaihtoehtoa	Information Technology: Now!		
+127	information_technology_now	2003	K	M	V	581387	Ei suuntautumisvaihtoehtoa	Information Technology: Now!		
+127	information_technology_now	2004	K	M	V	581387	Ei suuntautumisvaihtoehtoa	Information Technology: Now!		
+127	information_technology_now	2008	K	M	V	581387	Ei suuntautumisvaihtoehtoa	Information Technology: Now!		
+128	computational_methods_in_data_analysis	2000	K	C	V	581388	Algoritmit	Computational Methods in Data Analysis		
+129	perl_programming_language	1999	S	C	V	581389	Ohjelmistojärjestelmät	Perl Programming Language		
+12	computer_uses_in_education	1995	S	L	V	58037	Opettaja	Computer Uses in Education		
+12	computer_uses_in_education	1997	K	L	V	58037	Opettaja	Computer Uses in Education		
+12	computer_uses_in_education	1998	K	L	V	58037	Opettaja	Computer Uses in Education		
+12	computer_uses_in_education	1999	K	L	V	58037	Opettaja	Computer Uses in Education		
+12	computer_uses_in_education	2000	K	L	V	58037	Opettaja	Computer Uses in Education		
+12	computer_uses_in_education	2001	K	L	V	58037	Opettaja	Computer Uses in Education		
+12	computer_uses_in_education	2002	K	L	V	58037	Opettaja	Computer Uses in Education		
+12	computer_uses_in_education	2003	K	L	V	58037	Opettaja	Computer Uses in Education		
+12	computer_uses_in_education	2004	K	L	V	58037	Opettaja	Computer Uses in Education		
+12	computer_uses_in_education	2005	K	L	V	58037	Opettaja	Computer Uses in Education		
+12	computer_uses_in_education	2006	K	L	V	58037	Opettaja	Computer Uses in Education		
+12	computer_uses_in_education	2007	K	L	V	58037	Opettaja	Computer Uses in Education		
+12	computer_uses_in_education	2008	K	L	V	58037	Opettaja	Computer Uses in Education		
+130	computersupported_cooperative_work	1995	S	L	?	58139	Ohjelmistojärjestelmät	Computer-Supported Cooperative Work		
+130	computersupported_cooperative_work	1998	K	L	?	58139	Ohjelmistojärjestelmät	Computer-Supported Cooperative Work		
+131	introduction_to_the_use_of_computers	1999	S	C	P	581384	Perusopetus	Introduction to the use of computers		
+131	introduction_to_the_use_of_computers	1999	S	T	P	581324	Selvitettävä	Introduction to the Use of Computers		
+131	introduction_to_the_use_of_computers	1999	S	T	V	581390	Perusopetus	Introduction to the Use of Computers -2005		
+131	introduction_to_the_use_of_computers	2000	K	C	P	581384	Perusopetus	Introduction to the use of computers		
+131	introduction_to_the_use_of_computers	2000	K	T	P	581324	Selvitettävä	Introduction to the Use of Computers		
+131	introduction_to_the_use_of_computers	2000	S	T	P	581324	Selvitettävä	Introduction to the Use of Computers		
+131	introduction_to_the_use_of_computers	2000	S	T	V	581390	Perusopetus	Introduction to the Use of Computers -2005		
+131	introduction_to_the_use_of_computers	2001	K	C	P	581384	Perusopetus	Introduction to the use of computers		
+131	introduction_to_the_use_of_computers	2001	K	T	P	581324	Selvitettävä	Introduction to the Use of Computers		
+131	introduction_to_the_use_of_computers	2001	S	T	P	581324	Selvitettävä	Introduction to the Use of Computers		
+131	introduction_to_the_use_of_computers	2001	S	T	V	581390	Perusopetus	Introduction to the Use of Computers -2005		
+131	introduction_to_the_use_of_computers	2001	V	T	V	581390	Perusopetus	Introduction to the Use of Computers -2005		
+131	introduction_to_the_use_of_computers	2002	K	C	P	581384	Perusopetus	Introduction to the use of computers		
+131	introduction_to_the_use_of_computers	2002	K	T	P	581324	Selvitettävä	Introduction to the Use of Computers		
+131	introduction_to_the_use_of_computers	2002	S	T	P	581324	Selvitettävä	Introduction to the Use of Computers		
+131	introduction_to_the_use_of_computers	2002	S	T	V	581390	Perusopetus	Introduction to the Use of Computers -2005		
+131	introduction_to_the_use_of_computers	2002	V	T	V	581390	Perusopetus	Introduction to the Use of Computers -2005		
+131	introduction_to_the_use_of_computers	2003	K	C	P	581384	Perusopetus	Introduction to the use of computers		
+131	introduction_to_the_use_of_computers	2003	K	T	P	581324	Selvitettävä	Introduction to the Use of Computers		
+131	introduction_to_the_use_of_computers	2003	S	T	P	581324	Selvitettävä	Introduction to the Use of Computers		
+131	introduction_to_the_use_of_computers	2003	S	T	V	581390	Perusopetus	Introduction to the Use of Computers -2005		
+131	introduction_to_the_use_of_computers	2004	K	C	P	581384	Perusopetus	Introduction to the use of computers		
+131	introduction_to_the_use_of_computers	2004	K	T	P	581324	Selvitettävä	Introduction to the Use of Computers		
+131	introduction_to_the_use_of_computers	2004	S	T	P	581324	Selvitettävä	Introduction to the Use of Computers		
+131	introduction_to_the_use_of_computers	2004	S	T	V	581390	Perusopetus	Introduction to the Use of Computers -2005		
+131	introduction_to_the_use_of_computers	2005	K	T	V	581390	Perusopetus	Introduction to the Use of Computers -2005		
+131	introduction_to_the_use_of_computers	2005	S	T	P	581324	Selvitettävä	Introduction to the Use of Computers		
+131	introduction_to_the_use_of_computers	2006	K	T	P	581324	Selvitettävä	Introduction to the Use of Computers		
+131	introduction_to_the_use_of_computers	2006	S	T	P	581324	Selvitettävä	Introduction to the Use of Computers		
+131	introduction_to_the_use_of_computers	2007	K	T	P	581324	Selvitettävä	Introduction to the Use of Computers		
+131	introduction_to_the_use_of_computers	2007	S	T	P	581324	Selvitettävä	Introduction to the Use of Computers		
+131	introduction_to_the_use_of_computers	2008	K	T	P	581324	Selvitettävä	Introduction to the Use of Computers		
+131	introduction_to_the_use_of_computers	2008	S	T	P	581324	Selvitettävä	Introduction to the Use of Computers		
+131	introduction_to_the_use_of_computers	2009	K	T	P	581324	Selvitettävä	Introduction to the Use of Computers		
+131	introduction_to_the_use_of_computers	2009	S	T	P	581324	Selvitettävä	Introduction to the Use of Computers		
+131	introduction_to_the_use_of_computers	2010	K	T	P	581324	Selvitettävä	Introduction to the Use of Computers		
+131	introduction_to_the_use_of_computers	2010	S	T	P	581324	Selvitettävä	Introduction to the Use of Computers		
+132	user_interfaces	1996	K	L	?	58064	Ohjelmistojärjestelmät	User Interfaces		
+132	user_interfaces	1997	K	L	?	58064	Ohjelmistojärjestelmät	User Interfaces		
+132	user_interfaces	1998	K	L	?	58064	Ohjelmistojärjestelmät	User Interfaces		
+132	user_interfaces	1999	K	L	?	58064	Ohjelmistojärjestelmät	User Interfaces		
+132	user_interfaces	2000	K	C	V	581391	Ohjelmistojärjestelmät	User Interfaces -2005		
+132	user_interfaces	2001	K	C	V	581391	Ohjelmistojärjestelmät	User Interfaces -2005		
+132	user_interfaces	2002	K	C	V	581391	Ohjelmistojärjestelmät	User Interfaces -2005		
+132	user_interfaces	2003	K	C	V	581391	Ohjelmistojärjestelmät	User Interfaces -2005		
+132	user_interfaces	2004	K	C	V	581391	Ohjelmistojärjestelmät	User Interfaces -2005		
+132	user_interfaces	2005	K	C	V	581391	Ohjelmistojärjestelmät	User Interfaces -2005		
+133	information_systems_methodologies	1996	K	L	?	58143	Ohjelmistojärjestelmät	Information Systems Methodologies		
+134	compilers	1996	K	L	V	58144	Ohjelmistojärjestelmät	Compilers		
+134	compilers	1997	K	L	V	58144	Ohjelmistojärjestelmät	Compilers		
+134	compilers	1998	K	L	V	58144	Ohjelmistojärjestelmät	Compilers		
+134	compilers	1998	S	L	V	58144	Ohjelmistojärjestelmät	Compilers		
+134	compilers	2001	K	L	V	58144	Ohjelmistojärjestelmät	Compilers		
+134	compilers	2002	K	L	V	58144	Ohjelmistojärjestelmät	Compilers		
+134	compilers	2005	K	L	V	58144	Ohjelmistojärjestelmät	Compilers		
+134	compilers	2006	K	L	V	58144	Ohjelmistojärjestelmät	Compilers		
+134	compilers	2008	K	L	V	58144	Ohjelmistojärjestelmät	Compilers		
+134	compilers	2010	K	L	V	58144	Ohjelmistojärjestelmät	Compilers		
+134	compilers	2012	K	L	V	58144	Ohjelmistojärjestelmät	Compilers		
+13	database_systems_i	1995	S	C	?	58038	Ohjelmistojärjestelmät	Database Systems I		
+13	database_systems_i	1996	S	C	?	58038	Ohjelmistojärjestelmät	Database Systems I		
+13	database_systems_i	1997	S	C	?	58038	Ohjelmistojärjestelmät	Database Systems I		
+13	database_systems_i	1998	S	C	?	58038	Ohjelmistojärjestelmät	Database Systems I		
+13	database_systems_i	1999	S	C	?	58038	Ohjelmistojärjestelmät	Database Systems I		
+149	software_testing	1999	S	L	V	581361	Ohjelmistojärjestelmät	Software Testing		
+149	software_testing	2000	S	L	V	581361	Ohjelmistojärjestelmät	Software Testing		
+149	software_testing	2002	S	L	V	581361	Ohjelmistojärjestelmät	Software Testing		
+149	software_testing	2004	S	L	V	581361	Ohjelmistojärjestelmät	Software Testing		
+149	software_testing	2005	S	L	V	581361	Ohjelmistojärjestelmät	Software Testing		
+149	software_testing	2007	S	L	V	581361	Ohjelmistojärjestelmät	Software Testing		
+149	software_testing	2008	S	L	V	581361	Ohjelmistojärjestelmät	Software Testing		
+149	software_testing	2010	K	L	V	581361	Ohjelmistojärjestelmät	Software Testing		
+149	software_testing	2011	K	L	V	581361	Ohjelmistojärjestelmät	Software Testing		
+14	simulation	1995	S	L	?	58045	Ohjelmistojärjestelmät	Simulation		
+14	simulation	1998	S	L	?	58045	Ohjelmistojärjestelmät	Simulation		
+16	computer_networks	1995	S	L	?	58060	Ohjelmistojärjestelmät	Computer Networks		
+16	computer_networks	1997	K	L	?	58060	Ohjelmistojärjestelmät	Computer Networks		
+180	objectoriented_programming	1996	K	L	?	581544	Ohjelmistojärjestelmät	Object-Oriented Programming		
+180	objectoriented_programming	1997	K	L	?	581544	Ohjelmistojärjestelmät	Object-Oriented Programming		
+181	performance_analysis_of_databases	1995	S	L	?	581545	Ohjelmistojärjestelmät	Performance Analysis of Databases	
+182	software_performance_engineering	2000	K	L	V	58153003	Ohjelmistojärjestelmät	Software Performance Engineering		
+182	software_performance_engineering	2003	K	L	V	58153003	Ohjelmistojärjestelmät	Software Performance Engineering		
+182	software_performance_engineering	2005	K	L	V	58153003	Ohjelmistojärjestelmät	Software Performance Engineering		
+182	software_performance_engineering	2007	S	L	V	58153003	Ohjelmistojärjestelmät	Software Performance Engineering		
+183	information_retrieval_methods	1996	S	L	V	581257	Ohjelmistojärjestelmät	Information Retrieval Methods		
+183	information_retrieval_methods	1997	S	L	V	581257	Ohjelmistojärjestelmät	Information Retrieval Methods		
+183	information_retrieval_methods	1999	K	L	V	581257	Ohjelmistojärjestelmät	Information Retrieval Methods		
+183	information_retrieval_methods	2000	K	L	V	581257	Ohjelmistojärjestelmät	Information Retrieval Methods		
+183	information_retrieval_methods	2001	K	L	V	581257	Ohjelmistojärjestelmät	Information Retrieval Methods		
+183	information_retrieval_methods	2004	K	L	V	581257	Ohjelmistojärjestelmät	Information Retrieval Methods		
+183	information_retrieval_methods	2005	K	L	V	581257	Ohjelmistojärjestelmät	Information Retrieval Methods		
+183	information_retrieval_methods	2006	K	L	V	581257	Ohjelmistojärjestelmät	Information Retrieval Methods		
+183	information_retrieval_methods	2007	K	L	V	581257	Ohjelmistojärjestelmät	Information Retrieval Methods		
+183	information_retrieval_methods	2008	S	L	V	581257	Ohjelmistojärjestelmät	Information Retrieval Methods		
+183	information_retrieval_methods	2010	S	L	V	581257	Ohjelmistojärjestelmät	Information Retrieval Methods		
+184	objectoriented_databases	1995	S	L	?	581540	Ohjelmistojärjestelmät	Object-Oriented Databases		
+184	objectoriented_databases	1996	S	L	?	581540	Ohjelmistojärjestelmät	Object-Oriented Databases		
+188	spatial_information_systems	1998	K	L	?	581274	Sovellettu tietojenkäsittely	Spatial Information Systems		
+188	spatial_information_systems	1999	K	L	?	581274	Sovellettu tietojenkäsittely	Spatial Information Systems		
+188	spatial_information_systems	2001	S	L	?	581274	Sovellettu tietojenkäsittely	Spatial Information Systems		
+188	spatial_information_systems	2003	S	L	?	581274	Sovellettu tietojenkäsittely	Spatial Information Systems		
+18	artificial_intelligence	1996	K	L	V	58066	Algoritmit	Artificial Intelligence		
+18	artificial_intelligence	1997	K	L	V	58066	Algoritmit	Artificial Intelligence		
+18	artificial_intelligence	1998	S	L	V	58066	Algoritmit	Artificial Intelligence		
+18	artificial_intelligence	1999	S	L	V	58066	Algoritmit	Artificial Intelligence		
+18	artificial_intelligence	2001	S	L	V	58066	Algoritmit	Artificial Intelligence		
+18	artificial_intelligence	2003	S	L	V	58066	Algoritmit	Artificial Intelligence		
+18	artificial_intelligence	2004	S	L	V	58066	Algoritmit	Artificial Intelligence		
+18	artificial_intelligence	2005	S	L	V	58066	Algoritmit	Artificial Intelligence		
+18	artificial_intelligence	2006	S	L	V	58066	Algoritmit	Artificial Intelligence		
+18	artificial_intelligence	2007	S	L	V	58066	Algoritmit	Artificial Intelligence		
+191	lotos_specification_language	1996	K	L	?	581549	Ohjelmistojärjestelmät	LOTOS Specification Language		
+191	lotos_specification_language	1998	S	L	?	581549	Ohjelmistojärjestelmät	LOTOS Specification Language		
+193	programming_project	1995	K	A	P	58160	Ohjelmistojärjestelmät	Programming Project		
+193	programming_project	1995	S	A	P	58160	Ohjelmistojärjestelmät	Programming Project		
+193	programming_project	1996	K	A	P	58160	Ohjelmistojärjestelmät	Programming Project		
+193	programming_project	1996	S	A	P	58160	Ohjelmistojärjestelmät	Programming Project		
+193	programming_project	1996	V	A	P	58160	Ohjelmistojärjestelmät	Programming Project		
+193	programming_project	1997	K	A	P	58160	Ohjelmistojärjestelmät	Programming Project		
+193	programming_project	1997	S	A	P	58160	Ohjelmistojärjestelmät	Programming Project		
+193	programming_project	1997	V	A	P	58160	Ohjelmistojärjestelmät	Programming Project		
+193	programming_project	1998	K	A	P	58160	Ohjelmistojärjestelmät	Programming Project		
+193	programming_project	1998	S	A	P	58160	Ohjelmistojärjestelmät	Programming Project		
+193	programming_project	1998	V	A	P	58160	Ohjelmistojärjestelmät	Programming Project		
+193	programming_project	1999	K	A	P	58160	Ohjelmistojärjestelmät	Programming Project		
+193	programming_project	1999	S	A	P	58160	Ohjelmistojärjestelmät	Programming Project		
+193	programming_project	1999	V	A	P	58160	Ohjelmistojärjestelmät	Programming Project		
+193	programming_project	2000	K	A	P	58160	Ohjelmistojärjestelmät	Programming Project		
+193	programming_project	2000	S	A	P	58160	Ohjelmistojärjestelmät	Programming Project		
+193	programming_project	2000	V	A	P	58160	Ohjelmistojärjestelmät	Programming Project		
+193	programming_project	2001	K	A	P	58160	Ohjelmistojärjestelmät	Programming Project		
+193	programming_project	2001	S	A	P	58160	Ohjelmistojärjestelmät	Programming Project		
+193	programming_project	2001	V	A	P	58160	Ohjelmistojärjestelmät	Programming Project		
+193	programming_project	2002	K	A	P	58160	Ohjelmistojärjestelmät	Programming Project		
+193	programming_project	2002	S	A	P	58160	Ohjelmistojärjestelmät	Programming Project		
+193	programming_project	2002	V	A	P	58160	Ohjelmistojärjestelmät	Programming Project		
+193	programming_project	2003	K	A	P	58160	Ohjelmistojärjestelmät	Programming Project		
+193	programming_project	2003	S	A	P	58160	Ohjelmistojärjestelmät	Programming Project		
+193	programming_project	2003	V	A	P	58160	Ohjelmistojärjestelmät	Programming Project		
+193	programming_project	2004	K	A	P	58160	Ohjelmistojärjestelmät	Programming Project		
+193	programming_project	2004	S	A	P	58160	Ohjelmistojärjestelmät	Programming Project		
+193	programming_project	2004	V	A	P	58160	Ohjelmistojärjestelmät	Programming Project		
+193	programming_project	2005	K	A	P	58160	Ohjelmistojärjestelmät	Programming Project		
+193	programming_project	2005	S	A	P	58160	Ohjelmistojärjestelmät	Programming Project		
+193	programming_project	2005	V	A	P	58160	Ohjelmistojärjestelmät	Programming Project		
+193	programming_project	2006	K	A	P	58160	Ohjelmistojärjestelmät	Programming Project		
+193	programming_project	2006	S	A	P	58160	Ohjelmistojärjestelmät	Programming Project		
+193	programming_project	2006	V	A	P	58160	Ohjelmistojärjestelmät	Programming Project		
+193	programming_project	2007	K	A	P	58160	Ohjelmistojärjestelmät	Programming Project		
+193	programming_project	2007	S	A	P	58160	Ohjelmistojärjestelmät	Programming Project		
+193	programming_project	2007	V	A	P	58160	Ohjelmistojärjestelmät	Programming Project		
+193	programming_project	2008	K	A	P	58160	Ohjelmistojärjestelmät	Programming Project		
+193	programming_project	2008	S	A	P	58160	Ohjelmistojärjestelmät	Programming Project		
+193	programming_project	2008	V	A	P	58160	Ohjelmistojärjestelmät	Programming Project		
+193	programming_project	2009	K	A	P	58160	Ohjelmistojärjestelmät	Programming Project		
+193	programming_project	2009	S	A	P	58160	Ohjelmistojärjestelmät	Programming Project		
+193	programming_project	2009	V	A	P	58160	Ohjelmistojärjestelmät	Programming Project		
+193	programming_project	2010	K	A	P	58160	Ohjelmistojärjestelmät	Programming Project		
+193	programming_project	2010	S	A	P	58160	Ohjelmistojärjestelmät	Programming Project		
+193	programming_project	2010	V	A	P	58160	Ohjelmistojärjestelmät	Programming Project		
+193	programming_project	2011	K	A	P	58160	Ohjelmistojärjestelmät	Programming Project		
+193	programming_project	2011	S	A	P	58160	Ohjelmistojärjestelmät	Programming Project		
+193	programming_project	2011	V	A	P	58160	Ohjelmistojärjestelmät	Programming Project		
+193	programming_project	2012	K	A	P	58160	Ohjelmistojärjestelmät	Programming Project		
+194	data_structures_project	1995	S	C	P	58161	Algoritmit	Data Structures Project		
+194	data_structures_project	1996	K	C	P	58161	Algoritmit	Data Structures Project		
+194	data_structures_project	1996	S	C	P	58161	Algoritmit	Data Structures Project		
+194	data_structures_project	1996	V	C	P	58161	Algoritmit	Data Structures Project		
+194	data_structures_project	1997	K	C	P	58161	Algoritmit	Data Structures Project		
+194	data_structures_project	1997	S	C	P	58161	Algoritmit	Data Structures Project		
+194	data_structures_project	1997	V	C	P	58161	Algoritmit	Data Structures Project		
+194	data_structures_project	1998	K	C	P	58161	Algoritmit	Data Structures Project		
+194	data_structures_project	1998	S	C	P	58161	Algoritmit	Data Structures Project		
+194	data_structures_project	1998	V	C	P	58161	Algoritmit	Data Structures Project		
+194	data_structures_project	1999	K	C	P	58161	Algoritmit	Data Structures Project		
+194	data_structures_project	1999	S	C	P	58161	Algoritmit	Data Structures Project		
+194	data_structures_project	1999	V	C	P	58161	Algoritmit	Data Structures Project		
+194	data_structures_project	2000	K	C	P	58161	Algoritmit	Data Structures Project		
+194	data_structures_project	2000	S	C	P	58161	Algoritmit	Data Structures Project		
+194	data_structures_project	2000	V	C	P	58161	Algoritmit	Data Structures Project		
+194	data_structures_project	2001	K	C	P	58161	Algoritmit	Data Structures Project		
+194	data_structures_project	2001	S	C	P	58161	Algoritmit	Data Structures Project		
+194	data_structures_project	2001	V	C	P	58161	Algoritmit	Data Structures Project		
+194	data_structures_project	2002	K	C	P	58161	Algoritmit	Data Structures Project		
+194	data_structures_project	2002	S	C	P	58161	Algoritmit	Data Structures Project		
+194	data_structures_project	2002	V	C	P	58161	Algoritmit	Data Structures Project		
+194	data_structures_project	2003	K	C	P	58161	Algoritmit	Data Structures Project		
+194	data_structures_project	2003	S	C	P	58161	Algoritmit	Data Structures Project		
+194	data_structures_project	2003	V	C	P	58161	Algoritmit	Data Structures Project		
+194	data_structures_project	2004	K	C	P	58161	Algoritmit	Data Structures Project		
+194	data_structures_project	2004	S	C	P	58161	Algoritmit	Data Structures Project		
+194	data_structures_project	2004	V	C	P	58161	Algoritmit	Data Structures Project		
+194	data_structures_project	2005	K	C	P	58161	Algoritmit	Data Structures Project		
+194	data_structures_project	2005	S	C	P	58161	Algoritmit	Data Structures Project		
+194	data_structures_project	2005	V	C	P	58161	Algoritmit	Data Structures Project		
+194	data_structures_project	2006	K	C	P	58161	Algoritmit	Data Structures Project		
+194	data_structures_project	2006	S	C	P	58161	Algoritmit	Data Structures Project		
+194	data_structures_project	2006	V	C	P	58161	Algoritmit	Data Structures Project		
+194	data_structures_project	2007	K	C	P	58161	Algoritmit	Data Structures Project		
+194	data_structures_project	2007	S	C	P	58161	Algoritmit	Data Structures Project		
+194	data_structures_project	2007	V	C	P	58161	Algoritmit	Data Structures Project		
+194	data_structures_project	2008	K	C	P	58161	Algoritmit	Data Structures Project		
+194	data_structures_project	2008	S	C	P	58161	Algoritmit	Data Structures Project		
+194	data_structures_project	2008	V	C	P	58161	Algoritmit	Data Structures Project		
+194	data_structures_project	2009	K	C	P	58161	Algoritmit	Data Structures Project		
+194	data_structures_project	2009	S	C	P	58161	Algoritmit	Data Structures Project		
+194	data_structures_project	2009	V	C	P	58161	Algoritmit	Data Structures Project		
+194	data_structures_project	2010	K	C	P	58161	Algoritmit	Data Structures Project		
+194	data_structures_project	2010	S	C	P	58161	Algoritmit	Data Structures Project		
+194	data_structures_project	2010	V	C	P	58161	Algoritmit	Data Structures Project		
+194	data_structures_project	2011	K	C	P	58161	Algoritmit	Data Structures Project		
+194	data_structures_project	2011	S	C	P	58161	Algoritmit	Data Structures Project		
+194	data_structures_project	2011	V	C	P	58161	Algoritmit	Data Structures Project		
+194	data_structures_project	2012	K	C	P	58161	Algoritmit	Data Structures Project		
+195	information_systems_project	1995	S	C	?	58162	Ohjelmistojärjestelmät	Information Systems Project		
+195	information_systems_project	1996	K	C	?	58162	Ohjelmistojärjestelmät	Information Systems Project		
+195	information_systems_project	1996	S	C	?	58162	Ohjelmistojärjestelmät	Information Systems Project		
+195	information_systems_project	1996	V	C	?	58162	Ohjelmistojärjestelmät	Information Systems Project		
+195	information_systems_project	1997	K	C	?	58162	Ohjelmistojärjestelmät	Information Systems Project		
+195	information_systems_project	1997	S	C	?	58162	Ohjelmistojärjestelmät	Information Systems Project		
+195	information_systems_project	1997	V	C	?	58162	Ohjelmistojärjestelmät	Information Systems Project		
+195	information_systems_project	1998	K	C	?	58162	Ohjelmistojärjestelmät	Information Systems Project		
+195	information_systems_project	1998	S	C	?	58162	Ohjelmistojärjestelmät	Information Systems Project		
+195	information_systems_project	1998	V	C	?	58162	Ohjelmistojärjestelmät	Information Systems Project		
+195	information_systems_project	1999	K	C	?	58162	Ohjelmistojärjestelmät	Information Systems Project		
+195	information_systems_project	1999	V	C	?	58162	Ohjelmistojärjestelmät	Information Systems Project		
+196	software_engineering_lab	1995	S	C	P	58172	Ohjelmistojärjestelmät	Software Engineering Lab -1997		
+196	software_engineering_lab	1996	K	C	P	58172	Ohjelmistojärjestelmät	Software Engineering Lab -1997		
+196	software_engineering_lab	1996	S	C	P	58172	Ohjelmistojärjestelmät	Software Engineering Lab -1997		
+196	software_engineering_lab	1997	K	C	P	58172	Ohjelmistojärjestelmät	Software Engineering Lab -1997		
+196	software_engineering_lab	1997	S	C	P	58172	Ohjelmistojärjestelmät	Software Engineering Lab -1997		
+196	software_engineering_lab	1998	K	C	P	581260	Ei suuntautumisvaihtoehtoa	Software Engineering Lab		
+196	software_engineering_lab	1998	S	C	P	581260	Ei suuntautumisvaihtoehtoa	Software Engineering Lab		
+196	software_engineering_lab	1998	V	C	P	581260	Ei suuntautumisvaihtoehtoa	Software Engineering Lab		
+196	software_engineering_lab	1999	K	C	P	581260	Ei suuntautumisvaihtoehtoa	Software Engineering Lab		
+196	software_engineering_lab	1999	K	C	P	58172	Ohjelmistojärjestelmät	Software Engineering Lab -1997		
+196	software_engineering_lab	1999	S	C	P	581260	Ei suuntautumisvaihtoehtoa	Software Engineering Lab		
+196	software_engineering_lab	1999	V	C	P	581260	Ei suuntautumisvaihtoehtoa	Software Engineering Lab		
+196	software_engineering_lab	2000	K	C	P	581260	Ei suuntautumisvaihtoehtoa	Software Engineering Lab		
+196	software_engineering_lab	2000	S	C	P	581260	Ei suuntautumisvaihtoehtoa	Software Engineering Lab		
+196	software_engineering_lab	2000	V	C	P	581260	Ei suuntautumisvaihtoehtoa	Software Engineering Lab		
+196	software_engineering_lab	2001	K	C	P	581260	Ei suuntautumisvaihtoehtoa	Software Engineering Lab		
+196	software_engineering_lab	2001	S	C	P	581260	Ei suuntautumisvaihtoehtoa	Software Engineering Lab		
+196	software_engineering_lab	2001	V	C	P	581260	Ei suuntautumisvaihtoehtoa	Software Engineering Lab		
+196	software_engineering_lab	2002	K	C	P	581260	Ei suuntautumisvaihtoehtoa	Software Engineering Lab		
+196	software_engineering_lab	2002	S	C	P	581260	Ei suuntautumisvaihtoehtoa	Software Engineering Lab		
+196	software_engineering_lab	2002	V	C	P	581260	Ei suuntautumisvaihtoehtoa	Software Engineering Lab		
+196	software_engineering_lab	2003	K	C	P	581260	Ei suuntautumisvaihtoehtoa	Software Engineering Lab		
+196	software_engineering_lab	2003	S	C	P	581260	Ei suuntautumisvaihtoehtoa	Software Engineering Lab		
+196	software_engineering_lab	2003	V	C	P	581260	Ei suuntautumisvaihtoehtoa	Software Engineering Lab		
+196	software_engineering_lab	2004	K	C	P	581260	Ei suuntautumisvaihtoehtoa	Software Engineering Lab		
+196	software_engineering_lab	2004	S	C	P	581260	Ei suuntautumisvaihtoehtoa	Software Engineering Lab		
+196	software_engineering_lab	2004	V	C	P	581260	Ei suuntautumisvaihtoehtoa	Software Engineering Lab		
+196	software_engineering_lab	2005	K	C	P	581260	Ei suuntautumisvaihtoehtoa	Software Engineering Lab		
+196	software_engineering_lab	2005	S	C	P	581260	Ei suuntautumisvaihtoehtoa	Software Engineering Lab		
+196	software_engineering_lab	2005	V	C	P	581260	Ei suuntautumisvaihtoehtoa	Software Engineering Lab		
+196	software_engineering_lab	2006	K	C	P	581260	Ei suuntautumisvaihtoehtoa	Software Engineering Lab		
+196	software_engineering_lab	2006	S	C	P	581260	Ei suuntautumisvaihtoehtoa	Software Engineering Lab		
+196	software_engineering_lab	2006	V	C	P	581260	Ei suuntautumisvaihtoehtoa	Software Engineering Lab		
+196	software_engineering_lab	2007	K	C	P	581260	Ei suuntautumisvaihtoehtoa	Software Engineering Lab		
+196	software_engineering_lab	2007	S	C	P	581260	Ei suuntautumisvaihtoehtoa	Software Engineering Lab		
+196	software_engineering_lab	2007	V	C	P	581260	Ei suuntautumisvaihtoehtoa	Software Engineering Lab		
+196	software_engineering_lab	2008	K	C	P	581260	Ei suuntautumisvaihtoehtoa	Software Engineering Lab		
+196	software_engineering_lab	2008	S	C	P	581260	Ei suuntautumisvaihtoehtoa	Software Engineering Lab		
+196	software_engineering_lab	2008	V	C	P	581260	Ei suuntautumisvaihtoehtoa	Software Engineering Lab		
+196	software_engineering_lab	2009	K	C	P	581260	Ei suuntautumisvaihtoehtoa	Software Engineering Lab		
+196	software_engineering_lab	2009	S	C	P	581260	Ei suuntautumisvaihtoehtoa	Software Engineering Lab		
+196	software_engineering_lab	2009	V	C	P	581260	Ei suuntautumisvaihtoehtoa	Software Engineering Lab		
+196	software_engineering_lab	2010	K	C	P	581260	Ei suuntautumisvaihtoehtoa	Software Engineering Lab		
+196	software_engineering_lab	2010	S	C	P	581260	Ei suuntautumisvaihtoehtoa	Software Engineering Lab		
+196	software_engineering_lab	2010	V	C	P	581260	Ei suuntautumisvaihtoehtoa	Software Engineering Lab		
+196	software_engineering_lab	2011	K	C	P	581260	Ei suuntautumisvaihtoehtoa	Software Engineering Lab		
+196	software_engineering_lab	2011	S	C	P	581260	Ei suuntautumisvaihtoehtoa	Software Engineering Lab		
+196	software_engineering_lab	2011	V	C	P	581260	Ei suuntautumisvaihtoehtoa	Software Engineering Lab		
+196	software_engineering_lab	2012	K	C	P	581260	Ei suuntautumisvaihtoehtoa	Software Engineering Lab		
+197	methods_for_software_engineering	2005	S	A	P	582101	Ohjelmistojärjestelmät	Methods for Software Engineering		
+197	methods_for_software_engineering	2006	K	A	P	582101	Ohjelmistojärjestelmät	Methods for Software Engineering		
+197	methods_for_software_engineering	2006	S	A	P	582101	Ohjelmistojärjestelmät	Methods for Software Engineering		
+197	methods_for_software_engineering	2006	V	A	P	582101	Ohjelmistojärjestelmät	Methods for Software Engineering		
+197	methods_for_software_engineering	2007	K	A	P	582101	Ohjelmistojärjestelmät	Methods for Software Engineering		
+197	methods_for_software_engineering	2007	S	A	P	582101	Ohjelmistojärjestelmät	Methods for Software Engineering		
+197	methods_for_software_engineering	2007	V	A	P	582101	Ohjelmistojärjestelmät	Methods for Software Engineering		
+197	methods_for_software_engineering	2008	K	A	P	582101	Ohjelmistojärjestelmät	Methods for Software Engineering		
+197	methods_for_software_engineering	2008	V	A	P	582101	Ohjelmistojärjestelmät	Methods for Software Engineering		
+198	introduction_to_computer_science	2005	S	A	P	582102	Ei suuntautumisvaihtoehtoa	Introduction to Computer Science		
+198	introduction_to_computer_science	2006	K	A	P	582102	Ei suuntautumisvaihtoehtoa	Introduction to Computer Science		
+198	introduction_to_computer_science	2006	S	A	P	582102	Ei suuntautumisvaihtoehtoa	Introduction to Computer Science		
+198	introduction_to_computer_science	2006	V	A	P	582102	Ei suuntautumisvaihtoehtoa	Introduction to Computer Science		
+198	introduction_to_computer_science	2007	K	A	P	582102	Ei suuntautumisvaihtoehtoa	Introduction to Computer Science		
+198	introduction_to_computer_science	2007	S	A	P	582102	Ei suuntautumisvaihtoehtoa	Introduction to Computer Science		
+198	introduction_to_computer_science	2007	V	A	P	582102	Ei suuntautumisvaihtoehtoa	Introduction to Computer Science		
+198	introduction_to_computer_science	2008	K	A	P	582102	Ei suuntautumisvaihtoehtoa	Introduction to Computer Science		
+198	introduction_to_computer_science	2008	S	A	P	582102	Ei suuntautumisvaihtoehtoa	Introduction to Computer Science		
+198	introduction_to_computer_science	2008	V	A	P	582102	Ei suuntautumisvaihtoehtoa	Introduction to Computer Science		
+198	introduction_to_computer_science	2009	K	A	P	582102	Ei suuntautumisvaihtoehtoa	Introduction to Computer Science		
+198	introduction_to_computer_science	2009	S	A	P	582102	Ei suuntautumisvaihtoehtoa	Introduction to Computer Science		
+198	introduction_to_computer_science	2009	V	A	P	582102	Ei suuntautumisvaihtoehtoa	Introduction to Computer Science		
+198	introduction_to_computer_science	2010	K	A	P	582102	Ei suuntautumisvaihtoehtoa	Introduction to Computer Science		
+198	introduction_to_computer_science	2010	S	A	P	582102	Ei suuntautumisvaihtoehtoa	Introduction to Computer Science		
+198	introduction_to_computer_science	2010	V	A	P	582102	Ei suuntautumisvaihtoehtoa	Introduction to Computer Science		
+198	introduction_to_computer_science	2011	K	A	P	582102	Ei suuntautumisvaihtoehtoa	Introduction to Computer Science		
+198	introduction_to_computer_science	2011	S	A	P	582102	Ei suuntautumisvaihtoehtoa	Introduction to Computer Science		
+198	introduction_to_computer_science	2011	V	A	P	582102	Ei suuntautumisvaihtoehtoa	Introduction to Computer Science		
+198	introduction_to_computer_science	2012	K	A	P	582102	Ei suuntautumisvaihtoehtoa	Introduction to Computer Science		
+199	advanced_course_in_programming	2008	S	A	P	582103	Ohjelmistojärjestelmät	Advanced Course in Programming		
+199	advanced_course_in_programming	2009	K	A	P	582103	Ohjelmistojärjestelmät	Advanced Course in Programming		
+199	advanced_course_in_programming	2009	S	A	P	582103	Ohjelmistojärjestelmät	Advanced Course in Programming		
+199	advanced_course_in_programming	2009	V	A	P	582103	Ohjelmistojärjestelmät	Advanced Course in Programming		
+199	advanced_course_in_programming	2010	K	A	P	582103	Ohjelmistojärjestelmät	Advanced Course in Programming		
+199	advanced_course_in_programming	2010	S	A	P	582103	Ohjelmistojärjestelmät	Advanced Course in Programming		
+199	advanced_course_in_programming	2010	V	A	P	582103	Ohjelmistojärjestelmät	Advanced Course in Programming		
+199	advanced_course_in_programming	2011	K	A	P	582103	Ohjelmistojärjestelmät	Advanced Course in Programming		
+199	advanced_course_in_programming	2011	S	A	P	582103	Ohjelmistojärjestelmät	Advanced Course in Programming		
+199	advanced_course_in_programming	2011	V	A	P	582103	Ohjelmistojärjestelmät	Advanced Course in Programming		
+199	advanced_course_in_programming	2012	K	A	P	582103	Ohjelmistojärjestelmät	Advanced Course in Programming		
+200	software_modelling	2008	S	A	P	582104	Ohjelmistojärjestelmät	Software Modelling		
+200	software_modelling	2009	S	A	P	582104	Ohjelmistojärjestelmät	Software Modelling		
+200	software_modelling	2009	V	A	P	582104	Ohjelmistojärjestelmät	Software Modelling		
+200	software_modelling	2010	S	A	P	582104	Ohjelmistojärjestelmät	Software Modelling		
+200	software_modelling	2010	V	A	P	582104	Ohjelmistojärjestelmät	Software Modelling		
+200	software_modelling	2011	S	A	P	582104	Ohjelmistojärjestelmät	Software Modelling		
+200	software_modelling	2011	V	A	P	582104	Ohjelmistojärjestelmät	Software Modelling		
+201	humancomputer_interaction	2006	K	C	P	582201	Ohjelmistojärjestelmät	Human-Computer Interaction		
+201	humancomputer_interaction	2007	K	C	P	582201	Ohjelmistojärjestelmät	Human-Computer Interaction		
+201	humancomputer_interaction	2008	K	C	P	582201	Ohjelmistojärjestelmät	Human-Computer Interaction		
+201	humancomputer_interaction	2009	K	C	P	582201	Ohjelmistojärjestelmät	Human-Computer Interaction		
+201	humancomputer_interaction	2010	K	C	P	582201	Ohjelmistojärjestelmät	Human-Computer Interaction		
+201	humancomputer_interaction	2011	K	C	P	582201	Ohjelmistojärjestelmät	Human-Computer Interaction		
+201	humancomputer_interaction	2012	K	C	P	582201	Ohjelmistojärjestelmät	Human-Computer Interaction		
+202	introduction_to_data_communication	2006	K	C	P	582202	Hajaut.järj. ja tietoliikenne	Introduction to Data Communication		
+202	introduction_to_data_communication	2007	K	C	P	582202	Hajaut.järj. ja tietoliikenne	Introduction to Data Communication		
+202	introduction_to_data_communication	2008	K	C	P	582202	Hajaut.järj. ja tietoliikenne	Introduction to Data Communication		
+202	introduction_to_data_communication	2009	K	C	P	582202	Hajaut.järj. ja tietoliikenne	Introduction to Data Communication		
+202	introduction_to_data_communication	2010	K	C	P	582202	Hajaut.järj. ja tietoliikenne	Introduction to Data Communication		
+202	introduction_to_data_communication	2010	S	C	P	582202	Hajaut.järj. ja tietoliikenne	Introduction to Data Communication		
+202	introduction_to_data_communication	2011	S	C	P	582202	Hajaut.järj. ja tietoliikenne	Introduction to Data Communication		
+203	database_application	2006	K	C	P	582203	Ohjelmistojärjestelmät	Database Application		
+203	database_application	2006	S	C	P	582203	Ohjelmistojärjestelmät	Database Application		
+203	database_application	2006	V	C	P	582203	Ohjelmistojärjestelmät	Database Application		
+203	database_application	2007	K	C	P	582203	Ohjelmistojärjestelmät	Database Application		
+203	database_application	2007	S	C	P	582203	Ohjelmistojärjestelmät	Database Application		
+203	database_application	2007	V	C	P	582203	Ohjelmistojärjestelmät	Database Application		
+203	database_application	2008	K	C	P	582203	Ohjelmistojärjestelmät	Database Application		
+203	database_application	2008	S	C	P	582203	Ohjelmistojärjestelmät	Database Application		
+203	database_application	2008	V	C	P	582203	Ohjelmistojärjestelmät	Database Application		
+203	database_application	2009	K	C	P	582203	Ohjelmistojärjestelmät	Database Application		
+203	database_application	2009	S	C	P	582203	Ohjelmistojärjestelmät	Database Application		
+203	database_application	2009	V	C	P	582203	Ohjelmistojärjestelmät	Database Application		
+203	database_application	2010	K	C	P	582203	Ohjelmistojärjestelmät	Database Application		
+203	database_application	2010	S	C	P	582203	Ohjelmistojärjestelmät	Database Application		
+203	database_application	2010	V	C	P	582203	Ohjelmistojärjestelmät	Database Application		
+203	database_application	2011	K	C	P	582203	Ohjelmistojärjestelmät	Database Application		
+203	database_application	2011	S	C	P	582203	Ohjelmistojärjestelmät	Database Application		
+203	database_application	2011	V	C	P	582203	Ohjelmistojärjestelmät	Database Application		
+203	database_application	2012	K	C	P	582203	Ohjelmistojärjestelmät	Database Application		
+204	bsc_thesis_scientific_writing	2005	S	C	P	582204	Ei suuntautumisvaihtoehtoa	BSc Thesis (Scientific Writing)		
+204	bsc_thesis_scientific_writing	2006	K	C	P	582204	Ei suuntautumisvaihtoehtoa	BSc Thesis (Scientific Writing)		
+204	bsc_thesis_scientific_writing	2009	S	C	P	582204	Ei suuntautumisvaihtoehtoa	BSc Thesis (Scientific Writing)		
+204	bsc_thesis_scientific_writing	2010	K	C	P	582204	Ei suuntautumisvaihtoehtoa	BSc Thesis (Scientific Writing)		
+204	bsc_thesis_scientific_writing	2010	S	C	P	582204	Ei suuntautumisvaihtoehtoa	BSc Thesis (Scientific Writing)		
+204	bsc_thesis_scientific_writing	2011	K	C	P	582204	Ei suuntautumisvaihtoehtoa	BSc Thesis (Scientific Writing)		
+204	bsc_thesis_scientific_writing	2011	S	C	P	582204	Ei suuntautumisvaihtoehtoa	BSc Thesis (Scientific Writing)		
+204	bsc_thesis_scientific_writing	2012	K	C	P	582204	Ei suuntautumisvaihtoehtoa	BSc Thesis (Scientific Writing)		
+205	maturity_test	2005	S	C	P	50036	Ei suuntautumisvaihtoehtoa	Maturity test		
+205	maturity_test	2006	K	C	P	50036	Ei suuntautumisvaihtoehtoa	Maturity test		
+206	models_of_computation	2006	S	C	P	582206	Algoritmit	Models of Computation		
+206	models_of_computation	2007	S	C	P	582206	Algoritmit	Models of Computation		
+206	models_of_computation	2008	S	C	P	582206	Algoritmit	Models of Computation		
+206	models_of_computation	2009	S	C	P	582206	Algoritmit	Models of Computation		
+206	models_of_computation	2010	S	C	P	582206	Algoritmit	Models of Computation		
+206	models_of_computation	2011	S	C	P	582206	Algoritmit	Models of Computation		
+207	design_of_algorithms	2007	K	C	V	582207	Algoritmit	Design of Algorithms		
+207	design_of_algorithms	2008	K	C	V	582207	Algoritmit	Design of Algorithms		
+208	complexity_of_computation	2007	K	C	V	582208	Algoritmit	Complexity of Computation		
+208	complexity_of_computation	2008	K	C	V	582208	Algoritmit	Complexity of Computation		
+209	graphics_programming	2007	K	C	V	582209	Algoritmit	Graphics Programming		
+209	graphics_programming	2010	K	C	V	582209	Algoritmit	Graphics Programming		
+20	computer_architectures	1996	S	L	?	58070	Hajaut.järj. ja tietoliikenne	Computer Architectures		
+20	computer_architectures	1999	K	L	?	58070	Hajaut.järj. ja tietoliikenne	Computer Architectures		
+210	foundations_of_digital_games	2006	S	C	V	582210	Ohjelmistojärjestelmät	Foundations of Digital Games		
+212	computational_data_analysis_i	2007	K	C	V	582212	Algoritmit	Computational Data Analysis I		
+212	computational_data_analysis_i	2008	K	C	V	582212	Algoritmit	Computational Data Analysis I		
+213	computational_data_analysis_ii	2007	K	C	V	582213	Algoritmit	Computational Data Analysis II		
+213	computational_data_analysis_ii	2008	K	C	V	582213	Algoritmit	Computational Data Analysis II		
+214	lecturer_series_on_games_and_storytelling	2006	S	C	V	582214	Ohjelmistojärjestelmät	Lecturer Series on Games and Storytelling		
+214	lecturer_series_on_games_and_storytelling	2007	K	C	V	582214	Ohjelmistojärjestelmät	Lecturer Series on Games and Storytelling		
+215	introduction_to_computer_security	2010	K	C	P	582215	Hajaut.järj. ja tietoliikenne	Introduction to Computer Security		
+215	introduction_to_computer_security	2011	K	C	P	582215	Hajaut.järj. ja tietoliikenne	Introduction to Computer Security		
+215	introduction_to_computer_security	2012	K	C	P	582215	Hajaut.järj. ja tietoliikenne	Introduction to Computer Security		
+216	introduction_to_artificial_intelligence	2008	S	C	P	582216	Algoritmit	Introduction to Artificial Intelligence		
+216	introduction_to_artificial_intelligence	2009	S	C	P	582216	Algoritmit	Introduction to Artificial Intelligence		
+216	introduction_to_artificial_intelligence	2010	S	C	P	582216	Algoritmit	Introduction to Artificial Intelligence		
+216	introduction_to_artificial_intelligence	2011	S	C	P	582216	Algoritmit	Introduction to Artificial Intelligence		
+218	introduction_to_lambda_calculus	2008	S	C	V	582218	Algoritmit	Introduction to Lambda Calculus		
+219	verification_and_derivation_of_algorithms	2000	S	L	?	582301	Algoritmit	Verification and Derivation of Algorithms		
+219	verification_and_derivation_of_algorithms	2001	S	L	?	582301	Algoritmit	Verification and Derivation of Algorithms		
+219	verification_and_derivation_of_algorithms	2002	S	L	?	582301	Algoritmit	Verification and Derivation of Algorithms		
+21	computer_graphics	1995	S	L	V	58074	Ohjelmistojärjestelmät	Computer Graphics		
+21	computer_graphics	1997	K	L	V	58074	Ohjelmistojärjestelmät	Computer Graphics		
+21	computer_graphics	1997	S	L	V	58074	Ohjelmistojärjestelmät	Computer Graphics		
+21	computer_graphics	1998	S	L	V	58074	Ohjelmistojärjestelmät	Computer Graphics		
+21	computer_graphics	1999	S	L	V	58074	Ohjelmistojärjestelmät	Computer Graphics		
+21	computer_graphics	2000	S	L	V	58074	Ohjelmistojärjestelmät	Computer Graphics		
+21	computer_graphics	2001	S	L	V	58074	Ohjelmistojärjestelmät	Computer Graphics		
+21	computer_graphics	2003	S	L	V	58074	Ohjelmistojärjestelmät	Computer Graphics		
+21	computer_graphics	2005	S	L	V	58074	Ohjelmistojärjestelmät	Computer Graphics		
+21	computer_graphics	2007	S	L	V	58074	Ohjelmistojärjestelmät	Computer Graphics		
+21	computer_graphics	2010	S	L	V	58074	Ohjelmistojärjestelmät	Computer Graphics		
+220	digital_media_technology	2000	S	C	V	582302	Ohjelmistojärjestelmät	Digital Media Technology		
+220	digital_media_technology	2001	S	C	V	582302	Ohjelmistojärjestelmät	Digital Media Technology		
+220	digital_media_technology	2002	S	C	V	582302	Ohjelmistojärjestelmät	Digital Media Technology		
+220	digital_media_technology	2002	V	C	V	582302	Ohjelmistojärjestelmät	Digital Media Technology		
+220	digital_media_technology	2004	K	C	V	582302	Ohjelmistojärjestelmät	Digital Media Technology		
+220	digital_media_technology	2005	K	C	V	582302	Ohjelmistojärjestelmät	Digital Media Technology		
+220	digital_media_technology	2007	S	C	V	582302	Ohjelmistojärjestelmät	Digital Media Technology		
+220	digital_media_technology	2009	K	C	V	582302	Ohjelmistojärjestelmät	Digital Media Technology		
+220	digital_media_technology	2012	K	C	V	582302	Ohjelmistojärjestelmät	Digital Media Technology		
+221	network_programming	2001	K	C	V	582303	Hajaut.järj. ja tietoliikenne	Network Programming		
+221	network_programming	2002	K	C	V	582303	Hajaut.järj. ja tietoliikenne	Network Programming		
+221	network_programming	2003	K	C	V	582303	Hajaut.järj. ja tietoliikenne	Network Programming		
+221	network_programming	2004	K	C	V	582303	Hajaut.järj. ja tietoliikenne	Network Programming		
+221	network_programming	2005	K	C	V	582303	Hajaut.järj. ja tietoliikenne	Network Programming		
+221	network_programming	2006	K	C	V	582303	Hajaut.järj. ja tietoliikenne	Network Programming		
+221	network_programming	2007	K	C	V	582303	Hajaut.järj. ja tietoliikenne	Network Programming		
+221	network_programming	2008	K	C	V	582303	Hajaut.järj. ja tietoliikenne	Network Programming		
+221	network_programming	2009	K	C	V	582303	Hajaut.järj. ja tietoliikenne	Network Programming		
+221	network_programming	2011	K	C	V	582303	Hajaut.järj. ja tietoliikenne	Network Programming		
+222	the_metalanguage_xml	2001	K	C	V	582304	Ohjelmistojärjestelmät	The metalanguage XML		
+222	the_metalanguage_xml	2001	S	C	V	582304	Ohjelmistojärjestelmät	The metalanguage XML		
+222	the_metalanguage_xml	2002	S	C	V	582304	Ohjelmistojärjestelmät	The metalanguage XML		
+222	the_metalanguage_xml	2003	S	C	V	582304	Ohjelmistojärjestelmät	The metalanguage XML		
+222	the_metalanguage_xml	2005	K	C	V	582304	Ohjelmistojärjestelmät	The metalanguage XML		
+222	the_metalanguage_xml	2006	K	C	V	582304	Ohjelmistojärjestelmät	The metalanguage XML		
+222	the_metalanguage_xml	2007	K	C	V	582304	Ohjelmistojärjestelmät	The metalanguage XML		
+222	the_metalanguage_xml	2008	K	C	V	582304	Ohjelmistojärjestelmät	The metalanguage XML		
+222	the_metalanguage_xml	2009	S	C	V	582304	Ohjelmistojärjestelmät	The metalanguage XML		
+222	the_metalanguage_xml	2011	K	C	V	582304	Ohjelmistojärjestelmät	The metalanguage XML		
+223	symbolic_programming	2001	K	C	?	582305	Algoritmit	Symbolic Programming		
+223	symbolic_programming	2002	S	C	?	582305	Algoritmit	Symbolic Programming		
+224	epoc_architecture_and_programming	2000	S	C	?	582306	Hajaut.järj. ja tietoliikenne	EPOC: Architecture and Programming		
+225	human_data_processing_slow_and_inefficient	2001	K	M	?	582307	Ei suuntautumisvaihtoehtoa	Human Data Processing. Slow and inefficient?		
+226	introduction_to_it_right	2001	S	C	V	582308	Ei suuntautumisvaihtoehtoa	Introduction to IT right		
+227	software_design_java	2002	S	C	V	582309	Ohjelmistojärjestelmät	Software Design (Java)		
+227	software_design_java	2003	K	C	V	582309	Ohjelmistojärjestelmät	Software Design (Java)		
+227	software_design_java	2004	K	C	V	582309	Ohjelmistojärjestelmät	Software Design (Java)		
+227	software_design_java	2005	K	C	V	582309	Ohjelmistojärjestelmät	Software Design (Java)		
+227	software_design_java	2006	K	C	V	582309	Ohjelmistojärjestelmät	Software Design (Java)		
+227	software_design_java	2007	K	C	V	582309	Ohjelmistojärjestelmät	Software Design (Java)		
+227	software_design_java	2008	K	C	V	582309	Ohjelmistojärjestelmät	Software Design (Java)		
+228	it_for_teachers	2002	S	C	V	582310	Opettaja	IT for Teachers		
+228	it_for_teachers	2003	S	C	V	582310	Opettaja	IT for Teachers		
+228	it_for_teachers	2004	S	C	V	582310	Opettaja	IT for Teachers		
+228	it_for_teachers	2005	S	C	V	582310	Opettaja	IT for Teachers		
+229	practical_work_in_scheme	2003	K	C	V	582311	Ohjelmistojärjestelmät	Practical Work in Scheme		
+232	genetics_for_computer_scientists	2004	K	C	V	582314	Bioinformatiikka	Genetics for Computer scientists		
+233	introduction_to_functional_programming	2004	S	C	V	582315	Algoritmit	Introduction to Functional Programming		
+233	introduction_to_functional_programming	2006	S	C	V	582315	Algoritmit	Introduction to Functional Programming		
+233	introduction_to_functional_programming	2009	K	C	V	582315	Algoritmit	Introduction to Functional Programming		
+234	unix_application_programming	2004	S	C	V	582316	Hajaut.järj. ja tietoliikenne	Unix Application Programming		
+234	unix_application_programming	2005	S	C	V	582316	Hajaut.järj. ja tietoliikenne	Unix Application Programming		
+235	linux_system_administration	2005	K	C	V	582317	Hajaut.järj. ja tietoliikenne	Linux System Administration		
+235	linux_system_administration	2006	K	C	V	582317	Hajaut.järj. ja tietoliikenne	Linux System Administration		
+235	linux_system_administration	2007	K	C	V	582317	Hajaut.järj. ja tietoliikenne	Linux System Administration		
+235	linux_system_administration	2009	K	C	V	582317	Hajaut.järj. ja tietoliikenne	Linux System Administration		
+235	linux_system_administration	2010	K	C	V	582317	Hajaut.järj. ja tietoliikenne	Linux System Administration		
+235	linux_system_administration	2012	K	C	V	582317	Hajaut.järj. ja tietoliikenne	Linux System Administration		
+236	proactive_computing_colloquium	2005	K	C	V	582318	Ohjelmistojärjestelmät	Proactive computing colloquium		
+237	molecular_genetics_and_gene_mapping_for_methodological_sciences	2004	S	C	V	582319	Bioinformatiikka	Molecular Genetics and Gene Mapping for Methodolog		
+237	molecular_genetics_and_gene_mapping_for_methodological_sciences	2005	V	C	V	582319	Bioinformatiikka	Molecular Genetics and Gene Mapping for Methodolog		
+238	programming_graphical_user_interfaces	2004	S	C	V	582320	Ohjelmistojärjestelmät	Programming Graphical User Interfaces		
+238	programming_graphical_user_interfaces	2005	S	C	V	582320	Ohjelmistojärjestelmät	Programming Graphical User Interfaces		
+239	introduction_to_digital_sound_processing	2004	S	C	V	582321	Algoritmit	Introduction to Digital Sound Processing		
+23	string_processing_algorithms	1995	S	L	V	58093	Algoritmit	String Processing Algorithms		
+23	string_processing_algorithms	1996	S	L	V	58093	Algoritmit	String Processing Algorithms		
+23	string_processing_algorithms	1998	S	L	V	58093	Algoritmit	String Processing Algorithms		
+23	string_processing_algorithms	2001	K	L	V	58093	Algoritmit	String Processing Algorithms		
+23	string_processing_algorithms	2003	S	L	V	58093	Algoritmit	String Processing Algorithms		
+23	string_processing_algorithms	2005	K	L	V	58093	Algoritmit	String Processing Algorithms		
+23	string_processing_algorithms	2007	K	L	V	58093	Algoritmit	String Processing Algorithms		
+23	string_processing_algorithms	2008	S	L	V	58093	Algoritmit	String Processing Algorithms		
+23	string_processing_algorithms	2010	S	L	V	58093	Algoritmit	String Processing Algorithms		
+23	string_processing_algorithms	2011	S	L	V	58093	Algoritmit	String Processing Algorithms		
+240	games_and_virtual_environments	2004	S	C	V	582322	Ohjelmistojärjestelmät	Games and virtual environments		
+240	games_and_virtual_environments	2005	S	C	V	582322	Ohjelmistojärjestelmät	Games and virtual environments		
+241	spatial_data_processing	2006	K	C	V	582323	Ohjelmistojärjestelmät	Spatial Data Processing		
+241	spatial_data_processing	2007	K	C	V	582323	Ohjelmistojärjestelmät	Spatial Data Processing		
+242	query_languages	2006	S	C	V	582324	Ohjelmistojärjestelmät	Query Languages		
+243	introduction_to_game_programming	2007	S	C	V	582325	Ohjelmistojärjestelmät	Introduction to game programming		
+243	introduction_to_game_programming	2009	S	C	V	582325	Ohjelmistojärjestelmät	Introduction to game programming		
+243	introduction_to_game_programming	2011	S	C	V	582325	Ohjelmistojärjestelmät	Introduction to game programming		
+244	robot_programming_project	2009	K	C	V	582326	Ohjelmistojärjestelmät	Robot Programming Project		
+244	robot_programming_project	2010	K	C	V	582326	Ohjelmistojärjestelmät	Robot Programming Project		
+244	robot_programming_project	2011	K	C	V	582326	Ohjelmistojärjestelmät	Robot Programming Project		
+245	haskell_programming_project	2009	V	C	V	582327	Ohjelmistojärjestelmät	Haskell Programming Project		
+246	from_game_design_to_prototype_workshop	2009	K	C	V	582328	Ohjelmistojärjestelmät	From Game Design to Prototype Workshop		
+247	ai_for_games	2009	S	C	V	582329	Ohjelmistojärjestelmät	AI for Games		
+248	software_design_scala	2010	K	C	V	582330	Ohjelmistojärjestelmät	Software Design (Scala)		
+248	software_design_scala	2012	K	C	V	582330	Ohjelmistojärjestelmät	Software Design (Scala)		
+249	agile_web_development_and_ruby_on_rails	2009	S	C	V	582331	Ohjelmistojärjestelmät	Agile Web Development and Ruby on Rails		
+24	semantics_of_programs	1996	S	C	?	58094	Hajaut.järj. ja tietoliikenne	Semantics of Programs		
+24	semantics_of_programs	1997	S	C	?	58094	Hajaut.järj. ja tietoliikenne	Semantics of Programs		
+24	semantics_of_programs	1998	S	C	?	58094	Hajaut.järj. ja tietoliikenne	Semantics of Programs		
+24	semantics_of_programs	1999	S	C	?	58094	Hajaut.järj. ja tietoliikenne	Semantics of Programs		
+250	programming_in_python	2009	S	C	V	582332	Ohjelmistojärjestelmät	Programming in Python		
+251	innovation_project	2009	S	C	V	582333	Ohjelmistojärjestelmät	Innovation Project		
+252	tdd_programming_technique_and_designing_code	2009	S	C	V	582334	Ohjelmistojärjestelmät	TDD Programming Technique and Designing Code		
+253	version_control	2009	S	C	V	582335	Ohjelmistojärjestelmät	Version Control		
+253	version_control	2010	S	C	V	582335	Ohjelmistojärjestelmät	Version Control		
+254	introduction_to_go	2010	K	C	V	582336	Ohjelmistojärjestelmät	Introduction to Go		
+255	ai_for_games_ii	2010	K	C	V	582337	Ohjelmistojärjestelmät	AI for Games II		
+256	introduction_to_software_testing	2010	S	C	V	582338	Ohjelmistojärjestelmät	Introduction to Software Testing		
+257	internet_as_a_phenomenon	2010	K	C	V	582339	Hajaut.järj. ja tietoliikenne	Internet as a Phenomenon		
+258	introduction_to_contest_programming	2010	S	C	V	582340	Ohjelmistojärjestelmät	Introduction to Contest Programming		
+259	empirical_exercise_in_software_systems	2010	S	C	V	582341	Ohjelmistojärjestelmät	Empirical Exercise in Software Systems		
+259	empirical_exercise_in_software_systems	2011	S	C	V	582341	Ohjelmistojärjestelmät	Empirical Exercise in Software Systems		
+259	empirical_exercise_in_software_systems	2012	K	C	V	582341	Ohjelmistojärjestelmät	Empirical Exercise in Software Systems		
+25	distributed_operating_systems	1995	S	L	?	58096	Hajaut.järj. ja tietoliikenne	Distributed Operating Systems		
+25	distributed_operating_systems	1996	S	L	?	58096	Hajaut.järj. ja tietoliikenne	Distributed Operating Systems		
+25	distributed_operating_systems	1997	S	L	?	58096	Hajaut.järj. ja tietoliikenne	Distributed Operating Systems		
+25	distributed_operating_systems	1998	S	L	?	58096	Hajaut.järj. ja tietoliikenne	Distributed Operating Systems		
+25	distributed_operating_systems	1999	S	L	?	58096	Hajaut.järj. ja tietoliikenne	Distributed Operating Systems		
+25	distributed_operating_systems	2001	K	L	?	58096	Hajaut.järj. ja tietoliikenne	Distributed Operating Systems		
+260	browsersocket_codecamp	2010	S	C	V	582342	Hajaut.järj. ja tietoliikenne	BrowserSocket CodeCamp		
+261	clojure_programming	2011	K	C	V	582343	Ohjelmistojärjestelmät	Clojure Programming		
+262	android_programming_project	2011	K	C	V	582344	Ohjelmistojärjestelmät	Android Programming Project		
+263	geometric_methods	2000	S	L	V	582401	Algoritmit	Geometric Methods		
+263	geometric_methods	2002	S	L	V	582401	Algoritmit	Geometric Methods		
+263	geometric_methods	2004	S	L	V	582401	Algoritmit	Geometric Methods		
+263	geometric_methods	2006	S	L	V	582401	Algoritmit	Geometric Methods		
+263	geometric_methods	2010	K	L	V	582401	Algoritmit	Geometric Methods		
+264	electronic_commerce_and_internet	2000	S	L	?	582402	Hajaut.järj. ja tietoliikenne	Electronic Commerce and Internet		
+265	data_warehouses	2000	S	L	V	582403	Ohjelmistojärjestelmät	Data Warehouses		
+265	data_warehouses	2002	S	L	V	582403	Ohjelmistojärjestelmät	Data Warehouses		
+265	data_warehouses	2004	S	L	V	582403	Ohjelmistojärjestelmät	Data Warehouses		
+265	data_warehouses	2006	S	L	V	582403	Ohjelmistojärjestelmät	Data Warehouses		
+265	data_warehouses	2009	K	L	V	582403	Ohjelmistojärjestelmät	Data Warehouses		
+265	data_warehouses	2011	K	L	V	582403	Ohjelmistojärjestelmät	Data Warehouses		
+266	automatic_verification	2001	K	L	?	582404	Hajaut.järj. ja tietoliikenne	Automatic Verification		
+266	automatic_verification	2002	K	L	?	582404	Hajaut.järj. ja tietoliikenne	Automatic Verification		
+267	operating_systems_ii	2001	K	L	V	582405	Hajaut.järj. ja tietoliikenne	Operating Systems II		
+267	operating_systems_ii	2002	K	L	V	582405	Hajaut.järj. ja tietoliikenne	Operating Systems II		
+267	operating_systems_ii	2003	K	L	V	582405	Hajaut.järj. ja tietoliikenne	Operating Systems II		
+267	operating_systems_ii	2004	K	L	V	582405	Hajaut.järj. ja tietoliikenne	Operating Systems II		
+267	operating_systems_ii	2005	K	L	V	582405	Hajaut.järj. ja tietoliikenne	Operating Systems II		
+267	operating_systems_ii	2006	K	L	V	582405	Hajaut.järj. ja tietoliikenne	Operating Systems II		
+268	broadband_ip_networks	2001	K	L	?	582406	Hajaut.järj. ja tietoliikenne	Broadband IP Networks		
+26	advanced_computer_graphics	1996	K	L	?	58097	Yleinen	Advanced Computer Graphics		
+270	lectures_on_statistical_modeling_theory	2001	S	L	?	582408	Algoritmit	Lectures on Statistical Modeling Theory		
+272	processing_of_large_document_collections	2001	S	L	V	582410	Ohjelmistojärjestelmät	Processing of Large Document Collections		
+272	processing_of_large_document_collections	2002	S	L	V	582410	Ohjelmistojärjestelmät	Processing of Large Document Collections		
+272	processing_of_large_document_collections	2005	K	L	V	582410	Ohjelmistojärjestelmät	Processing of Large Document Collections		
+272	processing_of_large_document_collections	2006	K	L	V	582410	Ohjelmistojärjestelmät	Processing of Large Document Collections		
+274	image_processing	2002	K	L	V	582412	Algoritmit	Image Processing		
+274	image_processing	2003	K	L	V	582412	Algoritmit	Image Processing		
+274	image_processing	2006	K	L	V	582412	Algoritmit	Image Processing		
+278	software_business_project	2002	K	L	V	582416	Selvitettävä	Software business project		
+278	software_business_project	2003	K	L	V	582416	Selvitettävä	Software business project		
+278	software_business_project	2004	K	L	V	582416	Selvitettävä	Software business project		
+279	distributed_systems	2002	K	L	V	582417	Hajaut.järj. ja tietoliikenne	Distributed Systems		
+279	distributed_systems	2003	K	L	V	582417	Hajaut.järj. ja tietoliikenne	Distributed Systems		
+279	distributed_systems	2003	S	L	V	582417	Hajaut.järj. ja tietoliikenne	Distributed Systems		
+279	distributed_systems	2005	K	L	V	582417	Hajaut.järj. ja tietoliikenne	Distributed Systems		
+279	distributed_systems	2006	K	L	V	582417	Hajaut.järj. ja tietoliikenne	Distributed Systems		
+279	distributed_systems	2007	K	L	V	582417	Hajaut.järj. ja tietoliikenne	Distributed Systems		
+279	distributed_systems	2008	K	L	V	582417	Hajaut.järj. ja tietoliikenne	Distributed Systems		
+279	distributed_systems	2008	S	L	V	582417	Hajaut.järj. ja tietoliikenne	Distributed Systems		
+279	distributed_systems	2009	S	L	V	582417	Hajaut.järj. ja tietoliikenne	Distributed Systems		
+279	distributed_systems	2010	S	L	V	582417	Hajaut.järj. ja tietoliikenne	Distributed Systems		
+279	distributed_systems	2011	S	L	V	582417	Hajaut.järj. ja tietoliikenne	Distributed Systems		
+280	proof_theory_and_proof_search	2002	S	L	V	582418	Algoritmit	Proof Theory and Proof Search		
+280	proof_theory_and_proof_search	2004	K	L	V	582418	Algoritmit	Proof Theory and Proof Search		
+281	philosophy_of_artificial_intelligence	2002	S	L	?	582419	Algoritmit	Philosophy of Artificial Intelligence		
+282	middleware	2003	K	L	V	582420	Hajaut.järj. ja tietoliikenne	Middleware		
+282	middleware	2004	K	L	V	582420	Hajaut.järj. ja tietoliikenne	Middleware		
+282	middleware	2006	K	L	V	582420	Hajaut.järj. ja tietoliikenne	Middleware		
+282	middleware	2007	K	L	V	582420	Hajaut.järj. ja tietoliikenne	Middleware		
+282	middleware	2007	S	L	V	582420	Hajaut.järj. ja tietoliikenne	Middleware		
+283	randomized_algorithms	2003	K	L	V	582421	Algoritmit	Randomized Algorithms		
+283	randomized_algorithms	2005	S	L	V	582421	Algoritmit	Randomized Algorithms		
+283	randomized_algorithms	2009	K	L	V	582421	Algoritmit	Randomized Algorithms		
+284	internet_protocols_for_mobile_computing	2003	K	L	?	582422	Hajaut.järj. ja tietoliikenne	Internet Protocols for Mobile Computing		
+285	distributional_similarity_of_words	2002	S	L	V	582423	Ohjelmistojärjestelmät	Distributional Similarity of Words		
+286	statistic_quantities_in_text_corpora	2003	K	L	V	582424	Ohjelmistojärjestelmät	Statistic Quantities in Text Corpora		
+286	statistic_quantities_in_text_corpora	2004	K	L	V	582424	Ohjelmistojärjestelmät	Statistic Quantities in Text Corpora		
+286	statistic_quantities_in_text_corpora	2005	S	L	V	582424	Ohjelmistojärjestelmät	Statistic Quantities in Text Corpora		
+287	realtime_systems	2002	S	L	V	582425	Hajaut.järj. ja tietoliikenne	Real-Time Systems		
+287	realtime_systems	2004	K	L	V	582425	Hajaut.järj. ja tietoliikenne	Real-Time Systems		
+287	realtime_systems	2006	K	L	V	582425	Hajaut.järj. ja tietoliikenne	Real-Time Systems		
+288	advanced_algorithms_in_data_mining	2002	V	L	?	582426	Algoritmit	Advanced algorithms in data mining		
+289	computational_methods_in_gene_mapping_and_genome_structure	2002	S	L	?	582427	Algoritmit	Computational Methods in Gene Mapping and Genome S		
+28	database_systems_ii	1995	K	L	?	58107	Ohjelmistojärjestelmät	Database Systems II		
+28	database_systems_ii	1996	K	L	?	58107	Ohjelmistojärjestelmät	Database Systems II		
+28	database_systems_ii	1997	K	L	?	58107	Ohjelmistojärjestelmät	Database Systems II		
+28	database_systems_ii	1998	K	L	?	58107	Ohjelmistojärjestelmät	Database Systems II		
+28	database_systems_ii	1999	K	L	?	58107	Ohjelmistojärjestelmät	Database Systems II		
+28	database_systems_ii	2000	K	L	?	58107	Ohjelmistojärjestelmät	Database Systems II		
+291	laudatur_project	2003	K	L	V	582429	Ohjelmistojärjestelmät	Laudatur Project		
+291	laudatur_project	2004	K	L	V	582429	Ohjelmistojärjestelmät	Laudatur Project		
+291	laudatur_project	2005	K	L	V	582429	Ohjelmistojärjestelmät	Laudatur Project		
+291	laudatur_project	2006	K	L	V	582429	Ohjelmistojärjestelmät	Laudatur Project		
+297	middleware_standards_for_mobile_computing	2003	S	L	?	582438	Hajaut.järj. ja tietoliikenne	Middleware Standards for Mobile Computing		
+298	graphical_models	2003	S	L	V	582439	Algoritmit	Graphical Models		
+298	graphical_models	2005	S	L	V	582439	Algoritmit	Graphical Models		
+299	the_meaning_of_words	2003	S	L	V	582440	Ohjelmistojärjestelmät	The Meaning of Words		
+299	the_meaning_of_words	2004	S	L	V	582440	Ohjelmistojärjestelmät	The Meaning of Words		
+300	combinatorial_optimization	2004	K	L	V	582441	Yleinen	Combinatorial Optimization		
+301	web_services_architecture	2004	K	L	V	582442	Hajaut.järj. ja tietoliikenne	Web Services Architecture		
+302	game_theoretic_concepts_in_computer_science	2003	S	L	?	582443	Ohjelmistojärjestelmät	Game Theoretic Concepts in Computer Science		
+303	special_course_on_data_mining	2003	S	L	V	582444	Ohjelmistojärjestelmät	Special Course on Data Mining		
+303	special_course_on_data_mining	2004	S	L	V	582444	Ohjelmistojärjestelmät	Special Course on Data Mining		
+303	special_course_on_data_mining	2007	K	L	V	582444	Ohjelmistojärjestelmät	Special Course on Data Mining		
+303	special_course_on_data_mining	2008	K	L	V	582444	Ohjelmistojärjestelmät	Special Course on Data Mining		
+304	distributed_transaction_management	2003	S	L	?	582445	Ohjelmistojärjestelmät	Distributed Transaction Management		
+305	contextaware_computing	2003	S	L	V	582446	Algoritmit	Context-Aware Computing		
+305	contextaware_computing	2005	S	L	V	582446	Algoritmit	Context-Aware Computing		
+306	topics_in_computational_biology	2004	K	L	V	582447	Yleinen	Topics in Computational Biology		
+307	data_mining_methods	2004	K	L	V	582448	Ohjelmistojärjestelmät	Data Mining Methods		
+307	data_mining_methods	2005	K	L	V	582448	Ohjelmistojärjestelmät	Data Mining Methods		
+307	data_mining_methods	2005	S	L	V	582448	Ohjelmistojärjestelmät	Data Mining Methods		
+307	data_mining_methods	2006	S	L	V	582448	Ohjelmistojärjestelmät	Data Mining Methods		
+307	data_mining_methods	2007	S	L	V	582448	Ohjelmistojärjestelmät	Data Mining Methods		
+308	peertopeer_computing	2003	S	L	V	582449	Hajaut.järj. ja tietoliikenne	Peer-to-Peer Computing		
+308	peertopeer_computing	2004	S	L	V	582449	Hajaut.järj. ja tietoliikenne	Peer-to-Peer Computing		
+309	modelling_of_vision	2004	K	L	V	582450	Bioinformatiikka	Modelling of Vision		
+309	modelling_of_vision	2005	K	L	V	582450	Bioinformatiikka	Modelling of Vision		
+309	modelling_of_vision	2006	K	L	V	582450	Bioinformatiikka	Modelling of Vision		
+309	modelling_of_vision	2007	K	L	V	582450	Bioinformatiikka	Modelling of Vision		
+309	modelling_of_vision	2008	K	L	V	582450	Bioinformatiikka	Modelling of Vision		
+310	programming_mobile_systems	2004	K	L	V	582452	Hajaut.järj. ja tietoliikenne	Programming Mobile Systems		
+310	programming_mobile_systems	2005	K	L	V	582452	Hajaut.järj. ja tietoliikenne	Programming Mobile Systems		
+310	programming_mobile_systems	2006	K	L	V	582452	Hajaut.järj. ja tietoliikenne	Programming Mobile Systems		
+310	programming_mobile_systems	2007	K	L	V	582452	Hajaut.järj. ja tietoliikenne	Programming Mobile Systems		
+310	programming_mobile_systems	2008	K	L	V	582452	Hajaut.järj. ja tietoliikenne	Programming Mobile Systems		
+311	application_integration_in_a_network_economy_and_standards_for_ebusiness	2004	K	L	V	582453	Selvitettävä	Application integration in a network economy and s		
+312	introduction_to_independent_component_analysis	2004	V	L	V	582454	Ohjelmistojärjestelmät	Introduction to Independent Component Analysis		
+313	advanced_software_project_managenent	2004	V	L	V	582455	Ohjelmistojärjestelmät	Advanced Software Project Managenent		
+314	approximation_algorithms	2004	S	L	V	582456	Algoritmit	Approximation Algorithms		
+314	approximation_algorithms	2008	K	L	V	582456	Algoritmit	Approximation Algorithms		
+314	approximation_algorithms	2010	K	L	V	582456	Algoritmit	Approximation Algorithms		
+315	classification	2004	S	L	V	582457	Algoritmit	Classification		
+316	kernel_methods_for_pattern_analysis	2004	S	L	V	582458	Algoritmit	Kernel Methods for Pattern Analysis		
+317	semantic_web	2005	K	L	V	582459	Algoritmit	Semantic Web -2005		
+317	semantic_web	2009	K	L	V	582217	Ohjelmistojärjestelmät	Semantic Web		
+317	semantic_web	2010	S	L	V	582217	Ohjelmistojärjestelmät	Semantic Web		
+318	software_requirements_engineering	2005	K	L	V	582460	Ohjelmistojärjestelmät	Software Requirements Engineering		
+318	software_requirements_engineering	2006	K	L	V	582460	Ohjelmistojärjestelmät	Software Requirements Engineering		
+318	software_requirements_engineering	2008	K	L	V	582460	Ohjelmistojärjestelmät	Software Requirements Engineering		
+318	software_requirements_engineering	2010	K	L	V	582460	Ohjelmistojärjestelmät	Software Requirements Engineering		
+318	software_requirements_engineering	2011	S	L	V	582460	Ohjelmistojärjestelmät	Software Requirements Engineering		
+319	foundations_for_future_mobile_computing	2004	S	L	V	582461	Hajaut.järj. ja tietoliikenne	Foundations for Future Mobile Computing		
+31	scientific_writing	1995	S	C	P	58110	Ei suuntautumisvaihtoehtoa	Scientific Writing		
+31	scientific_writing	1996	K	C	P	58110	Ei suuntautumisvaihtoehtoa	Scientific Writing		
+31	scientific_writing	1996	S	C	P	58110	Ei suuntautumisvaihtoehtoa	Scientific Writing		
+31	scientific_writing	1997	K	C	P	58110	Ei suuntautumisvaihtoehtoa	Scientific Writing		
+31	scientific_writing	1997	S	C	P	58110	Ei suuntautumisvaihtoehtoa	Scientific Writing		
+31	scientific_writing	1998	K	C	P	58110	Ei suuntautumisvaihtoehtoa	Scientific Writing		
+31	scientific_writing	1998	S	C	P	58110	Ei suuntautumisvaihtoehtoa	Scientific Writing		
+31	scientific_writing	1999	K	C	P	58110	Ei suuntautumisvaihtoehtoa	Scientific Writing		
+31	scientific_writing	1999	S	C	P	58110	Ei suuntautumisvaihtoehtoa	Scientific Writing		
+31	scientific_writing	2000	K	C	P	58110	Ei suuntautumisvaihtoehtoa	Scientific Writing		
+31	scientific_writing	2000	S	C	P	58110	Ei suuntautumisvaihtoehtoa	Scientific Writing		
+31	scientific_writing	2001	K	C	P	58110	Ei suuntautumisvaihtoehtoa	Scientific Writing		
+31	scientific_writing	2001	S	C	P	58110	Ei suuntautumisvaihtoehtoa	Scientific Writing		
+31	scientific_writing	2002	K	C	P	58110	Ei suuntautumisvaihtoehtoa	Scientific Writing		
+31	scientific_writing	2002	S	C	P	58110	Ei suuntautumisvaihtoehtoa	Scientific Writing		
+31	scientific_writing	2003	K	C	P	58110	Ei suuntautumisvaihtoehtoa	Scientific Writing		
+31	scientific_writing	2003	S	C	P	58110	Ei suuntautumisvaihtoehtoa	Scientific Writing		
+31	scientific_writing	2004	K	C	P	58110	Ei suuntautumisvaihtoehtoa	Scientific Writing		
+31	scientific_writing	2004	S	C	P	58110	Ei suuntautumisvaihtoehtoa	Scientific Writing		
+31	scientific_writing	2005	K	C	P	58110	Ei suuntautumisvaihtoehtoa	Scientific Writing		
+31	scientific_writing	2005	S	C	P	58110	Ei suuntautumisvaihtoehtoa	Scientific Writing		
+31	scientific_writing	2006	K	C	P	58110	Ei suuntautumisvaihtoehtoa	Scientific Writing		
+31	scientific_writing	2006	S	C	P	58110	Ei suuntautumisvaihtoehtoa	Scientific Writing		
+31	scientific_writing	2007	K	C	P	58110	Ei suuntautumisvaihtoehtoa	Scientific Writing		
+31	scientific_writing	2007	S	C	P	58110	Ei suuntautumisvaihtoehtoa	Scientific Writing		
+31	scientific_writing	2007	V	C	P	58110	Ei suuntautumisvaihtoehtoa	Scientific Writing		
+31	scientific_writing	2008	K	C	P	58110	Ei suuntautumisvaihtoehtoa	Scientific Writing		
+31	scientific_writing	2008	S	C	P	58110	Ei suuntautumisvaihtoehtoa	Scientific Writing		
+31	scientific_writing	2009	K	C	P	58110	Ei suuntautumisvaihtoehtoa	Scientific Writing		
+320	advanced_course_on_computer_security	2004	S	L	V	582462	Hajaut.järj. ja tietoliikenne	Advanced Course on Computer Security		
+320	advanced_course_on_computer_security	2010	S	L	V	582462	Hajaut.järj. ja tietoliikenne	Advanced Course on Computer Security		
+321	advanced_course_on_specification_and_verification	2005	K	L	V	582463	Hajaut.järj. ja tietoliikenne	Advanced Course on Specification and Verification		
+323	handheld_systems	2005	K	L	V	582465	Hajaut.järj. ja tietoliikenne	Handheld Systems		
+324	tree_grammars	2004	S	L	V	582466	Ohjelmistojärjestelmät	Tree Grammars		
+325	data_analysis_for_gene_expression	2004	S	L	V	582467	Bioinformatiikka	Data Analysis for Gene Expression		
+326	computational_neuroscience	2004	S	L	V	582468	Bioinformatiikka	Computational Neuroscience		
+326	computational_neuroscience	2006	S	L	V	582468	Bioinformatiikka	Computational Neuroscience		
+327	computational_systems_biology	2005	K	L	V	582469	Bioinformatiikka	Computational Systems Biology		
+327	computational_systems_biology	2006	K	L	V	582469	Bioinformatiikka	Computational Systems Biology		
+328	experimentation_in_software_engineering	2005	K	L	V	582470	Ohjelmistojärjestelmät	Experimentation in Software Engineering		
+328	experimentation_in_software_engineering	2007	K	L	V	582470	Ohjelmistojärjestelmät	Experimentation in Software Engineering		
+328	experimentation_in_software_engineering	2009	S	L	V	582470	Ohjelmistojärjestelmät	Experimentation in Software Engineering		
+329	algorithms_for_segmentation_problems	2005	K	L	V	582471	Ohjelmistojärjestelmät	Algorithms for segmentation problems		
+32	project_work	1995	S	L	?	58119	Selvitettävä	Project Work		
+330	spatial_information_management_and_data_analysis	2005	K	L	V	582472	Ohjelmistojärjestelmät	Spatial Information Management and Data Analysis		
+331	linear_algebra_methods_for_data_mining	2005	K	L	V	582473	Ohjelmistojärjestelmät	Linear Algebra Methods for Data Mining		
+331	linear_algebra_methods_for_data_mining	2007	K	L	V	582473	Ohjelmistojärjestelmät	Linear Algebra Methods for Data Mining		
+332	information_networks	2005	K	L	V	582474	Ohjelmistojärjestelmät	Information networks		
+333	information_visualization	2004	S	L	V	582475	Ohjelmistojärjestelmät	Information Visualization		
+334	distributed_artificial_intelligence	2005	K	L	V	582476	Algoritmit	Distributed Artificial Intelligence		
+335	parallel_functional_programming	2005	K	L	V	582477	Algoritmit	Parallel Functional Programming		
+336	design_and_development_of_speech_interfaces	2005	K	L	V	582479	Ohjelmistojärjestelmät	Design and Development of Speech Interfaces		
+337	machine_learning_in_bioinformatics	2005	K	L	V	582480	Bioinformatiikka	Machine Learning in Bio-informatics		
+338	causal_analysis	2005	S	L	V	582481	Algoritmit	Causal Analysis		
+338	causal_analysis	2006	S	L	V	582481	Algoritmit	Causal Analysis		
+338	causal_analysis	2008	S	L	V	582481	Algoritmit	Causal Analysis		
+339	database_design	2005	S	C	V	582482	Ohjelmistojärjestelmät	Database Design		
+339	database_design	2006	S	C	V	582482	Ohjelmistojärjestelmät	Database Design		
+339	database_design	2007	S	C	V	582482	Ohjelmistojärjestelmät	Database Design		
+339	database_design	2008	S	C	V	582482	Ohjelmistojärjestelmät	Database Design		
+339	database_design	2009	S	C	V	582482	Ohjelmistojärjestelmät	Database Design		
+339	database_design	2010	S	C	V	582482	Ohjelmistojärjestelmät	Database Design		
+339	database_design	2011	S	C	V	582482	Ohjelmistojärjestelmät	Database Design		
+340	biological_sequence_analysis	2005	S	L	V	582483	Bioinformatiikka	Biological Sequence Analysis		
+340	biological_sequence_analysis	2007	K	L	V	582483	Bioinformatiikka	Biological Sequence Analysis		
+340	biological_sequence_analysis	2008	K	L	V	582483	Bioinformatiikka	Biological Sequence Analysis		
+340	biological_sequence_analysis	2008	S	L	V	582483	Bioinformatiikka	Biological Sequence Analysis		
+340	biological_sequence_analysis	2011	K	L	V	582483	Bioinformatiikka	Biological Sequence Analysis		
+340	biological_sequence_analysis	2012	K	L	V	582483	Bioinformatiikka	Biological Sequence Analysis		
+341	algorithm_libraries	2006	K	L	V	582484	Algoritmit	Algorithm Libraries		
+342	algorithm_library_design	2006	K	L	V	582485	Algoritmit	Algorithm Library Design		
+343	convex_optimization	2006	K	L	V	582486	Algoritmit	Convex Optimization		
+344	data_compression_techniques	2006	K	L	V	582487	Algoritmit	Data Compression Techniques		
+344	data_compression_techniques	2008	S	L	V	582487	Algoritmit	Data Compression Techniques		
+344	data_compression_techniques	2012	K	L	V	582487	Algoritmit	Data Compression Techniques		
+345	models_and_algorithms_for_complex_networks	2006	K	L	V	582488	Algoritmit	Models and Algorithms for Complex Networks		
+347	transaction_processing	1996	S	L	V	581541	Ohjelmistojärjestelmät	Transaction processing -1999		
+347	transaction_processing	1998	S	L	V	581541	Ohjelmistojärjestelmät	Transaction processing -1999		
+347	transaction_processing	1999	S	L	V	581541	Ohjelmistojärjestelmät	Transaction processing -1999		
+347	transaction_processing	2006	K	L	V	582490	Ohjelmistojärjestelmät	Transaction Processing		
+347	transaction_processing	2007	K	L	V	582490	Ohjelmistojärjestelmät	Transaction Processing		
+347	transaction_processing	2007	S	L	V	582490	Ohjelmistojärjestelmät	Transaction Processing		
+347	transaction_processing	2008	S	L	V	582490	Ohjelmistojärjestelmät	Transaction Processing		
+347	transaction_processing	2009	S	L	V	582490	Ohjelmistojärjestelmät	Transaction Processing		
+347	transaction_processing	2010	S	L	V	582490	Ohjelmistojärjestelmät	Transaction Processing		
+347	transaction_processing	2011	S	L	V	582490	Ohjelmistojärjestelmät	Transaction Processing		
+348	distributed_databases	2006	K	L	V	582491	Ohjelmistojärjestelmät	Distributed Databases		
+348	distributed_databases	2007	K	L	V	582491	Ohjelmistojärjestelmät	Distributed Databases		
+348	distributed_databases	2008	K	L	V	582491	Ohjelmistojärjestelmät	Distributed Databases		
+348	distributed_databases	2010	K	L	V	582491	Ohjelmistojärjestelmät	Distributed Databases		
+348	distributed_databases	2012	K	L	V	582491	Ohjelmistojärjestelmät	Distributed Databases		
+350	advanced_topics_in_databases	2005	K	L	V	582493	Ohjelmistojärjestelmät	Advanced Topics in Databases		
+351	probabilistic_logic_learning	2005	S	L	V	582494	Algoritmit	Probabilistic Logic Learning		
+352	componentbased_development	2006	K	L	V	582495	Hajaut.järj. ja tietoliikenne	Component-Based Development		
+355	internet_protocols	2006	S	L	V	582498	Hajaut.järj. ja tietoliikenne	Internet Protocols		
+355	internet_protocols	2007	S	L	V	582498	Hajaut.järj. ja tietoliikenne	Internet Protocols		
+355	internet_protocols	2008	S	L	V	582498	Hajaut.järj. ja tietoliikenne	Internet Protocols		
+355	internet_protocols	2009	S	L	V	582498	Hajaut.järj. ja tietoliikenne	Internet Protocols		
+355	internet_protocols	2010	S	L	V	582498	Hajaut.järj. ja tietoliikenne	Internet Protocols		
+355	internet_protocols	2011	S	L	V	582498	Hajaut.järj. ja tietoliikenne	Internet Protocols		
+356	aspect_oriented_programming	2006	K	L	V	582499	Ohjelmistojärjestelmät	Aspect Oriented Programming		
+356	aspect_oriented_programming	2006	V	L	V	582499	Ohjelmistojärjestelmät	Aspect Oriented Programming		
+357	provisions_for_a_good_performance	2001	K	M	V	582501	Ei suuntautumisvaihtoehtoa	Provisions for a good performance		
+358	writing_scientific_english	2001	K	L	V	582503	Ei suuntautumisvaihtoehtoa	Writing Scientific English		
+358	writing_scientific_english	2008	S	L	V	582503	Ei suuntautumisvaihtoehtoa	Writing Scientific English		
+359	study_group_for_mathematics	2002	S	M	V	582504	Ei suuntautumisvaihtoehtoa	Study group for Mathematics		
+359	study_group_for_mathematics	2003	K	M	V	582504	Ei suuntautumisvaihtoehtoa	Study group for Mathematics		
+359	study_group_for_mathematics	2003	S	M	V	582504	Ei suuntautumisvaihtoehtoa	Study group for Mathematics		
+35	computer_systems_organization	1995	K	C	P	58123	Hajaut.järj. ja tietoliikenne	Computer Systems Organization -1999		
+35	computer_systems_organization	1995	S	C	P	58123	Hajaut.järj. ja tietoliikenne	Computer Systems Organization -1999		
+35	computer_systems_organization	1995	V	C	P	58123	Hajaut.järj. ja tietoliikenne	Computer Systems Organization -1999		
+35	computer_systems_organization	1996	K	C	P	58123	Hajaut.järj. ja tietoliikenne	Computer Systems Organization -1999		
+35	computer_systems_organization	1996	S	C	P	58123	Hajaut.järj. ja tietoliikenne	Computer Systems Organization -1999		
+35	computer_systems_organization	1996	V	C	P	58123	Hajaut.järj. ja tietoliikenne	Computer Systems Organization -1999		
+35	computer_systems_organization	1997	K	C	P	58123	Hajaut.järj. ja tietoliikenne	Computer Systems Organization -1999		
+35	computer_systems_organization	1997	S	C	P	58123	Hajaut.järj. ja tietoliikenne	Computer Systems Organization -1999		
+35	computer_systems_organization	1998	K	C	P	58123	Hajaut.järj. ja tietoliikenne	Computer Systems Organization -1999		
+35	computer_systems_organization	1998	S	C	P	58123	Hajaut.järj. ja tietoliikenne	Computer Systems Organization -1999		
+35	computer_systems_organization	1999	K	C	P	58123	Hajaut.järj. ja tietoliikenne	Computer Systems Organization -1999		
+35	computer_systems_organization	1999	S	C	P	58123	Hajaut.järj. ja tietoliikenne	Computer Systems Organization -1999		
+360	first_language_communication	2005	S	K	P	582505	Ei suuntautumisvaihtoehtoa	First Language Communication		
+360	first_language_communication	2006	K	K	P	582505	Ei suuntautumisvaihtoehtoa	First Language Communication		
+360	first_language_communication	2008	S	K	P	582505	Ei suuntautumisvaihtoehtoa	First Language Communication		
+360	first_language_communication	2009	K	K	P	582505	Ei suuntautumisvaihtoehtoa	First Language Communication		
+360	first_language_communication	2010	S	K	P	582505	Ei suuntautumisvaihtoehtoa	First Language Communication		
+360	first_language_communication	2011	K	K	P	582505	Ei suuntautumisvaihtoehtoa	First Language Communication		
+361	research_data_retrieval	2005	S	T	P	582506	Ei suuntautumisvaihtoehtoa	Research Data Retrieval		
+361	research_data_retrieval	2006	K	T	P	582506	Ei suuntautumisvaihtoehtoa	Research Data Retrieval		
+361	research_data_retrieval	2008	S	T	P	582506	Ei suuntautumisvaihtoehtoa	Research Data Retrieval		
+361	research_data_retrieval	2009	K	T	P	582506	Ei suuntautumisvaihtoehtoa	Research Data Retrieval		
+361	research_data_retrieval	2010	S	T	P	582506	Ei suuntautumisvaihtoehtoa	Research Data Retrieval		
+361	research_data_retrieval	2011	K	T	P	582506	Ei suuntautumisvaihtoehtoa	Research Data Retrieval		
+362	personal_study_plan_and_participating_in_teacher_tutoring	2005	S	M	P	582507	Ei suuntautumisvaihtoehtoa	Personal Study Plan and Participating in Teacher T		
+362	personal_study_plan_and_participating_in_teacher_tutoring	2006	K	M	P	582507	Ei suuntautumisvaihtoehtoa	Personal Study Plan and Participating in Teacher T		
+362	personal_study_plan_and_participating_in_teacher_tutoring	2006	S	M	P	582507	Ei suuntautumisvaihtoehtoa	Personal Study Plan and Participating in Teacher T		
+362	personal_study_plan_and_participating_in_teacher_tutoring	2007	K	M	P	582507	Ei suuntautumisvaihtoehtoa	Personal Study Plan and Participating in Teacher T		
+362	personal_study_plan_and_participating_in_teacher_tutoring	2007	S	M	P	582507	Ei suuntautumisvaihtoehtoa	Personal Study Plan and Participating in Teacher T		
+362	personal_study_plan_and_participating_in_teacher_tutoring	2008	S	M	P	582507	Ei suuntautumisvaihtoehtoa	Personal Study Plan and Participating in Teacher T		
+362	personal_study_plan_and_participating_in_teacher_tutoring	2009	K	M	P	582507	Ei suuntautumisvaihtoehtoa	Personal Study Plan and Participating in Teacher T		
+362	personal_study_plan_and_participating_in_teacher_tutoring	2009	S	M	P	582507	Ei suuntautumisvaihtoehtoa	Personal Study Plan and Participating in Teacher T		
+362	personal_study_plan_and_participating_in_teacher_tutoring	2010	S	M	P	582507	Ei suuntautumisvaihtoehtoa	Personal Study Plan and Participating in Teacher T		
+363	jobmarketorientation_for_software_engineering_project	2010	S	M	V	582508	Ohjelmistojärjestelmät	Jobmarketorientation for Software Engineering Proj		
+363	jobmarketorientation_for_software_engineering_project	2011	K	M	V	582508	Ohjelmistojärjestelmät	Jobmarketorientation for Software Engineering Proj		
+364	personal_study_plan_for_msc_students	2008	S	M	P	582510	Ei suuntautumisvaihtoehtoa	Personal Study Plan for MSc Students		
+364	personal_study_plan_for_msc_students	2009	K	M	P	582510	Ei suuntautumisvaihtoehtoa	Personal Study Plan for MSc Students		
+364	personal_study_plan_for_msc_students	2010	S	M	P	582510	Ei suuntautumisvaihtoehtoa	Personal Study Plan for MSc Students		
+365	studying_techniques	2008	S	M	P	582513	Selvitettävä	Studying Techniques		
+365	studying_techniques	2009	K	M	P	582513	Selvitettävä	Studying Techniques		
+365	studying_techniques	2009	S	M	P	582513	Selvitettävä	Studying Techniques		
+365	studying_techniques	2010	K	M	P	582513	Selvitettävä	Studying Techniques		
+365	studying_techniques	2010	S	M	P	582513	Selvitettävä	Studying Techniques		
+366	ict_driving_license	2008	S	T	P	582514	Selvitettävä	ICT Driving License		
+366	ict_driving_license	2009	K	T	P	582514	Selvitettävä	ICT Driving License		
+366	ict_driving_license	2009	S	T	P	582514	Selvitettävä	ICT Driving License		
+366	ict_driving_license	2010	K	T	P	582514	Selvitettävä	ICT Driving License		
+366	ict_driving_license	2010	S	T	P	582514	Selvitettävä	ICT Driving License		
+367	information_technology_as_a_profession	2009	K	M	V	582515	Selvitettävä	Information Technology as a Profession		
+368	software_factory_work_experience	2010	K	M	V	582516	Ei suuntautumisvaihtoehtoa	Software Factory Work Experience		
+368	software_factory_work_experience	2010	S	M	V	582516	Ei suuntautumisvaihtoehtoa	Software Factory Work Experience		
+368	software_factory_work_experience	2010	V	M	V	582516	Ei suuntautumisvaihtoehtoa	Software Factory Work Experience		
+368	software_factory_work_experience	2011	K	M	V	582516	Ei suuntautumisvaihtoehtoa	Software Factory Work Experience		
+368	software_factory_work_experience	2011	S	M	V	582516	Ei suuntautumisvaihtoehtoa	Software Factory Work Experience		
+368	software_factory_work_experience	2011	V	M	V	582516	Ei suuntautumisvaihtoehtoa	Software Factory Work Experience		
+368	software_factory_work_experience	2012	K	M	V	582516	Ei suuntautumisvaihtoehtoa	Software Factory Work Experience		
+369	orientation_to_msc_studies	2010	S	M	V	582517	Ei suuntautumisvaihtoehtoa	Orientation to MSc Studies		
+36	ai_languages	1995	S	A	?	581241	Yleinen	AI Languages		
+36	ai_languages	1996	S	A	?	581241	Yleinen	AI Languages		
+36	ai_languages	1997	S	A	?	581241	Yleinen	AI Languages		
+370	spatial_data_mining	2007	K	L	V	582600	Ohjelmistojärjestelmät	Spatial Data Mining		
+370	spatial_data_mining	2008	K	L	V	582600	Ohjelmistojärjestelmät	Spatial Data Mining		
+371	xml_databases	2006	S	L	V	582601	Ohjelmistojärjestelmät	XML Databases		
+371	xml_databases	2010	K	L	V	582601	Ohjelmistojärjestelmät	XML Databases		
+373	advanced_data_structures	2007	K	L	V	582603	Algoritmit	Advanced Data Structures		
+374	practical_course_in_biodatabases	2006	S	L	V	582604	Bioinformatiikka	Practical Course in Biodatabases		
+374	practical_course_in_biodatabases	2007	S	L	V	582604	Bioinformatiikka	Practical Course in Biodatabases		
+374	practical_course_in_biodatabases	2009	K	L	V	582604	Bioinformatiikka	Practical Course in Biodatabases		
+374	practical_course_in_biodatabases	2010	K	L	V	582604	Bioinformatiikka	Practical Course in Biodatabases		
+376	elements_of_bioinformatics	2003	S	L	V	582313	Bioinformatiikka	Elements of Bioinformatics -2005		
+376	elements_of_bioinformatics	2004	S	L	V	582313	Bioinformatiikka	Elements of Bioinformatics -2005		
+376	elements_of_bioinformatics	2005	S	L	V	582313	Bioinformatiikka	Elements of Bioinformatics -2005		
+376	elements_of_bioinformatics	2006	S	L	V	582606	Bioinformatiikka	Elements of Bioinformatics		
+376	elements_of_bioinformatics	2007	S	L	V	582606	Bioinformatiikka	Elements of Bioinformatics		
+376	elements_of_bioinformatics	2008	S	L	V	582606	Bioinformatiikka	Elements of Bioinformatics		
+376	elements_of_bioinformatics	2009	S	L	V	582606	Bioinformatiikka	Elements of Bioinformatics		
+376	elements_of_bioinformatics	2010	S	L	V	582606	Bioinformatiikka	Elements of Bioinformatics		
+376	elements_of_bioinformatics	2011	S	L	V	582606	Bioinformatiikka	Elements of Bioinformatics		
+377	protocol_software_engineering	2007	K	L	V	582607	Hajaut.järj. ja tietoliikenne	Protocol Software Engineering		
+377	protocol_software_engineering	2008	K	L	V	582607	Hajaut.järj. ja tietoliikenne	Protocol Software Engineering		
+378	internet_technologies_for_mobile_computing	2006	K	L	V	582608	Hajaut.järj. ja tietoliikenne	Internet Technologies for Mobile Computing		
+379	advances_in_data_mining	2006	K	L	V	582609	Ohjelmistojärjestelmät	Advances in Data Mining		
+379	advances_in_data_mining	2006	V	L	V	582609	Ohjelmistojärjestelmät	Advances in Data Mining		
+37	computing_methodologies	1995	K	A	?	581242	Yleinen	Computing Methodologies		
+37	computing_methodologies	1995	S	A	?	581242	Yleinen	Computing Methodologies		
+37	computing_methodologies	1996	S	A	?	581242	Yleinen	Computing Methodologies		
+380	performance_issues_in_mobile_computing_and_communication	2006	S	L	V	582610	Hajaut.järj. ja tietoliikenne	Performance Issues in Mobile Computing and Communi		
+380	performance_issues_in_mobile_computing_and_communication	2007	S	L	V	582610	Hajaut.järj. ja tietoliikenne	Performance Issues in Mobile Computing and Communi		
+381	game_programming	2006	S	L	V	582611	Ohjelmistojärjestelmät	Game Programming		
+382	practical_course_in_microarray_data_analysis	2007	K	L	V	582612	Bioinformatiikka	Practical Course in Microarray Data Analysis		
+384	artificial_intelligence_for_games	2007	S	L	V	582614	Ohjelmistojärjestelmät	Artificial Intelligence for Games		
+385	overlay_and_p2p_networks	2008	K	L	V	582615	Hajaut.järj. ja tietoliikenne	Overlay and P2P Networks		
+385	overlay_and_p2p_networks	2008	S	L	V	582615	Hajaut.järj. ja tietoliikenne	Overlay and P2P Networks		
+385	overlay_and_p2p_networks	2010	S	L	V	582615	Hajaut.järj. ja tietoliikenne	Overlay and P2P Networks		
+385	overlay_and_p2p_networks	2011	S	L	V	582615	Hajaut.järj. ja tietoliikenne	Overlay and P2P Networks		
+386	design_of_algorithms_ii	2008	K	L	V	582616	Algoritmit	Design of Algorithms II		
+387	software_design	2008	K	L	V	582617	Ohjelmistojärjestelmät	Software Design		
+388	proteomics_and_bioinformatics	2007	V	L	V	582618	Bioinformatiikka	Proteomics and Bioinformatics		
+389	sensing_actuation_and_computation	2007	V	L	V	582619	Algoritmit	Sensing, Actuation, and Computation		
+38	wireless_data_communication	1996	K	L	?	581243	Ohjelmistojärjestelmät	Wireless Data Communication		
+38	wireless_data_communication	1997	K	L	?	581243	Ohjelmistojärjestelmät	Wireless Data Communication		
+38	wireless_data_communication	1998	K	L	?	581243	Ohjelmistojärjestelmät	Wireless Data Communication		
+390	intensive_course_on_modeling_biological_networks	2007	V	L	V	582620	Bioinformatiikka	Intensive Course on Modeling Biological Networks		
+392	design_and_analysis_of_algorithms	1996	K	L	V	58053	Algoritmit	Design and Analysis of Algorithms -2006		
+392	design_and_analysis_of_algorithms	1997	K	L	V	58053	Algoritmit	Design and Analysis of Algorithms -2006		
+392	design_and_analysis_of_algorithms	1998	K	L	V	58053	Algoritmit	Design and Analysis of Algorithms -2006		
+392	design_and_analysis_of_algorithms	1999	K	L	V	58053	Algoritmit	Design and Analysis of Algorithms -2006		
+392	design_and_analysis_of_algorithms	2000	K	L	V	58053	Algoritmit	Design and Analysis of Algorithms -2006		
+392	design_and_analysis_of_algorithms	2001	K	L	V	58053	Algoritmit	Design and Analysis of Algorithms -2006		
+392	design_and_analysis_of_algorithms	2002	K	L	V	58053	Algoritmit	Design and Analysis of Algorithms -2006		
+392	design_and_analysis_of_algorithms	2003	K	L	V	58053	Algoritmit	Design and Analysis of Algorithms -2006		
+392	design_and_analysis_of_algorithms	2004	K	L	V	58053	Algoritmit	Design and Analysis of Algorithms -2006		
+392	design_and_analysis_of_algorithms	2005	K	L	V	58053	Algoritmit	Design and Analysis of Algorithms -2006		
+392	design_and_analysis_of_algorithms	2006	K	L	V	58053	Algoritmit	Design and Analysis of Algorithms -2006		
+392	design_and_analysis_of_algorithms	2008	S	L	P	582630	Algoritmit	Design and Analysis of Algorithms		
+392	design_and_analysis_of_algorithms	2009	S	L	P	582630	Algoritmit	Design and Analysis of Algorithms		
+392	design_and_analysis_of_algorithms	2010	S	L	P	582630	Algoritmit	Design and Analysis of Algorithms		
+392	design_and_analysis_of_algorithms	2011	S	L	P	582630	Algoritmit	Design and Analysis of Algorithms		
+393	introduction_to_machine_learning	2008	S	L	P	582631	Algoritmit	Introduction to Machine Learning		
+393	introduction_to_machine_learning	2009	S	L	P	582631	Algoritmit	Introduction to Machine Learning		
+393	introduction_to_machine_learning	2010	S	L	P	582631	Algoritmit	Introduction to Machine Learning		
+393	introduction_to_machine_learning	2011	S	L	P	582631	Algoritmit	Introduction to Machine Learning		
+394	discrete_optimization	2008	S	L	V	582632	Algoritmit	Discrete optimization		
+394	discrete_optimization	2009	S	L	V	582632	Algoritmit	Discrete optimization		
+394	discrete_optimization	2011	S	L	V	582632	Algoritmit	Discrete optimization		
+395	discrete_optimization_project	2009	K	L	V	582633	Algoritmit	Discrete Optimization Project		
+395	discrete_optimization_project	2010	K	L	V	582633	Algoritmit	Discrete Optimization Project		
+395	discrete_optimization_project	2011	K	L	V	582633	Algoritmit	Discrete Optimization Project		
+396	data_mining	1997	K	L	V	581550	Ohjelmistojärjestelmät	Data Mining -2002		
+396	data_mining	1998	S	L	V	581550	Ohjelmistojärjestelmät	Data Mining -2002		
+396	data_mining	2000	S	L	V	581550	Ohjelmistojärjestelmät	Data Mining -2002		
+396	data_mining	2001	S	L	V	581550	Ohjelmistojärjestelmät	Data Mining -2002		
+396	data_mining	2002	S	L	V	581550	Ohjelmistojärjestelmät	Data Mining -2002		
+396	data_mining	2009	K	L	V	582634	Algoritmit	Data Mining		
+396	data_mining	2010	K	L	V	582634	Algoritmit	Data Mining		
+396	data_mining	2011	K	L	V	582634	Algoritmit	Data Mining		
+396	data_mining	2012	K	L	V	582634	Algoritmit	Data Mining		
+397	data_mining_project	2009	K	L	V	582635	Algoritmit	Data Mining Project		
+397	data_mining_project	2010	K	L	V	582635	Algoritmit	Data Mining Project		
+397	data_mining_project	2011	K	L	V	582635	Algoritmit	Data Mining Project		
+397	data_mining_project	2012	K	L	V	582635	Algoritmit	Data Mining Project		
+398	probabilistic_models	2009	K	L	V	582636	Algoritmit	Probabilistic Models		
+398	probabilistic_models	2010	K	L	V	582636	Algoritmit	Probabilistic Models		
+398	probabilistic_models	2011	K	L	V	582636	Algoritmit	Probabilistic Models		
+398	probabilistic_models	2012	K	L	V	582636	Algoritmit	Probabilistic Models		
+399	project_in_probabilistic_models	2009	K	L	V	582637	Algoritmit	Project in Probabilistic Models		
+399	project_in_probabilistic_models	2010	K	L	V	582637	Algoritmit	Project in Probabilistic Models		
+399	project_in_probabilistic_models	2011	K	L	V	582637	Algoritmit	Project in Probabilistic Models		
+399	project_in_probabilistic_models	2012	K	L	V	582637	Algoritmit	Project in Probabilistic Models		
+39	complex_computation_systems	1995	S	L	?	581244	Yleinen	Complex Computation Systems		
+3	modelling_inheritance_in_pedigrees_and_populations	2010	K	L	V	57734	Bioinformatiikka	Modelling inheritance in pedigrees and populations		
+400	unsupervised_machine_learning	2009	K	L	V	582638	Algoritmit	Unsupervised Machine Learning		
+400	unsupervised_machine_learning	2010	K	L	V	582638	Algoritmit	Unsupervised Machine Learning		
+400	unsupervised_machine_learning	2011	K	L	V	582638	Algoritmit	Unsupervised Machine Learning		
+400	unsupervised_machine_learning	2012	K	L	V	582638	Algoritmit	Unsupervised Machine Learning		
+401	special_topics_in_computational_geometry_motion_planning_and_shape_approximation	2009	K	L	V	582639	Algoritmit	Special Topics in Computational Geometry: Motion P		
+402	operating_systems	2000	S	C	P	581331	Hajaut.järj. ja tietoliikenne	Operating Systems -2005		
+402	operating_systems	2001	S	C	P	581331	Hajaut.järj. ja tietoliikenne	Operating Systems -2005		
+402	operating_systems	2002	K	C	P	581331	Hajaut.järj. ja tietoliikenne	Operating Systems -2005		
+402	operating_systems	2002	S	C	P	581331	Hajaut.järj. ja tietoliikenne	Operating Systems -2005		
+402	operating_systems	2003	K	C	P	581331	Hajaut.järj. ja tietoliikenne	Operating Systems -2005		
+402	operating_systems	2003	S	C	P	581331	Hajaut.järj. ja tietoliikenne	Operating Systems -2005		
+402	operating_systems	2004	S	C	P	581331	Hajaut.järj. ja tietoliikenne	Operating Systems -2005		
+402	operating_systems	2005	S	C	P	581331	Hajaut.järj. ja tietoliikenne	Operating Systems -2005		
+402	operating_systems	2006	S	L	V	582497	Hajaut.järj. ja tietoliikenne	Operating Systems		
+402	operating_systems	2007	S	L	V	582497	Hajaut.järj. ja tietoliikenne	Operating Systems		
+402	operating_systems	2008	S	C	V	582640	Hajaut.järj. ja tietoliikenne	Operating Systems		
+402	operating_systems	2009	S	C	V	582640	Hajaut.järj. ja tietoliikenne	Operating Systems		
+402	operating_systems	2010	S	C	V	582640	Hajaut.järj. ja tietoliikenne	Operating Systems		
+402	operating_systems	2011	S	C	V	582640	Hajaut.järj. ja tietoliikenne	Operating Systems		
+403	collaboration_of_autonomous_business_services	2005	K	L	V	582464	Hajaut.järj. ja tietoliikenne	Collaboration of Autonomous Business Services -200		
+403	collaboration_of_autonomous_business_services	2005	S	L	V	582464	Hajaut.järj. ja tietoliikenne	Collaboration of Autonomous Business Services -200		
+403	collaboration_of_autonomous_business_services	2009	K	L	V	582641	Hajaut.järj. ja tietoliikenne	Collaboration of Autonomous Business Services		
+403	collaboration_of_autonomous_business_services	2010	K	L	V	582641	Hajaut.järj. ja tietoliikenne	Collaboration of Autonomous Business Services		
+403	collaboration_of_autonomous_business_services	2011	K	L	V	582641	Hajaut.järj. ja tietoliikenne	Collaboration of Autonomous Business Services		
+403	collaboration_of_autonomous_business_services	2012	K	L	V	582641	Hajaut.järj. ja tietoliikenne	Collaboration of Autonomous Business Services		
+404	serviceoriented_software_engineering	2010	K	L	V	582642	Ohjelmistojärjestelmät	Service-Oriented Software Engineering		
+404	serviceoriented_software_engineering	2012	K	L	V	582642	Ohjelmistojärjestelmät	Service-Oriented Software Engineering		
+405	programming_in_scala	2008	V	L	V	582643	Ohjelmistojärjestelmät	Programming in Scala		
+406	short_course_in_parallel_programming_using_mpi	2008	S	L	V	582644	Hajaut.järj. ja tietoliikenne	Short Course in Parallel Programming Using MPI		
+407	software_quality_processes_and_organizations	2008	S	L	V	582645	Ohjelmistojärjestelmät	Software Quality, Processes, and Organizations		
+408	mobile_middleware	2009	K	L	V	582646	Hajaut.järj. ja tietoliikenne	Mobile Middleware		
+408	mobile_middleware	2010	K	L	V	582646	Hajaut.järj. ja tietoliikenne	Mobile Middleware		
+408	mobile_middleware	2011	K	L	V	582646	Hajaut.järj. ja tietoliikenne	Mobile Middleware		
+408	mobile_middleware	2012	K	L	V	582646	Hajaut.järj. ja tietoliikenne	Mobile Middleware		
+409	graph_mining	2009	K	L	V	582647	Algoritmit	Graph Mining		
+40	algorithms_for_parallel_computation	1995	S	L	?	581245	Yleinen	Algorithms for Parallel Computation		
+410	compilers_project	2009	K	L	V	582648	Ohjelmistojärjestelmät	Compilers Project		
+410	compilers_project	2010	K	L	V	582648	Ohjelmistojärjestelmät	Compilers Project		
+410	compilers_project	2010	S	L	V	582648	Ohjelmistojärjestelmät	Compilers Project		
+410	compilers_project	2011	K	L	V	582648	Ohjelmistojärjestelmät	Compilers Project		
+410	compilers_project	2012	K	L	V	582648	Ohjelmistojärjestelmät	Compilers Project		
+411	complex_networks_and_data_mining	2009	S	L	V	582649	Algoritmit	Complex Networks and Data Mining		
+412	informationtheoretic_modeling	2009	S	L	V	582650	Algoritmit	Information-Theoretic Modeling		
+413	project_in_informationtheoretic_modeling	2009	S	L	V	582651	Algoritmit	Project in Information-Theoretic Modeling		
+414	designing_and_implementing_serviceoriented_business_processes	2009	S	L	V	582652	Ohjelmistojärjestelmät	Designing and Implementing Service-Oriented Busine		
+414	designing_and_implementing_serviceoriented_business_processes	2011	S	L	V	582652	Ohjelmistojärjestelmät	Designing and Implementing Service-Oriented Busine		
+415	computational_methods_of_systems_biology	2009	S	L	V	582653	Bioinformatiikka	Computational Methods of Systems Biology		
+415	computational_methods_of_systems_biology	2011	K	L	V	582653	Bioinformatiikka	Computational Methods of Systems Biology		
+415	computational_methods_of_systems_biology	2012	K	L	V	582653	Bioinformatiikka	Computational Methods of Systems Biology		
+416	assignment_in_mobile_middleware	2009	V	L	V	582654	Hajaut.järj. ja tietoliikenne	Assignment in Mobile Middleware		
+417	formal_type_theory	2009	S	L	V	582655	Algoritmit	Formal Type Theory		
+418	usability_engineering	2009	S	L	V	582656	Ohjelmistojärjestelmät	Usability Engineering		
+419	qt_codecamp	2009	S	L	V	582657	Hajaut.järj. ja tietoliikenne	QT CodeCamp		
+41	foundations_in_software_engineering	1995	S	L	?	581246	Ohjelmistojärjestelmät	Foundations in Software Engineering		
+420	performance_modelling_for_wireless_data_communication	2009	S	L	V	582658	Hajaut.järj. ja tietoliikenne	Performance Modelling for Wireless Data Communicat		
+421	software_factory_project	2010	K	L	V	582659	Ohjelmistojärjestelmät	Software Factory Project		
+421	software_factory_project	2010	S	L	V	582659	Ohjelmistojärjestelmät	Software Factory Project		
+421	software_factory_project	2010	V	L	V	582659	Ohjelmistojärjestelmät	Software Factory Project		
+421	software_factory_project	2011	K	L	V	582659	Ohjelmistojärjestelmät	Software Factory Project		
+421	software_factory_project	2011	S	L	V	582659	Ohjelmistojärjestelmät	Software Factory Project		
+421	software_factory_project	2011	V	L	V	582659	Ohjelmistojärjestelmät	Software Factory Project		
+421	software_factory_project	2012	K	L	V	582659	Ohjelmistojärjestelmät	Software Factory Project		
+422	usability_evaluation	2010	K	L	V	582660	Ohjelmistojärjestelmät	Usability Evaluation		
+422	usability_evaluation	2011	S	L	V	582660	Ohjelmistojärjestelmät	Usability Evaluation		
+423	deterministic_distributed_algorithms	2010	K	L	V	582661	Algoritmit	Deterministic Distributed Algorithms		
+423	deterministic_distributed_algorithms	2012	K	L	V	582661	Algoritmit	Deterministic Distributed Algorithms		
+424	game_engine_architecture	2011	K	L	V	582662	Ohjelmistojärjestelmät	Game Engine Architecture		
+425	software_architecture_project	2010	S	L	V	582663	Ohjelmistojärjestelmät	Software Architecture Project		
+425	software_architecture_project	2011	K	L	V	582663	Ohjelmistojärjestelmät	Software Architecture Project		
+425	software_architecture_project	2011	S	L	V	582663	Ohjelmistojärjestelmät	Software Architecture Project		
+425	software_architecture_project	2012	K	L	V	582663	Ohjelmistojärjestelmät	Software Architecture Project		
+426	distributed_systems_project	2011	K	L	V	582665	Hajaut.järj. ja tietoliikenne	Distributed Systems Project		
+426	distributed_systems_project	2012	K	L	V	582665	Hajaut.järj. ja tietoliikenne	Distributed Systems Project		
+427	interactive_systems	2011	K	L	V	582666	Hajaut.järj. ja tietoliikenne	Interactive Systems		
+427	interactive_systems	2011	S	L	V	582666	Hajaut.järj. ja tietoliikenne	Interactive Systems		
+428	business_process_automation	2011	K	L	V	582667	Hajaut.järj. ja tietoliikenne	Business Process Automation		
+429	project_in_string_processing_algorithms	2011	K	L	V	582668	Algoritmit	Project in String Processing Algorithms		
+429	project_in_string_processing_algorithms	2012	K	L	V	582668	Algoritmit	Project in String Processing Algorithms		
+42	introduction_to_document_preparation	1996	K	A	?	581249	Ohjelmistojärjestelmät	Introduction to Document Preparation		
+42	introduction_to_document_preparation	1997	K	A	?	581249	Ohjelmistojärjestelmät	Introduction to Document Preparation		
+430	supervised_machine_learning	2011	K	L	V	582669	Algoritmit	Supervised Machine Learning		
+430	supervised_machine_learning	2012	K	L	V	582669	Algoritmit	Supervised Machine Learning		
+431	algorithms_for_bioinformatics	2010	S	C	V	582670	Bioinformatiikka	Algorithms for Bioinformatics		
+431	algorithms_for_bioinformatics	2011	S	C	V	582670	Bioinformatiikka	Algorithms for Bioinformatics		
+432	graph_mining__motivation_algorithms_and_applications	2010	K	L	V	582671	Algoritmit	Graph Mining - Motivation, Algorithms and Applicat		
+433	psirp_codecamp	2010	K	L	V	582672	Hajaut.järj. ja tietoliikenne	PSIRP Codecamp		
+434	computational_genotype_analysis	2010	S	L	V	582673	Bioinformatiikka	Computational Genotype Analysis		
+435	projects_in_unsupervised_machine_learning	2011	K	L	V	582674	Algoritmit	Projects in Unsupervised Machine Learning		
+435	projects_in_unsupervised_machine_learning	2012	K	L	V	582674	Algoritmit	Projects in Unsupervised Machine Learning		
+436	networks_crowds_and_markets	2011	K	L	V	582675	Algoritmit	Networks, Crowds and Markets		
+437	project_in_biological_sequence_analysis	2012	K	L	V	582676	Bioinformatiikka	Project in Biological Sequence Analysis		
+438	intensive_course_on_population_genetics	2011	V	L	V	582677	Bioinformatiikka	Intensive course on population genetics		
+439	software_measurement_and_quality_modeling	2011	S	L	V	582678	Ohjelmistojärjestelmät	Software Measurement and Quality Modeling		
+440	phd_student_seminar	2009	K	J	P	582710	Selvitettävä	PhD Student Seminar		
+440	phd_student_seminar	2009	S	J	P	582710	Selvitettävä	PhD Student Seminar		
+440	phd_student_seminar	2010	K	J	P	582710	Selvitettävä	PhD Student Seminar		
+440	phd_student_seminar	2011	K	J	P	582710	Selvitettävä	PhD Student Seminar		
+440	phd_student_seminar	2012	K	J	P	582710	Selvitettävä	PhD Student Seminar		
+441	research_ethics__everyday_questions_for_researchers	2008	V	L	P	582721	Ei suuntautumisvaihtoehtoa	Research Ethics - Everyday Questions for Researche		
+442	making_good_decisions_introduction_to_ethics_and_social_responsibility_in_research	2009	V	L	V	582724	Ei suuntautumisvaihtoehtoa	Making good decisions: Introduction to ethics and		
+442	making_good_decisions_introduction_to_ethics_and_social_responsibility_in_research	2011	K	L	V	582724	Ei suuntautumisvaihtoehtoa	Making good decisions: Introduction to ethics and		
+44	software_design_c	1996	S	C	V	581251	Ohjelmistojärjestelmät	Software Design (C++)		
+44	software_design_c	1997	S	C	V	581251	Ohjelmistojärjestelmät	Software Design (C++)		
+44	software_design_c	1999	K	C	V	581251	Ohjelmistojärjestelmät	Software Design (C++)		
+44	software_design_c	1999	S	C	V	581251	Ohjelmistojärjestelmät	Software Design (C++)		
+44	software_design_c	2000	S	C	V	581251	Ohjelmistojärjestelmät	Software Design (C++)		
+44	software_design_c	2001	S	C	V	581251	Ohjelmistojärjestelmät	Software Design (C++)		
+44	software_design_c	2003	S	C	V	581251	Ohjelmistojärjestelmät	Software Design (C++)		
+44	software_design_c	2004	S	C	V	581251	Ohjelmistojärjestelmät	Software Design (C++)		
+44	software_design_c	2005	S	C	V	581251	Ohjelmistojärjestelmät	Software Design (C++)		
+44	software_design_c	2006	S	C	V	581251	Ohjelmistojärjestelmät	Software Design (C++)		
+44	software_design_c	2008	S	C	V	581251	Ohjelmistojärjestelmät	Software Design (C++)		
+44	software_design_c	2010	S	C	V	581251	Ohjelmistojärjestelmät	Software Design (C++)		
+453	natural_language_processing	2006	S	L	V	582602	Algoritmit	Natural Language Processing		
+453	natural_language_processing	2008	K	L	V	582602	Algoritmit	Natural Language Processing		
+453	natural_language_processing	2010	S	L	V	582602	Algoritmit	Natural Language Processing		
+453	natural_language_processing	2011	S	L	V	582602	Algoritmit	Natural Language Processing		
+457	network_security	2006	K	L	V	582489	Hajaut.järj. ja tietoliikenne	Network Security		
+458	software_agent_technology	2001	K	L	V	582407	Hajaut.järj. ja tietoliikenne	Software Agent Technology		
+458	software_agent_technology	2003	K	L	V	582407	Hajaut.järj. ja tietoliikenne	Software Agent Technology		
+458	software_agent_technology	2004	K	L	V	582407	Hajaut.järj. ja tietoliikenne	Software Agent Technology		
+458	software_agent_technology	2006	K	L	V	582407	Hajaut.järj. ja tietoliikenne	Software Agent Technology		
+45	robotics	1996	S	L	?	581252	Algoritmit	Robotics		
+45	robotics	1999	S	L	?	581252	Algoritmit	Robotics		
+45	robotics	2001	K	L	?	581252	Algoritmit	Robotics		
+48	temporal_logic_and_verification	1997	K	L	?	581255	Ohjelmistojärjestelmät	Temporal logic and verification		
+490	mobile_web_services	2005	S	L	V	582496	Hajaut.järj. ja tietoliikenne	Mobile Web Services		
+497	machine_learning	1996	K	L	V	58147	Algoritmit	Machine Learning		
+497	machine_learning	1999	K	L	V	58147	Algoritmit	Machine Learning		
+497	machine_learning	2002	K	L	V	58147	Algoritmit	Machine Learning		
+497	machine_learning	2005	K	L	V	58147	Algoritmit	Machine Learning		
+49	tutoring	1996	S	M	P	581256	Ei suuntautumisvaihtoehtoa	Tutoring		
+49	tutoring	1997	K	M	P	581256	Ei suuntautumisvaihtoehtoa	Tutoring		
+49	tutoring	1997	S	M	P	581256	Ei suuntautumisvaihtoehtoa	Tutoring		
+49	tutoring	1998	S	M	P	581256	Ei suuntautumisvaihtoehtoa	Tutoring		
+49	tutoring	1999	S	M	P	581256	Ei suuntautumisvaihtoehtoa	Tutoring		
+49	tutoring	2000	K	M	P	581256	Ei suuntautumisvaihtoehtoa	Tutoring		
+49	tutoring	2000	S	M	P	581256	Ei suuntautumisvaihtoehtoa	Tutoring		
+49	tutoring	2001	K	M	P	581256	Ei suuntautumisvaihtoehtoa	Tutoring		
+49	tutoring	2001	S	M	P	581256	Ei suuntautumisvaihtoehtoa	Tutoring		
+49	tutoring	2002	S	M	P	581256	Ei suuntautumisvaihtoehtoa	Tutoring		
+49	tutoring	2003	S	M	P	581256	Ei suuntautumisvaihtoehtoa	Tutoring		
+49	tutoring	2004	K	M	P	581256	Ei suuntautumisvaihtoehtoa	Tutoring		
+49	tutoring	2004	S	M	P	581256	Ei suuntautumisvaihtoehtoa	Tutoring		
+49	tutoring	2004	V	M	P	581256	Ei suuntautumisvaihtoehtoa	Tutoring		
+49	tutoring	2005	S	M	P	581256	Ei suuntautumisvaihtoehtoa	Tutoring		
+49	tutoring	2007	K	M	P	581256	Ei suuntautumisvaihtoehtoa	Tutoring		
+511	metabolic_modeling	2007	K	L	V	582605	Bioinformatiikka	Metabolic Modeling		
+511	metabolic_modeling	2009	K	L	V	582605	Bioinformatiikka	Metabolic Modeling		
+52	software_engineering	1997	S	C	P	581259	Ohjelmistojärjestelmät	Software Engineering		
+52	software_engineering	1998	K	C	P	581259	Ohjelmistojärjestelmät	Software Engineering		
+52	software_engineering	1998	S	C	P	581259	Ohjelmistojärjestelmät	Software Engineering		
+52	software_engineering	1999	S	C	P	581259	Ohjelmistojärjestelmät	Software Engineering		
+52	software_engineering	2000	K	C	P	581259	Ohjelmistojärjestelmät	Software Engineering		
+52	software_engineering	2000	S	C	P	581259	Ohjelmistojärjestelmät	Software Engineering		
+52	software_engineering	2001	K	C	P	581259	Ohjelmistojärjestelmät	Software Engineering		
+52	software_engineering	2001	S	C	P	581259	Ohjelmistojärjestelmät	Software Engineering		
+52	software_engineering	2002	K	C	P	581259	Ohjelmistojärjestelmät	Software Engineering		
+52	software_engineering	2002	S	C	P	581259	Ohjelmistojärjestelmät	Software Engineering		
+52	software_engineering	2003	K	C	P	581259	Ohjelmistojärjestelmät	Software Engineering		
+52	software_engineering	2003	S	C	P	581259	Ohjelmistojärjestelmät	Software Engineering		
+52	software_engineering	2004	K	C	P	581259	Ohjelmistojärjestelmät	Software Engineering		
+52	software_engineering	2004	S	C	P	581259	Ohjelmistojärjestelmät	Software Engineering		
+52	software_engineering	2005	K	C	P	581259	Ohjelmistojärjestelmät	Software Engineering		
+52	software_engineering	2005	S	C	P	581259	Ohjelmistojärjestelmät	Software Engineering		
+52	software_engineering	2006	K	C	P	581259	Ohjelmistojärjestelmät	Software Engineering		
+52	software_engineering	2006	S	C	P	581259	Ohjelmistojärjestelmät	Software Engineering		
+52	software_engineering	2007	K	C	P	581259	Ohjelmistojärjestelmät	Software Engineering		
+52	software_engineering	2008	K	C	P	581259	Ohjelmistojärjestelmät	Software Engineering		
+52	software_engineering	2009	K	C	P	581259	Ohjelmistojärjestelmät	Software Engineering		
+52	software_engineering	2010	K	C	P	581259	Ohjelmistojärjestelmät	Software Engineering		
+52	software_engineering	2011	K	C	P	581259	Ohjelmistojärjestelmät	Software Engineering		
+52	software_engineering	2012	K	C	P	581259	Ohjelmistojärjestelmät	Software Engineering		
+54	software_design_ada	1997	S	C	?	581263	Ohjelmistojärjestelmät	Software Design (Ada)		
+55	management_of_research_data	1997	S	C	?	581264	Ohjelmistojärjestelmät	Management of research data		
+55	management_of_research_data	1999	K	C	?	581264	Ohjelmistojärjestelmät	Management of research data		
+55	management_of_research_data	2000	K	C	?	581264	Ohjelmistojärjestelmät	Management of research data		
+55	management_of_research_data	2003	K	C	?	581264	Ohjelmistojärjestelmät	Management of research data		
+55	management_of_research_data	2004	K	C	?	581264	Ohjelmistojärjestelmät	Management of research data		
+56	digital_signal_processing	1997	S	C	?	581265	Sovellettu tietojenkäsittely	Digital Signal Processing		
+56	digital_signal_processing	1998	S	C	?	581265	Sovellettu tietojenkäsittely	Digital Signal Processing		
+56	digital_signal_processing	2000	K	C	?	581265	Sovellettu tietojenkäsittely	Digital Signal Processing		
+56	digital_signal_processing	2001	K	C	?	581265	Sovellettu tietojenkäsittely	Digital Signal Processing		
+57	wireless_telecommunication_networks	1997	S	C	V	581266	Hajaut.järj. ja tietoliikenne	Wireless Telecommunication Networks		
+58	plausible_inference_with_incomplete_information	1997	S	L	V	581267	Yleinen	Plausible inference with incomplete information		
+59	problem_solving	1997	S	L	V	581268	Algoritmit	Problem Solving		
+59	problem_solving	1998	K	L	V	581268	Algoritmit	Problem Solving		
+60	computational_biology	1997	S	L	?	581269	Bioinformatiikka	Computational Biology		
+60	computational_biology	1999	K	L	?	581269	Bioinformatiikka	Computational Biology		
+60	computational_biology	2001	S	L	?	581269	Bioinformatiikka	Computational Biology		
+629	practical_training_or_professional_orientation	2008	S	M	P	584402	Selvitettävä	Practical Training or Professional Orientation		
+629	practical_training_or_professional_orientation	2009	K	M	P	584402	Selvitettävä	Practical Training or Professional Orientation		
+62	introduction_to_image_processing	1998	K	L	V	581270	Algoritmit	Introduction to Image Processing		
+62	introduction_to_image_processing	1999	K	L	V	581270	Algoritmit	Introduction to Image Processing		
+630	advanced_internship_or_vocational_orientation_studies	2008	S	M	P	584403	Selvitettävä	Advanced Internship or Vocational Orientation Stud		
+630	advanced_internship_or_vocational_orientation_studies	2009	K	M	P	584403	Selvitettävä	Advanced Internship or Vocational Orientation Stud		
+631	english_academic__professional_skills_reading_writing__spoken_communication_cefr_b2	2009	S	K	V	99501	Ei suuntautumisvaihtoehtoa	English Academic & Professional Skills: Reading, W		
+631	english_academic__professional_skills_reading_writing__spoken_communication_cefr_b2	2010	S	K	V	99501	Ei suuntautumisvaihtoehtoa	English Academic & Professional Skills: Reading, W		
+63	image_processing_applications	1998	K	L	V	581271	Algoritmit	Image Processing Applications		
+65	principles_of_concurrent_programming_ii	1998	K	L	?	581275	Ohjelmistojärjestelmät	Principles of Concurrent Programming II		
+68	data_compression	1998	K	L	V	581284	Algoritmit	Data Compression		
+69	corba_architecture	1998	S	C	V	581285	Hajaut.järj. ja tietoliikenne	CORBA Architecture		
+70	three_concepts_information	1998	S	L	V	581286	Algoritmit	Three concepts: information		
+70	three_concepts_information	2000	K	L	V	581286	Algoritmit	Three concepts: information		
+70	three_concepts_information	2002	K	L	V	581286	Algoritmit	Three concepts: information		
+70	three_concepts_information	2005	K	L	V	581286	Algoritmit	Three concepts: information		
+70	three_concepts_information	2006	S	L	V	581286	Algoritmit	Three concepts: information		
+70	three_concepts_information	2007	S	L	V	581286	Algoritmit	Three concepts: information		
+71	three_concepts_probability	1999	K	L	V	581287	Algoritmit	Three concepts: probability		
+71	three_concepts_probability	2001	K	L	V	581287	Algoritmit	Three concepts: probability		
+71	three_concepts_probability	2004	K	L	V	581287	Algoritmit	Three concepts: probability		
+71	three_concepts_probability	2006	K	L	V	581287	Algoritmit	Three concepts: probability		
+71	three_concepts_probability	2007	K	L	V	581287	Algoritmit	Three concepts: probability		
+71	three_concepts_probability	2008	K	L	V	581287	Algoritmit	Three concepts: probability		
+72	computer_security	1999	K	L	V	581288	Hajaut.järj. ja tietoliikenne	Computer Security		
+72	computer_security	2000	K	L	V	581288	Hajaut.järj. ja tietoliikenne	Computer Security		
+72	computer_security	2001	K	L	V	581288	Hajaut.järj. ja tietoliikenne	Computer Security		
+72	computer_security	2002	K	L	V	581288	Hajaut.järj. ja tietoliikenne	Computer Security		
+72	computer_security	2003	K	L	V	581288	Hajaut.järj. ja tietoliikenne	Computer Security		
+72	computer_security	2004	K	L	V	581288	Hajaut.järj. ja tietoliikenne	Computer Security		
+72	computer_security	2005	S	L	V	581288	Hajaut.järj. ja tietoliikenne	Computer Security		
+72	computer_security	2006	S	L	V	581288	Hajaut.järj. ja tietoliikenne	Computer Security		
+72	computer_security	2007	S	L	V	581288	Hajaut.järj. ja tietoliikenne	Computer Security		
+72	computer_security	2008	S	L	V	581288	Hajaut.järj. ja tietoliikenne	Computer Security		
+73	advanced_topics_in_telecommunication_systems	1999	K	L	?	581289	Hajaut.järj. ja tietoliikenne	Advanced Topics in Telecommunication Systems		
+74	unix_platform	1995	K	C	?	58129	Hajaut.järj. ja tietoliikenne	UNIX Platform		
+74	unix_platform	1996	K	C	?	58129	Hajaut.järj. ja tietoliikenne	UNIX Platform		
+74	unix_platform	1997	K	C	?	58129	Hajaut.järj. ja tietoliikenne	UNIX Platform		
+74	unix_platform	1998	K	C	?	58129	Hajaut.järj. ja tietoliikenne	UNIX Platform		
+74	unix_platform	1999	K	C	?	58129	Hajaut.järj. ja tietoliikenne	UNIX Platform		
+74	unix_platform	2000	K	C	?	58129	Hajaut.järj. ja tietoliikenne	UNIX Platform		
+75	managing_structured_documents	1999	K	L	V	581290	Ohjelmistojärjestelmät	Managing Structured Documents		
+75	managing_structured_documents	2000	K	L	V	581290	Ohjelmistojärjestelmät	Managing Structured Documents		
+75	managing_structured_documents	2001	K	L	V	581290	Ohjelmistojärjestelmät	Managing Structured Documents		
+75	managing_structured_documents	2002	K	L	V	581290	Ohjelmistojärjestelmät	Managing Structured Documents		
+75	managing_structured_documents	2003	K	L	V	581290	Ohjelmistojärjestelmät	Managing Structured Documents		
+75	managing_structured_documents	2005	S	L	V	581290	Ohjelmistojärjestelmät	Managing Structured Documents		
+75	managing_structured_documents	2007	S	L	V	581290	Ohjelmistojärjestelmät	Managing Structured Documents		
+76	algoritmic_problems_in_structural_biology	1999	K	L	V	581304	Bioinformatiikka	Algoritmic Problems in Structural Biology		
+77	computer_organization_i	2000	K	C	P	581305	Hajaut.järj. ja tietoliikenne	Computer Organization I		
+77	computer_organization_i	2000	S	C	P	581305	Hajaut.järj. ja tietoliikenne	Computer Organization I		
+77	computer_organization_i	2000	V	C	P	581305	Hajaut.järj. ja tietoliikenne	Computer Organization I		
+77	computer_organization_i	2001	K	C	P	581305	Hajaut.järj. ja tietoliikenne	Computer Organization I		
+77	computer_organization_i	2001	S	C	P	581305	Hajaut.järj. ja tietoliikenne	Computer Organization I		
+77	computer_organization_i	2001	V	C	P	581305	Hajaut.järj. ja tietoliikenne	Computer Organization I		
+77	computer_organization_i	2002	K	C	P	581305	Hajaut.järj. ja tietoliikenne	Computer Organization I		
+77	computer_organization_i	2002	S	C	P	581305	Hajaut.järj. ja tietoliikenne	Computer Organization I		
+77	computer_organization_i	2002	V	C	P	581305	Hajaut.järj. ja tietoliikenne	Computer Organization I		
+77	computer_organization_i	2003	K	C	P	581305	Hajaut.järj. ja tietoliikenne	Computer Organization I		
+77	computer_organization_i	2003	S	C	P	581305	Hajaut.järj. ja tietoliikenne	Computer Organization I		
+77	computer_organization_i	2003	V	C	P	581305	Hajaut.järj. ja tietoliikenne	Computer Organization I		
+77	computer_organization_i	2004	K	C	P	581305	Hajaut.järj. ja tietoliikenne	Computer Organization I		
+77	computer_organization_i	2004	S	C	P	581305	Hajaut.järj. ja tietoliikenne	Computer Organization I		
+77	computer_organization_i	2004	V	C	P	581305	Hajaut.järj. ja tietoliikenne	Computer Organization I		
+77	computer_organization_i	2005	K	C	P	581305	Hajaut.järj. ja tietoliikenne	Computer Organization I		
+77	computer_organization_i	2005	S	C	P	581305	Hajaut.järj. ja tietoliikenne	Computer Organization I		
+77	computer_organization_i	2005	V	C	P	581305	Hajaut.järj. ja tietoliikenne	Computer Organization I		
+77	computer_organization_i	2006	K	C	P	581305	Hajaut.järj. ja tietoliikenne	Computer Organization I		
+77	computer_organization_i	2006	S	C	P	581305	Hajaut.järj. ja tietoliikenne	Computer Organization I		
+77	computer_organization_i	2007	K	C	P	581305	Hajaut.järj. ja tietoliikenne	Computer Organization I		
+77	computer_organization_i	2007	S	C	P	581305	Hajaut.järj. ja tietoliikenne	Computer Organization I		
+77	computer_organization_i	2008	K	C	P	581305	Hajaut.järj. ja tietoliikenne	Computer Organization I		
+77	computer_organization_i	2008	S	C	P	581305	Hajaut.järj. ja tietoliikenne	Computer Organization I		
+77	computer_organization_i	2009	K	C	P	581305	Hajaut.järj. ja tietoliikenne	Computer Organization I		
+77	computer_organization_i	2009	S	C	P	581305	Hajaut.järj. ja tietoliikenne	Computer Organization I		
+77	computer_organization_i	2010	K	C	P	581305	Hajaut.järj. ja tietoliikenne	Computer Organization I		
+77	computer_organization_i	2011	K	C	P	581305	Hajaut.järj. ja tietoliikenne	Computer Organization I		
+77	computer_organization_i	2011	S	C	P	581305	Hajaut.järj. ja tietoliikenne	Computer Organization I		
+77	computer_organization_i	2012	K	C	P	581305	Hajaut.järj. ja tietoliikenne	Computer Organization I		
+79	inductive_logic_programming	2000	K	J	?	581308	Ohjelmistojärjestelmät	Inductive Logic Programming		
+80	data_structures	1995	S	C	P	58131	Algoritmit	Data Structures		
+80	data_structures	1996	S	C	P	58131	Algoritmit	Data Structures		
+80	data_structures	1997	S	C	P	58131	Algoritmit	Data Structures		
+80	data_structures	1998	S	C	P	58131	Algoritmit	Data Structures		
+80	data_structures	1999	S	C	P	58131	Algoritmit	Data Structures		
+80	data_structures	2000	K	C	P	581306	Algoritmit	Data structures -2000		
+80	data_structures	2000	S	C	P	58131	Algoritmit	Data Structures		
+80	data_structures	2001	K	C	P	58131	Algoritmit	Data Structures		
+80	data_structures	2001	S	C	P	58131	Algoritmit	Data Structures		
+80	data_structures	2002	K	C	P	58131	Algoritmit	Data Structures		
+80	data_structures	2002	S	C	P	58131	Algoritmit	Data Structures		
+80	data_structures	2003	K	C	P	58131	Algoritmit	Data Structures		
+80	data_structures	2003	S	C	P	58131	Algoritmit	Data Structures		
+80	data_structures	2004	K	C	P	58131	Algoritmit	Data Structures		
+80	data_structures	2004	S	C	P	58131	Algoritmit	Data Structures		
+80	data_structures	2005	K	C	P	58131	Algoritmit	Data Structures		
+80	data_structures	2005	S	C	P	58131	Algoritmit	Data Structures		
+80	data_structures	2006	K	C	P	58131	Algoritmit	Data Structures		
+80	data_structures	2006	S	C	P	58131	Algoritmit	Data Structures		
+80	data_structures	2007	K	C	P	58131	Algoritmit	Data Structures		
+80	data_structures	2008	K	C	P	58131	Algoritmit	Data Structures		
+80	data_structures	2009	K	C	P	58131	Algoritmit	Data Structures		
+80	data_structures	2010	K	C	P	58131	Algoritmit	Data Structures		
+80	data_structures	2011	K	C	P	58131	Algoritmit	Data Structures		
+80	data_structures	2012	K	C	P	58131	Algoritmit	Data Structures		
+83	introduction_to_programming	1997	S	A	V	581258	Ohjelmistojärjestelmät	Introduction to Programming -1999		
+83	introduction_to_programming	1998	K	A	V	581258	Ohjelmistojärjestelmät	Introduction to Programming -1999		
+83	introduction_to_programming	1998	S	A	V	581258	Ohjelmistojärjestelmät	Introduction to Programming -1999		
+83	introduction_to_programming	1998	V	A	V	581258	Ohjelmistojärjestelmät	Introduction to Programming -1999		
+83	introduction_to_programming	1999	K	A	V	581258	Ohjelmistojärjestelmät	Introduction to Programming -1999		
+83	introduction_to_programming	1999	S	A	P	581325	Ohjelmistojärjestelmät	Introduction to Programming		
+83	introduction_to_programming	1999	V	A	V	581258	Ohjelmistojärjestelmät	Introduction to Programming -1999		
+83	introduction_to_programming	2000	K	A	P	581325	Ohjelmistojärjestelmät	Introduction to Programming		
+83	introduction_to_programming	2000	S	A	P	581325	Ohjelmistojärjestelmät	Introduction to Programming		
+83	introduction_to_programming	2000	V	A	P	581325	Ohjelmistojärjestelmät	Introduction to Programming		
+83	introduction_to_programming	2001	K	A	P	581325	Ohjelmistojärjestelmät	Introduction to Programming		
+83	introduction_to_programming	2001	S	A	P	581325	Ohjelmistojärjestelmät	Introduction to Programming		
+83	introduction_to_programming	2001	V	A	P	581325	Ohjelmistojärjestelmät	Introduction to Programming		
+83	introduction_to_programming	2002	K	A	P	581325	Ohjelmistojärjestelmät	Introduction to Programming		
+83	introduction_to_programming	2002	S	A	P	581325	Ohjelmistojärjestelmät	Introduction to Programming		
+83	introduction_to_programming	2002	V	A	P	581325	Ohjelmistojärjestelmät	Introduction to Programming		
+83	introduction_to_programming	2003	K	A	P	581325	Ohjelmistojärjestelmät	Introduction to Programming		
+83	introduction_to_programming	2003	S	A	P	581325	Ohjelmistojärjestelmät	Introduction to Programming		
+83	introduction_to_programming	2003	V	A	P	581325	Ohjelmistojärjestelmät	Introduction to Programming		
+83	introduction_to_programming	2004	K	A	P	581325	Ohjelmistojärjestelmät	Introduction to Programming		
+83	introduction_to_programming	2004	S	A	P	581325	Ohjelmistojärjestelmät	Introduction to Programming		
+83	introduction_to_programming	2004	V	A	P	581325	Ohjelmistojärjestelmät	Introduction to Programming		
+83	introduction_to_programming	2005	K	A	P	581325	Ohjelmistojärjestelmät	Introduction to Programming		
+83	introduction_to_programming	2005	S	A	P	581325	Ohjelmistojärjestelmät	Introduction to Programming		
+83	introduction_to_programming	2005	V	A	P	581325	Ohjelmistojärjestelmät	Introduction to Programming		
+83	introduction_to_programming	2006	K	A	P	581325	Ohjelmistojärjestelmät	Introduction to Programming		
+83	introduction_to_programming	2006	S	A	P	581325	Ohjelmistojärjestelmät	Introduction to Programming		
+83	introduction_to_programming	2006	V	A	P	581325	Ohjelmistojärjestelmät	Introduction to Programming		
+83	introduction_to_programming	2007	K	A	P	581325	Ohjelmistojärjestelmät	Introduction to Programming		
+83	introduction_to_programming	2007	S	A	P	581325	Ohjelmistojärjestelmät	Introduction to Programming		
+83	introduction_to_programming	2007	V	A	P	581325	Ohjelmistojärjestelmät	Introduction to Programming		
+83	introduction_to_programming	2008	K	A	P	581325	Ohjelmistojärjestelmät	Introduction to Programming		
+83	introduction_to_programming	2008	S	A	P	581325	Ohjelmistojärjestelmät	Introduction to Programming		
+83	introduction_to_programming	2008	V	A	P	581325	Ohjelmistojärjestelmät	Introduction to Programming		
+83	introduction_to_programming	2009	K	A	P	581325	Ohjelmistojärjestelmät	Introduction to Programming		
+83	introduction_to_programming	2009	S	A	P	581325	Ohjelmistojärjestelmät	Introduction to Programming		
+83	introduction_to_programming	2009	V	A	P	581325	Ohjelmistojärjestelmät	Introduction to Programming		
+83	introduction_to_programming	2010	K	A	P	581325	Ohjelmistojärjestelmät	Introduction to Programming		
+83	introduction_to_programming	2010	S	A	P	581325	Ohjelmistojärjestelmät	Introduction to Programming		
+83	introduction_to_programming	2010	V	A	P	581325	Ohjelmistojärjestelmät	Introduction to Programming		
+83	introduction_to_programming	2011	K	A	P	581325	Ohjelmistojärjestelmät	Introduction to Programming		
+83	introduction_to_programming	2011	S	A	P	581325	Ohjelmistojärjestelmät	Introduction to Programming		
+83	introduction_to_programming	2011	V	A	P	581325	Ohjelmistojärjestelmät	Introduction to Programming		
+83	introduction_to_programming	2012	K	A	P	581325	Ohjelmistojärjestelmät	Introduction to Programming		
+84	programming_in_java	1997	K	C	?	581253	Perusopetus	Programming in Java		
+84	programming_in_java	1999	S	A	P	581326	Ohjelmistojärjestelmät	Programming in Java		
+84	programming_in_java	2000	K	A	P	581326	Ohjelmistojärjestelmät	Programming in Java		
+84	programming_in_java	2000	S	A	P	581326	Ohjelmistojärjestelmät	Programming in Java		
+84	programming_in_java	2000	V	A	P	581326	Ohjelmistojärjestelmät	Programming in Java		
+84	programming_in_java	2001	K	A	P	581326	Ohjelmistojärjestelmät	Programming in Java		
+84	programming_in_java	2001	S	A	P	581326	Ohjelmistojärjestelmät	Programming in Java		
+84	programming_in_java	2001	V	A	P	581326	Ohjelmistojärjestelmät	Programming in Java		
+84	programming_in_java	2002	K	A	P	581326	Ohjelmistojärjestelmät	Programming in Java		
+84	programming_in_java	2002	S	A	P	581326	Ohjelmistojärjestelmät	Programming in Java		
+84	programming_in_java	2002	V	A	P	581326	Ohjelmistojärjestelmät	Programming in Java		
+84	programming_in_java	2003	K	A	P	581326	Ohjelmistojärjestelmät	Programming in Java		
+84	programming_in_java	2003	S	A	P	581326	Ohjelmistojärjestelmät	Programming in Java		
+84	programming_in_java	2003	V	A	P	581326	Ohjelmistojärjestelmät	Programming in Java		
+84	programming_in_java	2004	K	A	P	581326	Ohjelmistojärjestelmät	Programming in Java		
+84	programming_in_java	2004	S	A	P	581326	Ohjelmistojärjestelmät	Programming in Java		
+84	programming_in_java	2004	V	A	P	581326	Ohjelmistojärjestelmät	Programming in Java		
+84	programming_in_java	2005	K	A	P	581326	Ohjelmistojärjestelmät	Programming in Java		
+84	programming_in_java	2005	S	A	P	581326	Ohjelmistojärjestelmät	Programming in Java		
+84	programming_in_java	2005	V	A	P	581326	Ohjelmistojärjestelmät	Programming in Java		
+84	programming_in_java	2006	K	A	P	581326	Ohjelmistojärjestelmät	Programming in Java		
+84	programming_in_java	2006	S	A	P	581326	Ohjelmistojärjestelmät	Programming in Java		
+84	programming_in_java	2006	V	A	P	581326	Ohjelmistojärjestelmät	Programming in Java		
+84	programming_in_java	2007	K	A	P	581326	Ohjelmistojärjestelmät	Programming in Java		
+84	programming_in_java	2007	S	A	P	581326	Ohjelmistojärjestelmät	Programming in Java		
+84	programming_in_java	2007	V	A	P	581326	Ohjelmistojärjestelmät	Programming in Java		
+84	programming_in_java	2008	K	A	P	581326	Ohjelmistojärjestelmät	Programming in Java		
+84	programming_in_java	2008	V	A	P	581326	Ohjelmistojärjestelmät	Programming in Java		
+85	introduction_to_application_design	1999	S	C	P	581327	Ohjelmistojärjestelmät	Introduction to Application Design		
+85	introduction_to_application_design	2000	K	C	P	581327	Ohjelmistojärjestelmät	Introduction to Application Design		
+85	introduction_to_application_design	2000	S	C	P	581327	Ohjelmistojärjestelmät	Introduction to Application Design		
+85	introduction_to_application_design	2001	K	C	P	581327	Ohjelmistojärjestelmät	Introduction to Application Design		
+85	introduction_to_application_design	2001	S	C	P	581327	Ohjelmistojärjestelmät	Introduction to Application Design		
+85	introduction_to_application_design	2001	V	C	P	581327	Ohjelmistojärjestelmät	Introduction to Application Design		
+85	introduction_to_application_design	2002	K	C	P	581327	Ohjelmistojärjestelmät	Introduction to Application Design		
+85	introduction_to_application_design	2002	S	C	P	581327	Ohjelmistojärjestelmät	Introduction to Application Design		
+85	introduction_to_application_design	2002	V	C	P	581327	Ohjelmistojärjestelmät	Introduction to Application Design		
+85	introduction_to_application_design	2003	K	C	P	581327	Ohjelmistojärjestelmät	Introduction to Application Design		
+85	introduction_to_application_design	2003	S	C	P	581327	Ohjelmistojärjestelmät	Introduction to Application Design		
+85	introduction_to_application_design	2004	K	C	P	581327	Ohjelmistojärjestelmät	Introduction to Application Design		
+85	introduction_to_application_design	2004	S	C	P	581327	Ohjelmistojärjestelmät	Introduction to Application Design		
+85	introduction_to_application_design	2004	V	C	P	581327	Ohjelmistojärjestelmät	Introduction to Application Design		
+85	introduction_to_application_design	2005	K	C	P	581327	Ohjelmistojärjestelmät	Introduction to Application Design		
+85	introduction_to_application_design	2005	V	C	P	581327	Ohjelmistojärjestelmät	Introduction to Application Design		
+86	introduction_to_databases	1999	S	A	P	581328	Ohjelmistojärjestelmät	Introduction to Databases		
+86	introduction_to_databases	2000	K	A	P	581328	Ohjelmistojärjestelmät	Introduction to Databases		
+86	introduction_to_databases	2000	S	A	P	581328	Ohjelmistojärjestelmät	Introduction to Databases		
+86	introduction_to_databases	2000	V	A	P	581328	Ohjelmistojärjestelmät	Introduction to Databases		
+86	introduction_to_databases	2001	K	A	P	581328	Ohjelmistojärjestelmät	Introduction to Databases		
+86	introduction_to_databases	2001	S	A	P	581328	Ohjelmistojärjestelmät	Introduction to Databases		
+86	introduction_to_databases	2001	V	A	P	581328	Ohjelmistojärjestelmät	Introduction to Databases		
+86	introduction_to_databases	2002	K	A	P	581328	Ohjelmistojärjestelmät	Introduction to Databases		
+86	introduction_to_databases	2002	S	A	P	581328	Ohjelmistojärjestelmät	Introduction to Databases		
+86	introduction_to_databases	2002	V	A	P	581328	Ohjelmistojärjestelmät	Introduction to Databases		
+86	introduction_to_databases	2003	K	A	P	581328	Ohjelmistojärjestelmät	Introduction to Databases		
+86	introduction_to_databases	2003	S	A	P	581328	Ohjelmistojärjestelmät	Introduction to Databases		
+86	introduction_to_databases	2004	K	A	P	581328	Ohjelmistojärjestelmät	Introduction to Databases		
+86	introduction_to_databases	2004	S	A	P	581328	Ohjelmistojärjestelmät	Introduction to Databases		
+86	introduction_to_databases	2004	V	A	P	581328	Ohjelmistojärjestelmät	Introduction to Databases		
+86	introduction_to_databases	2005	K	A	P	581328	Ohjelmistojärjestelmät	Introduction to Databases		
+86	introduction_to_databases	2005	S	A	P	581328	Ohjelmistojärjestelmät	Introduction to Databases		
+86	introduction_to_databases	2005	V	A	P	581328	Ohjelmistojärjestelmät	Introduction to Databases		
+86	introduction_to_databases	2006	K	A	P	581328	Ohjelmistojärjestelmät	Introduction to Databases		
+86	introduction_to_databases	2006	S	A	P	581328	Ohjelmistojärjestelmät	Introduction to Databases		
+86	introduction_to_databases	2006	V	A	P	581328	Ohjelmistojärjestelmät	Introduction to Databases		
+86	introduction_to_databases	2007	K	A	P	581328	Ohjelmistojärjestelmät	Introduction to Databases		
+86	introduction_to_databases	2007	S	A	P	581328	Ohjelmistojärjestelmät	Introduction to Databases		
+86	introduction_to_databases	2007	V	A	P	581328	Ohjelmistojärjestelmät	Introduction to Databases		
+86	introduction_to_databases	2008	K	A	P	581328	Ohjelmistojärjestelmät	Introduction to Databases		
+86	introduction_to_databases	2008	S	A	P	581328	Ohjelmistojärjestelmät	Introduction to Databases		
+86	introduction_to_databases	2008	V	A	P	581328	Ohjelmistojärjestelmät	Introduction to Databases		
+86	introduction_to_databases	2009	K	A	P	581328	Ohjelmistojärjestelmät	Introduction to Databases		
+86	introduction_to_databases	2009	S	A	P	581328	Ohjelmistojärjestelmät	Introduction to Databases		
+86	introduction_to_databases	2009	V	A	P	581328	Ohjelmistojärjestelmät	Introduction to Databases		
+86	introduction_to_databases	2010	K	A	P	581328	Ohjelmistojärjestelmät	Introduction to Databases		
+86	introduction_to_databases	2010	S	A	P	581328	Ohjelmistojärjestelmät	Introduction to Databases		
+86	introduction_to_databases	2010	V	A	P	581328	Ohjelmistojärjestelmät	Introduction to Databases		
+86	introduction_to_databases	2011	K	A	P	581328	Ohjelmistojärjestelmät	Introduction to Databases		
+86	introduction_to_databases	2011	S	A	P	581328	Ohjelmistojärjestelmät	Introduction to Databases		
+86	introduction_to_databases	2011	V	A	P	581328	Ohjelmistojärjestelmät	Introduction to Databases		
+86	introduction_to_databases	2012	K	A	P	581328	Ohjelmistojärjestelmät	Introduction to Databases		
+87	database_application_project	1999	S	C	P	581329	Ohjelmistojärjestelmät	Database Application Project		
+87	database_application_project	2000	K	C	P	581329	Ohjelmistojärjestelmät	Database Application Project		
+87	database_application_project	2000	S	C	P	581329	Ohjelmistojärjestelmät	Database Application Project		
+87	database_application_project	2000	V	C	P	581329	Ohjelmistojärjestelmät	Database Application Project		
+87	database_application_project	2001	K	C	P	581329	Ohjelmistojärjestelmät	Database Application Project		
+87	database_application_project	2001	S	C	P	581329	Ohjelmistojärjestelmät	Database Application Project		
+87	database_application_project	2001	V	C	P	581329	Ohjelmistojärjestelmät	Database Application Project		
+87	database_application_project	2002	K	C	P	581329	Ohjelmistojärjestelmät	Database Application Project		
+87	database_application_project	2002	S	C	P	581329	Ohjelmistojärjestelmät	Database Application Project		
+87	database_application_project	2002	V	C	P	581329	Ohjelmistojärjestelmät	Database Application Project		
+87	database_application_project	2003	K	C	P	581329	Ohjelmistojärjestelmät	Database Application Project		
+87	database_application_project	2003	S	C	P	581329	Ohjelmistojärjestelmät	Database Application Project		
+87	database_application_project	2003	V	C	P	581329	Ohjelmistojärjestelmät	Database Application Project		
+87	database_application_project	2004	K	C	P	581329	Ohjelmistojärjestelmät	Database Application Project		
+87	database_application_project	2004	S	C	P	581329	Ohjelmistojärjestelmät	Database Application Project		
+87	database_application_project	2004	V	C	P	581329	Ohjelmistojärjestelmät	Database Application Project		
+87	database_application_project	2005	K	C	P	581329	Ohjelmistojärjestelmät	Database Application Project		
+87	database_application_project	2005	S	C	P	581329	Ohjelmistojärjestelmät	Database Application Project		
+87	database_application_project	2005	V	C	P	581329	Ohjelmistojärjestelmät	Database Application Project		
+89	models_for_programming_and_computing	2000	K	C	P	581330	Algoritmit	Models for Programming and Computing		
+89	models_for_programming_and_computing	2001	K	C	P	581330	Algoritmit	Models for Programming and Computing		
+89	models_for_programming_and_computing	2001	S	C	P	581330	Algoritmit	Models for Programming and Computing		
+89	models_for_programming_and_computing	2002	K	C	P	581330	Algoritmit	Models for Programming and Computing		
+89	models_for_programming_and_computing	2002	S	C	P	581330	Algoritmit	Models for Programming and Computing		
+89	models_for_programming_and_computing	2003	K	C	P	581330	Algoritmit	Models for Programming and Computing		
+89	models_for_programming_and_computing	2003	S	C	P	581330	Algoritmit	Models for Programming and Computing		
+89	models_for_programming_and_computing	2004	K	C	P	581330	Algoritmit	Models for Programming and Computing		
+89	models_for_programming_and_computing	2004	S	C	P	581330	Algoritmit	Models for Programming and Computing		
+89	models_for_programming_and_computing	2005	K	C	P	581330	Algoritmit	Models for Programming and Computing		
+89	models_for_programming_and_computing	2005	S	C	P	581330	Algoritmit	Models for Programming and Computing		
+91	concurrent_programming	2000	S	C	P	581332	Hajaut.järj. ja tietoliikenne	Concurrent Programming		
+91	concurrent_programming	2001	S	C	P	581332	Hajaut.järj. ja tietoliikenne	Concurrent Programming		
+91	concurrent_programming	2002	K	C	P	581332	Hajaut.järj. ja tietoliikenne	Concurrent Programming		
+91	concurrent_programming	2002	S	C	P	581332	Hajaut.järj. ja tietoliikenne	Concurrent Programming		
+91	concurrent_programming	2003	K	C	P	581332	Hajaut.järj. ja tietoliikenne	Concurrent Programming		
+91	concurrent_programming	2003	S	C	P	581332	Hajaut.järj. ja tietoliikenne	Concurrent Programming		
+91	concurrent_programming	2004	K	C	P	581332	Hajaut.järj. ja tietoliikenne	Concurrent Programming		
+91	concurrent_programming	2004	S	C	P	581332	Hajaut.järj. ja tietoliikenne	Concurrent Programming		
+91	concurrent_programming	2005	S	C	P	581332	Hajaut.järj. ja tietoliikenne	Concurrent Programming		
+91	concurrent_programming	2006	S	C	P	581332	Hajaut.järj. ja tietoliikenne	Concurrent Programming		
+91	concurrent_programming	2007	S	C	P	581332	Hajaut.järj. ja tietoliikenne	Concurrent Programming		
+91	concurrent_programming	2008	S	C	P	581332	Hajaut.järj. ja tietoliikenne	Concurrent Programming		
+91	concurrent_programming	2009	S	C	P	581332	Hajaut.järj. ja tietoliikenne	Concurrent Programming		
+91	concurrent_programming	2011	K	C	P	581332	Hajaut.järj. ja tietoliikenne	Concurrent Programming		
+91	concurrent_programming	2012	K	C	P	581332	Hajaut.järj. ja tietoliikenne	Concurrent Programming		
+92	data_communications	1996	K	C	P	58069	Hajaut.järj. ja tietoliikenne	Data Communications -2000		
+92	data_communications	1997	K	C	P	58069	Hajaut.järj. ja tietoliikenne	Data Communications -2000		
+92	data_communications	1998	K	C	P	58069	Hajaut.järj. ja tietoliikenne	Data Communications -2000		
+92	data_communications	1999	K	C	P	58069	Hajaut.järj. ja tietoliikenne	Data Communications -2000		
+92	data_communications	2000	K	C	P	58069	Hajaut.järj. ja tietoliikenne	Data Communications -2000		
+92	data_communications	2000	S	C	P	581333	Hajaut.järj. ja tietoliikenne	Data Communications		
+92	data_communications	2001	K	C	P	581333	Hajaut.järj. ja tietoliikenne	Data Communications		
+92	data_communications	2001	S	C	P	581333	Hajaut.järj. ja tietoliikenne	Data Communications		
+92	data_communications	2002	K	C	P	581333	Hajaut.järj. ja tietoliikenne	Data Communications		
+92	data_communications	2002	S	C	P	581333	Hajaut.järj. ja tietoliikenne	Data Communications		
+92	data_communications	2003	K	C	P	581333	Hajaut.järj. ja tietoliikenne	Data Communications		
+92	data_communications	2003	S	C	P	581333	Hajaut.järj. ja tietoliikenne	Data Communications		
+92	data_communications	2004	K	C	P	581333	Hajaut.järj. ja tietoliikenne	Data Communications		
+92	data_communications	2005	K	C	P	581333	Hajaut.järj. ja tietoliikenne	Data Communications		
+93	database_management	2000	S	C	P	581334	Ohjelmistojärjestelmät	Database Management		
+93	database_management	2001	K	C	P	581334	Ohjelmistojärjestelmät	Database Management		
+93	database_management	2001	S	C	P	581334	Ohjelmistojärjestelmät	Database Management		
+93	database_management	2002	K	C	P	581334	Ohjelmistojärjestelmät	Database Management		
+93	database_management	2002	S	C	P	581334	Ohjelmistojärjestelmät	Database Management		
+93	database_management	2003	K	C	P	581334	Ohjelmistojärjestelmät	Database Management		
+93	database_management	2003	S	C	P	581334	Ohjelmistojärjestelmät	Database Management		
+93	database_management	2004	K	C	P	581334	Ohjelmistojärjestelmät	Database Management		
+93	database_management	2004	S	C	P	581334	Ohjelmistojärjestelmät	Database Management		
+93	database_management	2005	K	C	P	581334	Ohjelmistojärjestelmät	Database Management		
+93	database_management	2005	S	C	P	581334	Ohjelmistojärjestelmät	Database Management		
+93	database_management	2006	K	C	P	581334	Ohjelmistojärjestelmät	Database Management		
+94	theory_of_computation	2000	K	L	V	581336	Algoritmit	Theory of Computation		
+94	theory_of_computation	2000	S	L	V	581336	Algoritmit	Theory of Computation		
+94	theory_of_computation	2001	S	L	V	581336	Algoritmit	Theory of Computation		
+94	theory_of_computation	2002	S	L	V	581336	Algoritmit	Theory of Computation		
+94	theory_of_computation	2003	S	L	V	581336	Algoritmit	Theory of Computation		
+94	theory_of_computation	2004	S	L	V	581336	Algoritmit	Theory of Computation		
+94	theory_of_computation	2006	K	L	V	581336	Algoritmit	Theory of Computation		
+95	algorithm_technology	2000	K	L	?	581338	Algoritmit	Algorithm technology		
+96	three_concepts_utility	1999	S	L	V	581339	Algoritmit	Three concepts: utility		
+96	three_concepts_utility	2003	K	L	V	581339	Algoritmit	Three concepts: utility		
+96	three_concepts_utility	2006	K	L	V	581339	Algoritmit	Three concepts: utility		
+96	three_concepts_utility	2007	K	L	V	581339	Algoritmit	Three concepts: utility		
+97	exercise_in_software_project_management	2000	K	L	?	581343	Ohjelmistojärjestelmät	Exercise in Software Project Management		
+97	exercise_in_software_project_management	2000	S	L	?	581343	Ohjelmistojärjestelmät	Exercise in Software Project Management		
+98	database_modelling	2000	S	L	V	581353	Ohjelmistojärjestelmät	Database Modelling		
+98	database_modelling	2001	S	L	V	581353	Ohjelmistojärjestelmät	Database Modelling		
+98	database_modelling	2002	S	L	V	581353	Ohjelmistojärjestelmät	Database Modelling		
+98	database_modelling	2003	S	L	V	581353	Ohjelmistojärjestelmät	Database Modelling		
+98	database_modelling	2004	S	L	V	581353	Ohjelmistojärjestelmät	Database Modelling		
+99	database_structures_and_algorithms	2001	K	L	V	581354	Ohjelmistojärjestelmät	Database Structures and Algorithms		
+99	database_structures_and_algorithms	2002	K	L	V	581354	Ohjelmistojärjestelmät	Database Structures and Algorithms		
+99	database_structures_and_algorithms	2003	K	L	V	581354	Ohjelmistojärjestelmät	Database Structures and Algorithms		
+99	database_structures_and_algorithms	2004	K	L	V	581354	Ohjelmistojärjestelmät	Database Structures and Algorithms		
+99	database_structures_and_algorithms	2005	K	L	V	581354	Ohjelmistojärjestelmät	Database Structures and Algorithms		

@@ -4,8 +4,8 @@ from algorithms import *
 
 def main(argv):
 	# very simple main... must be improved
-	fileName = argv[1]
-	f = open(argv[2], "r")
+	fileName = argv[1] #transactions (courses-nums)
+	f = open(argv[2], "r") #course details
 	items = [line.split('\t')[0] for line in f.readlines() if line]
 	f.close()
 
