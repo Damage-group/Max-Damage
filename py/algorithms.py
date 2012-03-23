@@ -34,8 +34,14 @@ class FreqSet(dict):
 	Returns dictionary with k-itemsets as keys and frequencies as values.
 '''
 def calculate_frequencies(itemsets, transactions):
-	
+	if not itemsets: return	
 	transactions_count = transactions.shape[0]
+	# if itemsets are 1-itemsets:
+	if len(itemsets.__iter__().next()) == 1:
+		support = sum(transactions)
+		for itemset in itemsets:
+			itemsets[itemset].frequency = float(support[tuple(itemset)[0]]) / transactions_count
+		return
 	for itemset in itemsets:
 		# Extract only itemset's columns from transactions
 		set_as_list = list(itemset)
@@ -126,7 +132,7 @@ def ap_frequent_itemsets(transactions, minSupport=0.5):
 		
 	calculate_frequencies(frequent_itemsets[k], transactions)
 	prune_infrequent(frequent_itemsets[k], minSupport)
-		
+
 	# Then loop through the rest
 	for k in range(2,100):
 		candidates = generate_candidates(frequent_itemsets[k-1], k-1)
