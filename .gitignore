@@ -1,0 +1,6 @@
+.pydevproject
+.project
+*.pyc
+py/courses_details.txt
+py/courses_num.txt
+.DS_Store
