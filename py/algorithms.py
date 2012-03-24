@@ -8,6 +8,13 @@ import random
 import itertools
 #from blist import sortedlist
 
+def first_item(iterable):
+	"""Returns a first item of an iterable."""
+	try:
+		return iterable.__iter__().next()
+	except StopIteration:
+		return None
+
 class FreqSet(dict):
 	class Info(object):
 		def __init__(self, frequency=0):
@@ -46,12 +53,13 @@ def calculate_frequencies(itemsets, transactions):
 		# Extract only itemset's columns from transactions
 		set_as_list = list(itemset)
 		cur_columns = transactions[:, set_as_list]
-		current_freq = 0
-		for row in cur_columns:
-			# If all columns in cur_columns are "true" add one into
-			# frequency counting.
-			if row.all():
-				current_freq = current_freq + 1
+		current_freq = numpy.sum(sum(cur_columns.T) == len(set_as_list))
+		#current_freq = 0
+		#for row in cur_columns:
+		#	# If all columns in cur_columns are "true" add one into
+		#	# frequency counting.
+		#	if row.all():
+		#		current_freq = current_freq + 1
 				
 		# Store the percentage
 		itemsets[itemset].frequency = float(current_freq) / float(transactions_count)	
@@ -155,8 +163,10 @@ def get_frequency(frequent_itemsets, itemset):
 
 def ap_genrules(frequent_itemsets, rules, minConfidence, f, H):
 	frequency = lambda itemset: get_frequency(frequent_itemsets, itemset)
+	if not H: return
+
 	k = len(f)
-	m = len(H)
+	m = len(first_item(H))
 
 	toRemove = []
 	for c in H:
