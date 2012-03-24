@@ -54,12 +54,6 @@ def calculate_frequencies(itemsets, transactions):
 		set_as_list = list(itemset)
 		cur_columns = transactions[:, set_as_list]
 		current_freq = numpy.sum(sum(cur_columns.T) == len(set_as_list))
-		#current_freq = 0
-		#for row in cur_columns:
-		#	# If all columns in cur_columns are "true" add one into
-		#	# frequency counting.
-		#	if row.all():
-		#		current_freq = current_freq + 1
 				
 		# Store the percentage
 		itemsets[itemset].frequency = float(current_freq) / float(transactions_count)	
