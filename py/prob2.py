@@ -9,7 +9,7 @@ def main(argv):
 	items = [line.split('\t')[0] for line in f.readlines() if line]
 	f.close()
 	
-	threshold = 0
+	threshold = 0.4
 	confidence = 0
 	
 	if len(argv) >= 4:
@@ -33,5 +33,11 @@ def main(argv):
 		for rule in rules:
 			print "%s --> %s %f" % (" ".join([str(i) for i in rule[0]]), " ".join([str(i) for i in rule[1]]), rule[2])
 
+
+
 if __name__ == '__main__':
 	main(sys.argv)
+	
+	
+	
+	
