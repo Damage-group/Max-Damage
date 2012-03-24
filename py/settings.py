@@ -39,7 +39,7 @@ CLOSED_ITEMSETS = False	# Use closed itemsets.
 MAXIMAL_ITEMSETS =  False # Use maximal itemsets.
 
 # Settings for rule generation.
-RULE_MIN_CONFIDENCE = 0.01 	# Minimum confidence of accepted rules.
+RULE_MIN_CONFIDENCE = 0.1 	# Minimum confidence of accepted rules.
 
 
 

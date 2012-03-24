@@ -36,7 +36,7 @@ def main(argv):
 	for k in xrange(2, len(frequent_itemsets)):	
 		rules = ap_rule_generation(frequent_itemsets, k, settings.RULE_MIN_CONFIDENCE)
 		for rule in rules:
-			print "%s --> %s %f" % (" ".join([str(i) for i in rule[0]]), " ".join([str(i) for i in rule[1]]), rule[2])
+			print "%s --> %s %f" % (" ".join([variables_meta[i].name for i in rule[0]]), " ".join([variables_meta[i].name for i in rule[1]]), rule[2])
 
 if __name__ == '__main__':
 	main(sys.argv)
