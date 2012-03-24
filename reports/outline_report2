@@ -1,0 +1,30 @@
+% To show the structur of the outline, i thought that we could use simple latex commands. For instance, this a comment, since it starts with %, and will not appear in the finished report. 
+
+
+
+/title{Report 2}
+
+/section{Problem and Approaches}
+% introduces the problem and describes our approaches
+
+/section{Data}
+
+%what data do we have
+
+/section{Transformation}
+%how did we integrate the data
+
+
+/section{Implementation}
+
+
+/section{Eclat}
+%short section on our useage of eclat. More a backup check for our implementation
+
+/section{Results and Conclusion}
+%results and there interpretation
+
+
+
+/section{Teamwork Evaluation}
+% will be done monday after class
