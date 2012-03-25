@@ -1,3 +1,6 @@
+py/.pydevproject
+py/.project
+py/*.pyc
 .pydevproject
 .project
 *.pyc
