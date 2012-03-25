@@ -38,11 +38,9 @@ class variable(dict):
 		if type(value) == type(list()): 
 			for val in value:
 				if val >= start and val <= end:
-					#print "%s <= %s <= %s" % (start, val, end)
 					return True
 		else:
 			if value >= start and value <= end:
-				#print "%s <= %s <= %s" % (start, value, end)
 				return True
 			
 		return False
@@ -53,11 +51,9 @@ class variable(dict):
 		if type(value) == type(list()): 
 			for val in value:
 				if val == restriction:
-					#print "%s == %s" % (val, restriction)
 					return True
 		else:
 			if value == restriction:
-				#print "%s == %s" % (value, restriction)
 				return True
 			
 		return False

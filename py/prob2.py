@@ -68,6 +68,8 @@ def main(argv):
 	
 	print "\n"
 	pruned_meta = prune_variables(all_meta)
+	print "%d variables after applying restrictions." % (len(pruned_meta))	
+	
 	fids = [var.fid for var in pruned_meta]
 	matrix = to01Matrix(fids, transactionsFromFile(settings.DATA_FILE))
 	
@@ -89,13 +91,13 @@ def main(argv):
 			res.append( (S, frequent_itemsets[k][S].frequency) )
 	res.sort(cmp=lambda a,b: -1 if a[1] < b[1] else 1 if a[1] > b[1] else 0)
 	for S,f in res:
-		print "%s (%f)" % (' '.join([all_meta[j].name for j in S]), f)
+		print "%s (%f)" % (' '.join(["%d: %s" % (j, pruned_meta[j].name) for j in S]), f)
 	
 	print "\n *** Rules with minimum confidence %f **** \n" % (settings.RULE_MIN_CONFIDENCE)
 	for k in xrange(2, len(frequent_itemsets)):	
 		rules = ap_rule_generation(frequent_itemsets, k, settings.RULE_MIN_CONFIDENCE)
 		for rule in rules:
-			print "%s --> %s %f" % (" ".join([all_meta[i].name for i in rule[0]]), " ".join([all_meta[i].name for i in rule[1]]), rule[2])
+			print "%s --> %s %f" % (" ".join([pruned_meta[i].name for i in rule[0]]), " ".join([pruned_meta[i].name for i in rule[1]]), rule[2])
 
 if __name__ == '__main__':
 	main(sys.argv)

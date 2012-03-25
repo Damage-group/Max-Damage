@@ -151,27 +151,22 @@ def read_meta_file(filepath = None):
 		
 	return variables_with_meta
 
-def remove_variable(variables, fid):
-	for var in variables:
-		if var.fid == fid:
-			variables.remove(var)
-
+	
 def prune_variables(variables = None):
 	''' Remove variables that don't pass variable restrictions in settings.py '''
 	
-	pruned_variables = list(variables)
+	to_remove = []
 	for var in variables:
 		for key, restriction in settings.VARIABLE_RESTRICTIONS.items():
 			if not var.passes_restriction(restriction, key):
-				remove_variable(pruned_variables, var.fid)
-				#print "Removed: %s | restriction %s = %s" % (var.name, key, restriction)
-				break
-	
-	print "%d variables after applying restrictions." % (len(pruned_variables))			
-	
-	#for f in pruned_variables:
-	#	print f
-		
+				if var.fid not in [v.fid for v in to_remove]:
+					to_remove.append(var)
+
+	pruned_variables = []
+	for var in variables:
+		if var.fid not in [v.fid for v in to_remove]:
+			pruned_variables.append(var)
+
 	return pruned_variables
 	
 							
