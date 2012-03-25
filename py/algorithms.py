@@ -2,7 +2,7 @@
 
 #!/usr/bin/env python
 
-import numpy
+#import numpy
 import sys
 import random
 import itertools
@@ -28,7 +28,7 @@ class FreqSet(dict):
 	def append(self, X):
 		self[X] = FreqSet.Info()
 	add = append
-
+	
 '''
 	Calculate frequency percentage in transactions for each k-itemset in
 	itemsets.
@@ -144,6 +144,37 @@ def ap_frequent_itemsets(transactions, minSupport=0.5):
 		prune_infrequent(candidates, minSupport)
 		frequent_itemsets[k] = candidates
 	return frequent_itemsets
+
+def ap_max_frequent_itemsets(freqset):
+	keys = sorted(freqset, reverse=True)
+	maxsets = freqset[keys[0]]
+
+	for k in keys[1:]:
+		newmaxsets = {}
+		for s,info in freqset[k].items():
+			for max_set in maxsets.keys():
+				if s.issubset(max_set):
+					break
+			else:
+				newmaxsets[s] = info
+		maxsets = dict(maxsets.items() + newmaxsets.items())
+	return maxsets
+
+
+def ap_closed_frequent_itemsets(freqset):
+	keys = freqset.keys()
+	closedsets = freqset[keys[0]]
+	
+	for k in keys[1:]:
+		for s,info in freqset[k].items():
+			for s2,info2 in closedsets.items():
+				if s2.issubset(s) and info.frequency == info2.frequency:
+					del closedsets[s2]
+					
+		closedsets = dict(closedsets.items() + freqset[k].items())
+					
+	return closedsets
+
 
 def ap_rule_generation(frequent_itemsets, k, minConfidence):
 	rules = []

@@ -3,6 +3,7 @@ from input import *
 from algorithms import *
 import numpy
 
+
 def print_help(argv):
 	print '''
 	TROLOLOGGER X9000 - HYPER EDITION v3.2
@@ -99,5 +100,11 @@ def main(argv):
 		for rule in rules:
 			print "%s --> %s %f" % (" ".join([pruned_meta[i].name for i in rule[0]]), " ".join([pruned_meta[i].name for i in rule[1]]), rule[2])
 
+
+
 if __name__ == '__main__':
 	main(sys.argv)
+	
+	
+	
+	
