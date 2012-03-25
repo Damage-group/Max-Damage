@@ -101,8 +101,6 @@ def main(argv):
 			print "%s --> %s %f" % (" ".join([pruned_meta[i].name for i in rule[0]]), " ".join([pruned_meta[i].name for i in rule[1]]), rule[2])
 
 
-	print settings.MAXIMAL_ITEMSETS
-
 if __name__ == '__main__':
 	main(sys.argv)
 	
