@@ -84,6 +84,12 @@ def	read_argv(argv):
 
 		if key in ['strip', 'c', 't']:
 			value = float(value)
+			
+		if key in ['closed', 'max']:
+			if value == 'True':
+				value = True
+			else:
+				value = False
 
 		if key in attributes:
 			settings.__dict__[attributes[key]] = value

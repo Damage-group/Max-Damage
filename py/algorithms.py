@@ -2,7 +2,7 @@
 
 #!/usr/bin/env python
 
-#import numpy
+import numpy
 import sys
 import random
 import itertools
