@@ -152,26 +152,38 @@ def ap_max_frequent_itemsets(freqset):
 	for k in keys[1:]:
 		newmaxsets = {}
 		for s,info in freqset[k].items():
-			for max_set in maxsets.keys():
+			for max_set in maxsets:
 				if s.issubset(max_set):
 					break
 			else:
 				newmaxsets[s] = info
-		maxsets = dict(maxsets.items() + newmaxsets.items())
-	return maxsets
+		maxsets = dict(newmaxsets.items() + maxsets.items())
+	
+	#transform into a k:<FreqSet> dictionary structure
+	return_dict = {}
+	for s,info in maxsets.items():
+		if not return_dict.has_key(len(s)):
+			return_dict[len(s)] = FreqSet()
+			
+		return_dict[len(s)].append(s)
+		return_dict[len(s)][s] = info
+
+	return return_dict
 
 
 def ap_closed_frequent_itemsets(freqset):
 	keys = freqset.keys()
-	closedsets = freqset[keys[0]]
+	closedsets = { keys[0]: freqset[keys[0]] }
+	prev_k = keys[0]
 	
 	for k in keys[1:]:
 		for s,info in freqset[k].items():
-			for s2,info2 in closedsets.items():
+			for s2,info2 in closedsets[prev_k].items():
 				if s2.issubset(s) and info.frequency == info2.frequency:
-					del closedsets[s2]
+					del closedsets[prev_k][s2]
 					
-		closedsets = dict(closedsets.items() + freqset[k].items())
+		closedsets[k] = freqset[k]
+		prev_k = k
 					
 	return closedsets
 
