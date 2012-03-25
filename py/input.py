@@ -86,7 +86,7 @@ def	read_argv(argv):
 			value = float(value)
 			
 		if key in ['closed', 'max']:
-			if value == 'True':
+			if value.lower() == 'true':
 				value = True
 			else:
 				value = False

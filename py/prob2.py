@@ -86,26 +86,36 @@ def main(argv):
 	frequent_itemsets = ap_frequent_itemsets(matrix, settings.FREQUENT_ITEMSET_THRESHOLD)
 	res = []
 	
-	print "\n *** Frequent item sets with minimum support %f **** \n" % (settings.FREQUENT_ITEMSET_THRESHOLD)
+	if settings.CLOSED_ITEMSETS:
+		frequent_itemsets = ap_closed_frequent_itemsets(frequent_itemsets)
+		print "\n *** Closed frequent item sets with minimum support %f **** \n" % (settings.FREQUENT_ITEMSET_THRESHOLD)
+	elif settings.MAXIMAL_ITEMSETS:
+		frequent_itemsets = ap_max_frequent_itemsets(frequent_itemsets)
+		print "\n *** Maximal frequent item sets with minimum support %f **** \n" % (settings.FREQUENT_ITEMSET_THRESHOLD)
+	else:
+		print "\n *** Frequent item sets with minimum support %f **** \n" % (settings.FREQUENT_ITEMSET_THRESHOLD)
+	
 	for k in frequent_itemsets:
 		for S in frequent_itemsets[k]:
 			res.append( (S, frequent_itemsets[k][S].frequency) )
 	res.sort(cmp=lambda a,b: -1 if a[1] < b[1] else 1 if a[1] > b[1] else 0)
 	for S,f in res:
 		print "%s (%f)" % (' '.join(["%d: %s" % (j, pruned_meta[j].name) for j in S]), f)
+
+
+	#rule generation fails for closed/maximal sets due how frequency computation works.
+	#should we generate rules for all frequent item sets only anyway?
+	if not(settings.CLOSED_ITEMSETS or settings.MAXIMAL_ITEMSETS):
+		print "\n *** Rules with minimum confidence %f **** \n" % (settings.RULE_MIN_CONFIDENCE)
+		for k in xrange(2, len(frequent_itemsets)):	
+			rules = ap_rule_generation(frequent_itemsets, k, settings.RULE_MIN_CONFIDENCE)
+			for rule in rules:
+				print "%s --> %s %f" % (" ".join([pruned_meta[i].name for i in rule[0]]), " ".join([pruned_meta[i].name for i in rule[1]]), rule[2])
+
+
 	
-	print "\n *** Rules with minimum confidence %f **** \n" % (settings.RULE_MIN_CONFIDENCE)
-	for k in xrange(2, len(frequent_itemsets)):	
-		rules = ap_rule_generation(frequent_itemsets, k, settings.RULE_MIN_CONFIDENCE)
-		for rule in rules:
-			print "%s --> %s %f" % (" ".join([pruned_meta[i].name for i in rule[0]]), " ".join([pruned_meta[i].name for i in rule[1]]), rule[2])
-
-
-	print settings.MAXIMAL_ITEMSETS
-
 if __name__ == '__main__':
 	main(sys.argv)
-	
 	
 	
 	
