@@ -47,10 +47,12 @@ def mutual_information(frequent_itemsets,rules):
                 S00 = 1 - S_1 - S1_ + S11
                 S_0 = S1_ - S11 + S00
                 S0_ = S_1 - S11 + S00
+                S01 = S0_ - S00
+                S10 = S1_ - S11
                 M = S00 * math.log(S00/(S0_ * S_0))
                 M = M + S01 * math.log(S01/(S0_ * S_1))
                 M = M + S10 * math.log(S10/(S1_ * S_0))
-                M = M + S11 * math.log(S1/(S1_ * S_1))
+                M = M + S11 * math.log(S11/(S1_ * S_1))
                 M = M /(-S0_ * math.log(S0_) - S1_ * math.log(S1_))
                 rules_MI.append((rule[0],rule[1],M))
         return rules_MI
