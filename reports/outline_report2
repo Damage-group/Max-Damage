@@ -5,21 +5,21 @@
 /title{Report 2}
 
 /section{Problem and Approaches}
-The task was to determine patterns in the choice of courses computer science students of the university of Helsinki take. Therefore we were given a data set containing the courses taken by students over some years.The methods of representation we used in a previous attempt, frequent itemsets, was not optimal. It did solve our problem, but it also represented uninterresting and redundant information. Therefore, we were introduced to the representation methods of maximum and closed itemsets during class.
+The task was to determine patterns in the choice of courses computer science students of the university of Helsinki take. Therefore we were given a data set containing the courses and their metadata taken by students over some years.The methods of representation we used in a previous attempt, frequent itemsets, was not optimal. It did solve our problem, but it also represented uninteresting and redundant information. Therefore, we were introduced to the representation methods of maximum and closed itemsets during class.
 
 
-Our approaches solving the problem this week were therfore alternated. We extended our own implementation for itemset generation to also include the new representation methods maximal and closed frequent itemset. Furthermore we concentated on the secound part of the association rule mining stategy, the actual rule generation. In our implementation, we also considerd different measurment methods to determine the value of a rule and an itemset.
+Our approaches solving the problem this week were therefore alternated. We extended our own implementation for itemset generation to also include the new representation methods maximal and closed frequent itemset. Furthermore we concentrated on the second part of the association rule mining stategy, the actual rule generation. In our implementation, we also considered different measurement methods to determine the value of a rule and an itemset.
 
 
 The eclat software was still used, but mainly for the purpose of verifying the outcome of our own implementation.
 
 /section{Data}
 
-In addition to the course information we had last week, we now also had a file which contained more specific data about the courses, such as its mandatory, its difficulty level. This missing information caused difficulties in the interprediation of last weeks results. However, integrating this information caused problems as well.
+In addition to the course information we had last week, we now also had a file which contained more specific data about the courses, such as its mandatory, its difficulty level. This missing information caused difficulties in the interpretation of last weeks results. However, integrating this information caused problems as well.
 
 /section{Transformation}
 
-Before we were able to use the given data, we had to transfrom and combine it in a suitable way.  There were couses in the transaction list, with unknown further information. Now, we had three different ways of handeling this data, each of them with disadvantages which we would have to consider during our interpretation of the data. One possibilities was to leave those courses with unknown further 	
+Before we were able to use the given data, we had to transform and combine it in a suitable way.  There were courses in the transaction list, with unknown further information. Now, we had three different ways of handling this data, each of them with disadvantages which we would have to consider during our interpretation of the data. One possibilities was to leave those courses with unknown further 	
 `
 
 
@@ -27,7 +27,7 @@ Before we were able to use the given data, we had to transfrom and combine it in
 
 
 /section{Eclat}
-%short section on our useage of eclat. More a backup check for our implementation
+%short section on our usage of eclat. More a backup check for our implementation
 
 /section{Results and Conclusion}
 %results and there interpretation
