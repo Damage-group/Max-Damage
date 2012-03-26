@@ -179,5 +179,5 @@ def ap_genrules(frequent_itemsets, rules, minConfidence, f, H):
 			toRemove.append(c)
 	for c in toRemove: del c
 	if k > m+1:
-		candidates = generate_candidates(H, k)
+		candidates = generate_candidates(H, m)
 		ap_genrules(frequent_itemsets, rules, minConfidence, f, candidates)
