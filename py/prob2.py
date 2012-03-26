@@ -80,7 +80,9 @@ def main(argv):
 			stripped_rows.append(index)
 	
 	matrix = matrix[stripped_rows,:]
-	print "%d transactions after removing transactions with %d <= items \n" % (matrix.shape[0], settings.STRIP)
+	sum = numpy.sum(numpy.sum(matrix, 0), 0)
+	print "%d transactions after removing transactions with %d <= items" % (matrix.shape[0], settings.STRIP)
+	print "Mean of items in transcations: %f " % (float(sum) / float(matrix.shape[0]))
 
 	# Calculate frequent itemsets and generate rules.
 	frequent_itemsets = ap_frequent_itemsets(matrix, settings.FREQUENT_ITEMSET_THRESHOLD)
@@ -100,7 +102,7 @@ def main(argv):
 			res.append( (S, frequent_itemsets[k][S].frequency) )
 	res.sort(cmp=lambda a,b: -1 if a[1] < b[1] else 1 if a[1] > b[1] else 0)
 	for S,f in res:
-		print "%s (%f)" % (' '.join(["%s: %s" % (pruned_meta[j].fid, pruned_meta[j].name) for j in S]), f)
+		print "%s (%f)" % (' '.join(["%s" % (pruned_meta[j].name) for j in S]), f)
 		
 	#rule generation fails for closed/maximal sets due how frequency computation works.
 	#should we generate rules for all frequent item sets only anyway?
