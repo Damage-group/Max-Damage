@@ -89,7 +89,7 @@ def	read_argv(argv):
 		if key in ['strip', 'c', 't']:
 			value = float(value)
 			
-		if key in ['closed', 'max']:
+		if key in ['closed', 'max','lift','IS','MI','CF']:
 			if value.lower() == 'true':
 				value = True
 			else:
