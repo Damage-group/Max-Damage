@@ -4,16 +4,16 @@
 
 
 \section{Problem and Approaches}
-The task was to determine patterns in the choice of courses computer science students of the 
-university of Helsinki take. Therefore we were given a data set containing the courses and their 
-metadata taken by students over some years.The methods of representation we used in a previous 
+The task was to determine patterns in the choice of courses computer science students of 
+University of Helsinki take. We were given a data set containing the courses and their 
+metadata taken by students over a number of years. The methods of representation we used in a previous 
 attempt, frequent itemsets, was not optimal. It did solve our problem, but it also represented 
-uninteresting and redundant information. Therefore, we were introduced to the representation methods
+mundane and redundant information. Therefore, we were introduced to the methods
 of maximum and closed itemsets during class.
 \newline
-Our approaches solving the problem this week were therefore alternated. We extended our own 
-implementation for itemset generation to also include the new representation methods maximal and 
-closed frequent itemset. Furthermore we concentrated on the second part of the association rule 
+We employed a new approach to solve the problem this week. We extended our own 
+implementation for itemset generation to create maximal and closed frequent itemset. Furthermore we 
+concentrated on the second part of the association rule 
 mining stategy, the actual rule generation. In our implementation, we also considered different 
 measurement methods to determine the value of a rule and an itemset.
 \newline
@@ -22,13 +22,13 @@ implementation.
 
 \section{Data}
 
-In addition to the course information from last week, we now had a file which contained more
-specific data about the courses. This metadata consisted of the time period the course was given,
-the term, its level and copulsoritiy. Furthermore, it contained information about subprogramms,
+In addition to the course information from last week, we now had more
+specific data about the courses. This metadata consisted of the time period the course was held,
+the term, its level and compulsority. Furthermore, it contained information about subprograms,
 which it might belong to.
 
 This missing information caused insufficiencies in the interpretation of last weeks results, 
-therefore we are now able to analyse the data more intensly.
+therefore we were now able to analyze the data more intensly.
 However, integrating this information caused problems as well, which are further discussed in 
 the next section.
 
@@ -49,9 +49,9 @@ Each so acquired course instance then had following attributes:
 \item COMPULSORY - P:yes V:no ?:not known
 \end{enumerate}
 
-The code and semester information were omitted because they were thought to be non- relevant.
-When the data was transformed it was easy to only take into account for example courses that are
-compulsory, taught on certain year interval, etc. We also added some command line tools to restrict the courses. 
+The code and semester information were omitted because they were thought to be non-relevant.
+After the data was transformed it was easy to only take into account the courses that are
+compulsory, taught on certain year interval and so on. We also added some command line tools to restrict the courses. 
 \newline
 
 For example:\newline
@@ -67,32 +67,31 @@ subset of courses which might give more interesting results.
 \newline
 
 
-As mentione above, we removed course without metadata from our dataset. However, we had considerd different ways of handeling those courses.
-Each of the three possibility had  some disadvantages which would affect our results and interpretation.
+As mentioned above, we removed courses without metadata from our dataset. However, we had considered different ways of handling those courses.
+Each of the three possibility had some disadvantages, which would affect our results and interpretation.
 
 
-A first possibility was to leave those course with unknown values for the metadata. However, this would have leaded to 
-futher complications as soon as the metadata was used to limit the considered data to certain courses. 
+A first possibility was to leave those course with unknown values for the metadata. However, this would have led to 
+futher complications, as soon as the metadata was used to limit the considered data to certain courses. 
 
 
-A secound possiblity was to just skip those course and exclude them form the data. Yet, this would affect
-statisical data such as the average amount of course taken by a student, but also the frequency of the other courses.
-Furthermore, if a transaction only consits of courses with unkown metadata, the whole transaction would be missing.
+A secound possibility was to just skip those course and exclude them from the data. Yet, this would affect
+statistical data such as the average amount of course taken by a student, but also the frequency of the other courses.
+Furthermore, if a transaction only consists of the courses with unkown metadata, the whole transaction would be missing.
 
 
-A third possiblity was to remove the whole transaction, if one of its courses is without metadata. 
-This would not affect basic statics, such as average number of courses, assuming that courses without metadata are distributed evenly, which we cannot garantie.
-Nevertheless, we would minimize our dataset of transactions, might as well remove patterns.
+A third possiblity was to remove the whole transaction, if one of its courses was without metadata. 
+This would not have affected basic statistics, such as an average number of courses assuming that courses without metadata were distributed evenly, which we could not guarantee.
+Nonetheless, as we would minimize our dataset of transactions anyway, we might as well remove those.
 \newline
 
-After some discussions, we decided on the secound option, removing the courses form our dataset. The disadvantages seemed to be the easierst to handle, so it was the least evil. 
+After some discussions, we decided on the secound option, removing the courses form our dataset. The disadvantages seemed to be the easiest to handle, so it was the least of the three evils. 
 
 
 
 
 
 
-n
 
 
 
