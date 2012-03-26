@@ -11,7 +11,7 @@ The task was to determine patterns in the choice of courses computer science stu
 Our approaches solving the problem this week were therfore alternated. We extended our own implementation for itemset generation to also include the new representation methods maximal and closed frequent itemset. Furthermore we concentated on the secound part of the association rule mining stategy, the actual rule generation. In our implementation, we also considerd different measurment methods to determine the value of a rule and an itemset.
 
 
-The eclat software was still used, but mainly for the purpose of verifying the outcome of our own implementation.
+The eclat software was still used, but mainly for the purpose of verifying the frequent itemsets outcome of our own implementation.
 
 /section{Data}
 
@@ -19,20 +19,10 @@ In addition to the course information we had last week, we now also had a file w
 
 /section{Transformation}
 
-Before we were able to use the given data, we had to transfrom and combine it in a suitable way.  There were couses in the transaction list, with unknown further information. Now, we had three different ways of handeling this data, each of them with disadvantages which we would have to consider during our interpretation of the data. One possibilities was to leave those courses with unknown further 	
-`
+Before we were able to use the given data, we had to transfrom and combine it in a suitable way.  There were courses in the transaction list, with unknown further information. Now, we had three different ways of handeling this data, each of them with disadvantages which we would have to consider during our interpretation of the data. One possibilities was to leave those courses with unknown further.	
 
 
 /section{Implementation}
-
-
-/section{Eclat}
-%short section on our useage of eclat. More a backup check for our implementation
-
-/section{Results and Conclusion}
-%results and there interpretation
-
-
 
 /section{Teamwork Evaluation}
 % will be done monday after class

@@ -122,19 +122,19 @@ def main(argv):
                                 print("******Interest Factor Measure result:******")
                                 for item in Lift_value:
                                         print "%s --> %s %f" % (" ".join([pruned_meta[i].name for i in item[0]]), " ".join([pruned_meta[i].name for i in item[1]]), item[2])
-                        elif settings.IS:
+                        if settings.IS:
                                 IS_value = IS(frequent_itemsets,rules)
                                 IS_value.sort(cmp=lambda a,b: -1 if a[2] < b[2] else 1 if a[2] > b[2] else 0)
                                 print("******IS measure result:******")
                                 for item in IS_value:
                                         print "%s --> %s %f" % (" ".join([pruned_meta[i].name for i in item[0]]), " ".join([pruned_meta[i].name for i in item[1]]), item[2])
-                        elif settings.MutualInfo:
+                        if settings.MutualInfo:
                                 MI_value = mutual_information(frequent_itemsets,rules)
                                 MI_value.sort(cmp=lambda a,b: -1 if a[2] < b[2] else 1 if a[2] > b[2] else 0)
                                 print("******Mutual Information  Measure result:******")
                                 for item in MI_value:
                                         print "%s --> %s %f" % (" ".join([pruned_meta[i].name for i in item[0]]), " ".join([pruned_meta[i].name for i in item[1]]), item[2])
-                        elif settings.CertaintyFactor:
+                        if settings.CertaintyFactor:
                                 CF_value = mutual_information(frequent_itemsets,rules)
                                 CF_value.sort(cmp=lambda a,b: -1 if a[2] < b[2] else 1 if a[2] > b[2] else 0)                                
                                 print("******Certainty Factor Measure result:******")
