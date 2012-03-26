@@ -67,17 +67,25 @@ subset of courses which might give more interesting results.
 \newline
 
 
+Restrictions can still be quite tricky if not handled correctly. We had a discussion of what was the most appropriate way to  
+restrist course years. If we
+did restrict courses to only those which have been taught in time interval $t$ we can't be sure with this
+data if course $c$ - which has been taught both in and outside $t$ - is particular transaction was inside $t$ or not. 
+
+We had both forward and against opinions
+in group about the matter. Against opinions main point was that it would not make any good assumptions 
+and the noise ($c$ iterations outside $t$) in transactions would only increase. Forward opinion thought that
+we could probably make some sound assumptions if we also cutted transactions with low item count out.
+
 As mentioned above, we removed courses without metadata from our dataset. However, we had considered different ways of handling those courses.
 Each of the three possibility had some disadvantages, which would affect our results and interpretation.
-
 
 A first possibility was to leave those course with unknown values for the metadata. However, this would have led to 
 futher complications, as soon as the metadata was used to limit the considered data to certain courses. 
 
-
-A secound possibility was to just skip those course and exclude them from the data. Yet, this would affect
+A second possibility was to just skip those course and exclude them from the data. Yet, this would affect
 statistical data such as the average amount of course taken by a student, but also the frequency of the other courses.
-Furthermore, if a transaction only consists of the courses with unkown metadata, the whole transaction would be missing.
+Furthermore, if a transaction only consisted of the courses with unknown metadata, the whole transaction would be missing.
 
 
 A third possiblity was to remove the whole transaction, if one of its courses was without metadata. 
@@ -86,7 +94,6 @@ Nonetheless, as we would minimize our dataset of transactions anyway, we might a
 \newline
 
 After some discussions, we decided on the secound option, removing the courses form our dataset. The disadvantages seemed to be the easiest to handle, so it was the least of the three evils. 
-
 
 
 
