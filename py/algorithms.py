@@ -28,7 +28,7 @@ class FreqSet(dict):
 	def append(self, X):
 		self[X] = FreqSet.Info()
 	add = append
-
+	
 '''
 	Calculate frequency percentage in transactions for each k-itemset in
 	itemsets.
@@ -54,12 +54,6 @@ def calculate_frequencies(itemsets, transactions):
 		set_as_list = list(itemset)
 		cur_columns = transactions[:, set_as_list]
 		current_freq = numpy.sum(sum(cur_columns.T) == len(set_as_list))
-		#current_freq = 0
-		#for row in cur_columns:
-		#	# If all columns in cur_columns are "true" add one into
-		#	# frequency counting.
-		#	if row.all():
-		#		current_freq = current_freq + 1
 				
 		# Store the percentage
 		itemsets[itemset].frequency = float(current_freq) / float(transactions_count)	
@@ -150,6 +144,49 @@ def ap_frequent_itemsets(transactions, minSupport=0.5):
 		prune_infrequent(candidates, minSupport)
 		frequent_itemsets[k] = candidates
 	return frequent_itemsets
+
+def ap_max_frequent_itemsets(freqset):
+	keys = sorted(freqset, reverse=True)
+	maxsets = freqset[keys[0]]
+
+	for k in keys[1:]:
+		newmaxsets = {}
+		for s,info in freqset[k].items():
+			for max_set in maxsets:
+				if s.issubset(max_set):
+					break
+			else:
+				newmaxsets[s] = info
+		maxsets = dict(newmaxsets.items() + maxsets.items())
+	
+	#transform into a k:<FreqSet> dictionary structure
+	return_dict = {}
+	for s,info in maxsets.items():
+		if not return_dict.has_key(len(s)):
+			return_dict[len(s)] = FreqSet()
+			
+		return_dict[len(s)].append(s)
+		return_dict[len(s)][s] = info
+
+	return return_dict
+
+
+def ap_closed_frequent_itemsets(freqset):
+	keys = freqset.keys()
+	closedsets = { keys[0]: freqset[keys[0]] }
+	prev_k = keys[0]
+	
+	for k in keys[1:]:
+		for s,info in freqset[k].items():
+			for s2,info2 in closedsets[prev_k].items():
+				if s2.issubset(s) and info.frequency == info2.frequency:
+					del closedsets[prev_k][s2]
+					
+		closedsets[k] = freqset[k]
+		prev_k = k
+					
+	return closedsets
+
 
 def ap_rule_generation(frequent_itemsets, k, minConfidence):
 	rules = []
