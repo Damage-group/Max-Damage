@@ -5,13 +5,13 @@ separated to following steps: input and data transforming, data processing and a
 We were able to reuse most of the code implemented during the first week, but the old
 code needed some optimizaions. The frequency calculation from transactions ($0 \over 1$ matrix) was re written with matrix operations
 reducing the time consumed from about 1 minute to 1 second. Candidate generation was
-also fixed resulting $1/4$ decrease in time consumption.
+also fixed resulting $1/4$ decrease in time consumption.\newline
 
 In addition to data handling and transformation code, we implemented apriori algorithm 
 for rule generation. The implementation follows almost the pseudo code of the book. 
 It was noticed that the algorithm of the book is errorneous. 
 The algorithm 6.2 calls the rule generation function described in algorithm 6.3.
-The initial parameters of the 6.3 are $f_k \in F_k = \{f \mid f \in \mathrm{frequent itemsets} and |f|=k \}$ 
+The initial parameters of the 6.3 are $f_k \in F_k = \{f \mid f \in \mathrm{frequent\ itemsets\ and\ } |f|=k \}$ 
 and $H_k = \{\{a\} \mid a \in f_k \}$. In the algorithm 6.3 the first assigments are:
 $k = |f_k|$ and $m = |H_m| = 1$. Then the rest of the function is inside an if clause
 testing $k > m + 1$. Assuming that $k=2$ we get $2 > 1+1$ which is clearly false. 
@@ -19,6 +19,7 @@ Therefore the pseudo code of the book does not even start when searching for rul
 If we assume that $k>2$, then the content of the if clause is executed. The first 
 line in the loop assigns $H_{m+1} = \mathbf{apriori-gen}(H_m)$ and $H_{m+1}$ is then processed.
 This means that the algorithm does not take into account rules of form $f_k \setminus h_1 \Rightarrow g_1$ where $h_1 \in H_1$.
+\newline
 
 Two separate group members that were not implementing the algorithms found a bug in it. 
 According to that fact, it seems that not only the coders read the code.
