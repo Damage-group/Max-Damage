@@ -1,6 +1,7 @@
 import sys
 from input import *
 from algorithms import *
+from measures import *
 import numpy
 
 
@@ -26,6 +27,11 @@ def print_help(argv):
 		c       : Minimum confidence of accepted rules. ie. \'0.1\' 
 		closed  : Use closed itemsets. True/False 
 		max     : Use maximal itemsets. True/False
+                lift    : use lift(interest factor) to qualify the rule
+                IS      : use IS measure to qualify the rule
+                MI      : output the mutual information of the rule 
+                CF      : output the certainty factor of the rule
+
 	
 	Meta file spesific arguments: 
 		\'column=restriction\'
@@ -112,6 +118,32 @@ def main(argv):
 			rules = ap_rule_generation(frequent_itemsets, k, settings.RULE_MIN_CONFIDENCE)
 			for rule in rules:
 				print "%s --> %s %f" % (" ".join([pruned_meta[i].name for i in rule[0]]), " ".join([pruned_meta[i].name for i in rule[1]]), rule[2])
+                        if settings.Lift:
+                                Lift_value = interest_factor(frequent_itemsets,rules)
+                                Lift_value.sort(cmp=lambda a,b: -1 if a[2] < b[2] else 1 if a[2] > b[2] else 0)
+                                print("******Interest Factor Measure result:******")
+                                for item in Lift_value:
+                                        print "%s --> %s %f" % (" ".join([pruned_meta[i].name for i in item[0]]), " ".join([pruned_meta[i].name for i in item[1]]), item[2])
+                        elif settings.IS:
+                                IS_value = IS(frequent_itemsets,rules)
+                                IS_value.sort(cmp=lambda a,b: -1 if a[2] < b[2] else 1 if a[2] > b[2] else 0)
+                                print("******IS measure result:******")
+                                for item in IS_value:
+                                        print "%s --> %s %f" % (" ".join([pruned_meta[i].name for i in item[0]]), " ".join([pruned_meta[i].name for i in item[1]]), item[2])
+                        elif settings.MutualInfo:
+                                MI_value = mutual_information(frequent_itemsets,rules)
+                                MI_value.sort(cmp=lambda a,b: -1 if a[2] < b[2] else 1 if a[2] > b[2] else 0)
+                                print("******Mutual Information  Measure result:******")
+                                for item in MI_value:
+                                        print "%s --> %s %f" % (" ".join([pruned_meta[i].name for i in item[0]]), " ".join([pruned_meta[i].name for i in item[1]]), item[2])
+                        elif settings.CertaintyFactor:
+                                CF_value = mutual_information(frequent_itemsets,rules)
+                                CF_value.sort(cmp=lambda a,b: -1 if a[2] < b[2] else 1 if a[2] > b[2] else 0)                                
+                                print("******Certainty Factor Measure result:******")
+                                for item in CF_value:                                        
+                                        print "%s --> %s %f" % (" ".join([pruned_meta[i].name for i in item[0]]), " ".join([pruned_meta[i].name for i in item[1]]), item[2])
+
+
 
 
 if __name__ == '__main__':

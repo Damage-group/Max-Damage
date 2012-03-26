@@ -53,6 +53,11 @@ MAXIMAL_ITEMSETS =  False # Use maximal itemsets.
 
 # Settings for rule generation.
 RULE_MIN_CONFIDENCE = 0.1 	# Minimum confidence of accepted rules.
+#Settings fro the measure method
+Lift = True
+IS = False
+MutualInfo = False
+CertaintyFactor = False
 
 		
 	
