@@ -76,7 +76,11 @@ def	read_argv(argv):
 		't' : 'FREQUENT_ITEMSET_THRESHOLD',
 		'c' : 'RULE_MIN_CONFIDENCE',
 		'closed' : 'CLOSED_ITEMSETS',	
-		'max' : 'MAXIMAL_ITEMSETS'		
+		'max' : 'MAXIMAL_ITEMSETS',	
+                'lift': 'Lift',
+                'IS': 'IS',
+                'MI': 'MutualInfo',
+                'CF': 'CertaintyFactor'
 		}
 	
 	for x in range(1, len(argv)):
