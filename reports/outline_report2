@@ -5,14 +5,22 @@
 /title{Report 2}
 
 /section{Problem and Approaches}
-% introduces the problem and describes our approaches
+The task was to determine patterns in the choice of courses computer science students of the university of Helsinki take. Therefore we were given a data set containing the courses taken by students over some years.The methods of representation we used in a previous attempt, frequent itemsets, was not optimal. It did solve our problem, but it also represented uninterresting and redundant information. Therefore, we were introduced to the representation methods of maximum and closed itemsets during class.
+
+
+Our approaches solving the problem this week were therfore alternated. We extended our own implementation for itemset generation to also include the new representation methods maximal and closed frequent itemset. Furthermore we concentated on the secound part of the association rule mining stategy, the actual rule generation. In our implementation, we also considerd different measurment methods to determine the value of a rule and an itemset.
+
+
+The eclat software was still used, but mainly for the purpose of verifying the outcome of our own implementation.
 
 /section{Data}
 
-%what data do we have
+In addition to the course information we had last week, we now also had a file which contained more specific data about the courses, such as its mandatory, its difficulty level. This missing information caused difficulties in the interprediation of last weeks results. However, integrating this information caused problems as well.
 
 /section{Transformation}
-%how did we integrate the data
+
+Before we were able to use the given data, we had to transfrom and combine it in a suitable way.  There were couses in the transaction list, with unknown further information. Now, we had three different ways of handeling this data, each of them with disadvantages which we would have to consider during our interpretation of the data. One possibilities was to leave those courses with unknown further 	
+`
 
 
 /section{Implementation}
