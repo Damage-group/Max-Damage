@@ -67,6 +67,17 @@ subset of courses which might give more interesting results.
 \newline
 
 
+Restrictions can still be quite tricky if not handled correctly. We had a discussion about should we
+make restrictions to course years. If we
+did restrict courses to only those which have been taught in time interval $t$ we can't be sure with this
+data if course $c$ - which has been taught both in and outside $t$ - is particular transaction was inside $t$ or not. 
+
+We had both forward and against opinions
+in group about the matter. Against opinions main point was that it would not make any good assumptions 
+and the noise ($c$ iterations outside $t$) in transactions would only increase. Forward opinion thought that
+we could probably make some sound assumptions if we also cutted transactions with low item count out.
+
+
 As mentione above, we removed course without metadata from our dataset. However, we had considerd different ways of handeling those courses.
 Each of the three possibility had  some disadvantages which would affect our results and interpretation.
 
