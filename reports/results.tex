@@ -1,7 +1,48 @@
 \section{Results and Conclusion}
 
 The last week we concentrated on our implementation.
-Still, we have some interresting results and conclusions. We were also able to find our first pattern.
+Still, we have some interesting results and conclusions. We were also able to find our first pattern.
+\newline
+We did use our own implementation with a support threshold of 0.3 and a confidence threshold of 0.2 and had the following results.
 \newline
 
 
+introduction\_to\_programming --> introduction\_to\_the\_use\_of\_computers 0.596906
+
+introduction\_to\_programming --> programming\_in\_java 0.598547
+
+introduction\_to\_the\_use\_of\_computers --> introduction\_to\_programming 0.730427
+
+programming\_in\_java --> introduction\_to\_programming 0.816235
+\newline
+
+A closer look reveals, that according to our association rules, introduction\_to\_programming implies
+programming\_in\_java and the other way around.
+Therefore we concluded, that the direction and the order, in which the courses are taken, matters.
+We know, that usually the course introduction\_to\_programming is taken before programming\_in\_java.
+Therefore we had the feeling, that the confidence measurement is unintuitive.
+We started to implement and integrate some other measurement.
+Those were:
+\begin{itemize}
+ \item Interest factor aka Lift
+\item IS
+\item Mutual Information
+\item Certainty factor
+\end{itemize}
+
+Those either symmetric or asymmetric measurement will give us a different view on the data in the future.
+\newline
+
+We also managed to find our first pattern, which seems to resemble the choices a group of student make.
+When we limited our considered courses to the non obligatory ones, we found this interesting group of rules.
+\newline
+
+
+digital\_media\_technology software\_architecture --> the\_metalanguage\_xml 0.814696
+
+digital\_media\_technology software\_design\_java --> the\_metalanguage\_xml 0.846154
+
+software\_processes\_and\_quality --> software\_architecture 0.778862
+\newline
+
+One can easily see, that those courses can be easily grouped together. They belong to the same subprogram.
