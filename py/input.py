@@ -2,6 +2,7 @@
 import collections
 import numpy
 import settings
+import re
 from variable import variable
 import inspect
 import sys
@@ -9,10 +10,15 @@ import sys
 def readlines(fileName):
 	return open(fileName, "r").readlines()
 
-def splittedItemsets(iterable):
+def splittedItemsets_old(iterable):
 	"""A generator that splits lines to itemsets."""
 	for item in iterable:
 		yield [i.strip() for i in item.split()]
+
+def splittedItemsets(iterable):
+    """A generator that splits lines to itemsets."""
+    for line in iterable:
+        yield [frozenset(item.split()) for item in filter(None, re.split("\{{1} (.+?) \}", line))[:-1]]
 
 def transactionsFromFile(fileName):
 	return splittedItemsets(readlines(fileName))

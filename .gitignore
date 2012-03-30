@@ -7,3 +7,8 @@ py/*.pyc
 py/courses_details.txt
 py/courses_num.txt
 .DS_Store
+
+py/.idea/
+py/courses_sequences_mapping.txt
+py/courses_sequences_num.txt
+py/courses_sequences_text.txt
