@@ -77,6 +77,10 @@ def main(argv):
 	pruned_meta = prune_variables(all_meta)
 	print "%d variables after applying restrictions." % (len(pruned_meta))	
 	
+	seqs = transactionsFromFile(settings.DATA_FILE)
+	for s in seqs:
+		print s
+	
 	fids = [var.fid for var in pruned_meta]
 	matrix = to01Matrix(fids, transactionsFromFile(settings.DATA_FILE))
 	
@@ -108,7 +112,7 @@ def main(argv):
 			res.append( (S, frequent_itemsets[k][S].frequency) )
 	res.sort(cmp=lambda a,b: -1 if a[1] < b[1] else 1 if a[1] > b[1] else 0)
 	for S,f in res:
-		print "%s (%f)" % (' '.join(["%s" % (pruned_meta[j].name) for j in S]), f)
+		print "%s (%f)" % (' '.join(["%s:%s" % (pruned_meta[j].fid, pruned_meta[j].name) for j in S]), f)
 		
 	#rule generation fails for closed/maximal sets due how frequency computation works.
 	#should we generate rules for all frequent item sets only anyway?

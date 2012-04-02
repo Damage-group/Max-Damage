@@ -18,7 +18,7 @@ def splittedItemsets_old(iterable):
 def splittedItemsets(iterable):
     """A generator that splits lines to itemsets."""
     for line in iterable:
-        yield [frozenset(item.split()) for item in filter(None, re.split("\{{1} (.+?) \}", line))[:-1]]
+        yield [tuple(sorted([int(i) for  i in item.split()])) for item in filter(None, re.split("\{{1} (.+?) \}", line))[:-1]]
 
 def transactionsFromFile(fileName):
 	return splittedItemsets(readlines(fileName))
