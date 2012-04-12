@@ -69,7 +69,7 @@ def frequent_sequences(database):
 	return freq_seqs	
 
 
-def is_subsequence(seq, super_seq):
+def is_subsequence(seq, super_seq, gap=False):
     """
     [(2,3), (5)] s1
     [(4,5,6), (1,2,3)] s2
@@ -84,7 +84,11 @@ def is_subsequence(seq, super_seq):
             if is_superevent(s, s2):
                 last = i + 1
                 break
-            i = i + 1
+            elif gap and last and i - last == gap:
+                return False
+            else:
+                i = i + 1
+
         else:
             return False
 
@@ -118,12 +122,14 @@ if __name__ == "__main__":
     s3 = [(101,),(101,)] # True
     s4 = [(101,),(101,), (101,)] # False
     s5 = [(52,103),(103,), (101,)] # True
-    superset = [(52, 52, 74, 75, 103), (31, 104, 149, 451), (5, 101, 103, 105), (101,)]
+    s6 = [(52,74), (234,)]
+    superset = [(52, 52, 74, 75, 103), (31, 104, 149, 451), (5, 101, 103, 105), (101,), (234, 904)]
 
     assert(is_subsequence(s1, superset))
-    assert(is_subsequence(s2, superset) == False)
+    assert(not is_subsequence(s2, superset))
     assert(is_subsequence(s3, superset))
-    assert(is_subsequence(s4, superset) == False)
+    assert(not is_subsequence(s4, superset))
     assert(is_subsequence(s5, superset))
-
-
+    assert(is_subsequence(s6, superset, 3))
+    assert(not is_subsequence(s6, superset, 1))
+    assert(not is_subsequence(s6, superset, 2))
