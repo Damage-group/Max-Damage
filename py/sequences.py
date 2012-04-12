@@ -64,7 +64,7 @@ def frequent_sequences(database):
 	for k in xrange(2,100):
 		candidates = seq_candidate_generation(freq_seqs[k-1], k)
 		for candidate in candidates:
-			if seq_frequency(candidate) >= minsupp:
+			if seq_frequency(candidate, database) >= minsupp:
 				freq_sets[k].append(candidate)
 	return freq_seqs	
 
@@ -116,6 +116,31 @@ def is_superevent(event, super_event):
     return True
 
 
+def seq_frequency(candidate, data):
+	support = 0
+	for transaction in data:
+		if is_subsequence(candidate,transaction):
+			support = support + 1
+	return support
+
+
+def seq_frequency_fast(candidate, data):
+	return numpy.sum([is_subsequence(candidate,transaction) for transaction in data])
+
+def seq_genrules(frequentSeqs, minConf, data):
+	rules = []
+	for seq in frequentSeqs:
+		lenSeq = len(seq)
+		for i in range(1,lenSeq):
+			cause = seq[0:lenSeq-i]
+			consequent = seq[-i:lenSeq]
+			confidence = seq_frequency(seq,data)/seq_frequency(cause,data)
+			if confidence >= minConf:
+				rules.append((cause,consequent,confidence))
+				print "%s->%s"%(cause,consequent)
+	return rules
+		
+
 if __name__ == "__main__":
     s1 = [(52,75), (104,149), (101,), (101,)] #True
     s2 = [(52,75), (104,159), (101,), (101,)] #False
@@ -123,7 +148,9 @@ if __name__ == "__main__":
     s4 = [(101,),(101,), (101,)] # False
     s5 = [(52,103),(103,), (101,)] # True
     s6 = [(52,74), (234,)]
+
     superset = [(52, 52, 74, 75, 103), (31, 104, 149, 451), (5, 101, 103, 105), (101,), (234, 904)]
+    data = [[(52, 52, 74, 75, 103), (31, 104, 149, 451), (5, 101, 103, 105), (101,)],[(52, 52, 74, 75, 103), (31, 104, 149, 451), (5, 101, 103, 105), (101,)]]
 
     assert(is_subsequence(s1, superset))
     assert(not is_subsequence(s2, superset))
@@ -133,3 +160,7 @@ if __name__ == "__main__":
     assert(is_subsequence(s6, superset, 3))
     assert(not is_subsequence(s6, superset, 1))
     assert(not is_subsequence(s6, superset, 2))
+
+
+    print seq_frequency_fast(s2,data)
+    seq_genrules([s1,s3],0,data)
