@@ -58,5 +58,13 @@ def seq_candidate_generation(sequences, k):
 	return candidates
 
 def frequent_sequences(database):
-	pass
+	# generate 1-sequences... to freq_seqs[1]
+	freq_seqs = {} # dict: values of k as keys and sets of k-sequences as values
+	# remove infreq 1-seqs from freq_seqs[1]
+	for k in xrange(2,100):
+		candidates = seq_candidate_generation(freq_seqs[k-1], k)
+		for candidate in candidates:
+			if seq_frequency(candidate) >= minsupp:
+				freq_sets[k].append(candidate)
+	return freq_seqs	
 
