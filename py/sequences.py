@@ -69,7 +69,7 @@ def frequent_sequences(database):
 	return freq_seqs	
 
 
-def is_subsequence(seq, super_seq, gap=False):
+def is_subsequence(seq, super_seq, gap=-1):
     """
     [(2,3), (5)] s1
     [(4,5,6), (1,2,3)] s2
@@ -84,7 +84,7 @@ def is_subsequence(seq, super_seq, gap=False):
             if is_superevent(s, s2):
                 last = i + 1
                 break
-            elif gap and last and i - last == gap:
+            elif gap > -1 and last and i - last == gap:
                 return False
             else:
                 i = i + 1
@@ -148,6 +148,8 @@ if __name__ == "__main__":
     s4 = [(101,),(101,), (101,)] # False
     s5 = [(52,103),(103,), (101,)] # True
     s6 = [(52,74), (234,)]
+    s7 = [(52,74), (104,)]
+    s8 = [(52,74), (101,)]
 
     superset = [(52, 52, 74, 75, 103), (31, 104, 149, 451), (5, 101, 103, 105), (101,), (234, 904)]
     data = [[(52, 52, 74, 75, 103), (31, 104, 149, 451), (5, 101, 103, 105), (101,)],[(52, 52, 74, 75, 103), (31, 104, 149, 451), (5, 101, 103, 105), (101,)]]
@@ -160,7 +162,8 @@ if __name__ == "__main__":
     assert(is_subsequence(s6, superset, 3))
     assert(not is_subsequence(s6, superset, 1))
     assert(not is_subsequence(s6, superset, 2))
-
+    assert(is_subsequence(s7, superset, 0))
+    assert(not is_subsequence(s8, superset, 0))
 
     print seq_frequency_fast(s2,data)
     seq_genrules([s1,s3],0,data)
