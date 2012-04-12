@@ -68,3 +68,61 @@ def frequent_sequences(database):
 				freq_sets[k].append(candidate)
 	return freq_seqs	
 
+
+def is_subsequence(seq, super_seq):
+    """
+    [(2,3), (5)] s1
+    [(4,5,6), (1,2,3)] s2
+
+    """
+    last = 0
+    i = 0
+
+    for s in seq:
+        i = last
+        for s2 in super_seq[last:]:
+            if is_superevent(s, s2):
+                last = i + 1
+                break
+            i = i + 1
+        else:
+            return False
+
+    return True
+
+
+def is_superevent(event, super_event):
+    last = 0
+
+    for e1 in event:
+        i = last
+
+        for e2 in super_event[last:]:
+            if e1 == e2:
+                last = i + 1
+                break
+
+            elif e1 < e2:
+                return False
+
+            i = i + 1
+        else:
+            return False
+
+    return True
+
+
+if __name__ == "__main__":
+    s1 = [(52,75), (104,149), (101,), (101,)] #True
+    s2 = [(52,75), (104,159), (101,), (101,)] #False
+    s3 = [(101,),(101,)] # True
+    s4 = [(101,),(101,), (101,)] # False
+    s5 = [(52,103),(103,), (101,)] # True
+    superset = [(52, 52, 74, 75, 103), (31, 104, 149, 451), (5, 101, 103, 105), (101,)]
+
+    assert(is_subsequence(s1, superset))
+    assert(is_subsequence(s2, superset) == False)
+    assert(is_subsequence(s3, superset))
+    assert(is_subsequence(s4, superset) == False)
+    assert(is_subsequence(s5, superset))
+
