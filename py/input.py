@@ -187,8 +187,9 @@ def prune_variables(variables = None):
 	
 							
 if __name__ == "__main__":
-	read_meta_file()
-		
+    #read_meta_file()
+    a = transactionsFromFile("course_sequences_num.txt")
+    print a
 		
 		
 		
