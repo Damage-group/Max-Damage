@@ -1,25 +1,28 @@
 \section{Results and conclustion}
 For our results we concentrated on the interesting association rules we found in the last iteration which only consist of non-compulsory courses.\\
-
+\textit{
 digital\_media\_technology software\_architecture --$>$ the\_metalanguage\_xml\\
 digital\_media\_technology software\_design\_java --$>$ the\_metalanguage\_xml\\
 software\_processes\_and\_quality --$>$ software\_architecture\\
+}\\
 
 The underlying frequent set,  stems from the non-sequential data. Now we aim to find this sets in our sequential data.\\
 
 Assuming, that all the courses for a given transaction were taken at different semesters, we find the following number of transactions:\\
-
+\textit{
 digital\_media\_technology software\_architecture the\_metalanguage\_xml:    4\\
 digital\_media\_technology software\_design\_java  the\_metalanguage\_xml:    1\\
 software\_processes\_and\_quality software\_architecture:                   22\\
+}\\
 
 Now it can also be, that some of the courses are taken within the same teaching period. So we consider the following cases, course in the same teaching period are indicated with ( ).\\
-
+\textit{
 (digital\_media\_technology) (software\_architecture the\_metalanguage\_xml):        4\\
 (digital\_media\_technology) (software\_design\_java  the\_metalanguage\_xml):       0\\
 (software\_processes\_and\_quality software\_architecture):                          19\\
 (digital\_media\_technology software\_architecture) (the\_metalanguage\_xml):        6\\
 (digital\_media\_technology software\_design\_java)  (the\_metalanguage\_xml):       5\\
+}\\
 
 As we can see Digital Media Technology and Software Architecture courses belong to the same teaching period and judging by students’ choices it does not make any sense to take over different periods. Software Process Quality and Software Architecture courses have higher match count, but this is not really a surprise, as here we deal with only two courses, as opposed to the three. Also the courses can be taken in the same teaching period or spread over different periods.
 
@@ -33,24 +36,31 @@ only real sequences contained the Introduction to Programming course, which by o
 since it seems to be one of the very first courses students in CS department take.
 
 We then made more runs now with stripping all the transactions that had no more than 2 non-compulsory courses in them.
-After that our transaction count was $3035$ and we started to get much more meaningful results. For example:
+After that our transaction count was $3035$ and we started to get much more meaningful results. For example:\\
 
-\verbatim
-(220:digital_media_technology )(227:software_design_java ): 0.0645799011532
-(220:digital_media_technology )(220:digital_media_technology ): 0.0599670510708
-(220:digital_media_technology )(94:theory_of_computation ): 0.0771004942339
-(220:digital_media_technology )(127:information_technology_now ): 0.0520593080725
-(220:digital_media_technology )(103:software_architecture )(104:software_processes_and_quality ): 0.041186161449
-(103:software_architecture )(105:software_project_management_and_group_dynamics ): 0.0306425041186
+\textit{
+(220 : digital\_media\_technology )(227 : software\_design\_java ) : \\
+0.0645799011532\\
+(220 : digital\_media\_technology )(220 : digital\_media\_technology ) :\\ 
+0.0599670510708\\
+(220 : digital\_media\_technology )(94 : theory\_of\_computation ) :  \\
+0.0771004942339\\
+(220 : digital\_media\_technology )(127 : information\_technology\_now ) : \\  
+0.0520593080725\\
+(220 : digital\_media\_technology )(103 : software\_architecture )
+(104 : software\_processes\_and\_quality ) :  0.041186161449\\
+(103 : software\_architecture )(105 : software\_project\_management\_and\_group\_dynamics ) :  
+0.0306425041186
+}\\
 
-|verbatim
 
-There seemed to be few courses that had been taken many times in a row:
 
-\verbatim
-(94:theory_of_computation )(94:theory_of_computation )(94:theory_of_computation ): 0.0546952224053
-(83:introduction_to_programming )(83:introduction_to_programming )(83:introduction_to_programming ): 0.0965403624382
-|verbatim
+There seemed to be few courses that had been taken many times in a row:\\
+
+\textit{
+(94 : theory\_of\_computation )(94 : theory\_of\_computation ) \\(94 : theory\_of\_computation ) :  0.0546952224053\\
+(83 : introduction\_to\_programming )(83 : introduction\_to\_programming )(83 : introduction\_to\_programming ) :  0.0965403624382
+}\\
 
 But since we don't know if the students have actually taken the course or just signed in them we can't draw any
 conclusions if the courses are really hard or do the students want to get better grades in them or are they just
@@ -61,24 +71,24 @@ might be hard since person's who have taken it two times have high changes of ta
 that second taking of the course doesn't actually improve your changes of passing it since the confidence for
 takin first two iterations and then third or taking one iteration and then another is almost the same. The 
 confidence in taking the course fourth time after the third is higher than taking the course second time 
-after the first!
+after the first!\\
 
-\verbatim
-(94:theory_of_computation )(94:theory_of_computation ) -> (94:theory_of_computation ): 0.466292134831
-(94:theory_of_computation ) -> (94:theory_of_computation )(94:theory_of_computation ): 0.216710182768
-(94:theory_of_computation ) -> (94:theory_of_computation ): 0.464751958225
-(94:theory_of_computation )(94:theory_of_computation )(94:theory_of_computation ) -> (94:theory_of_computation ): 0.512048192771
-|verbatim
+\textit{
+(94 : theory\_of\_computation )(94 : theory\_of\_computation ) -$>$  (94 : theory\_of\_computation ) :  0.466292134831\\
+(94 : theory\_of\_computation ) -$>$ (94 : theory\_of\_computation ) (94 : theory\_of\_computation ) :  0.216710182768\\
+(94 : theory\_of\_computation ) -$>$ (94 : theory\_of\_computation ) :  0.464751958225\\
+(94 : theory\_of\_computation )(94 : theory\_of\_computation ) \\ (94 : theory\_of\_computation ) -$>$ (94 : theory\_of\_computation ) :  0.512048192771\\
+}\\
 
-Also some other interesting rules were generated. Some of which we had a hunch based on our findings in problem 2.
+Also some other interesting rules were generated. Some of which we had a hunch based on our findings in problem 2.\\
 
-\verbatim
-(220:digital_media_technology ) -> (222:the_metalanguage_xml ): 0.426310583581
-(220:digital_media_technology )(103:software_architecture ) -> (104:software_processes_and_quality ): 0.435540069686
-(222:the_metalanguage_xml )(103:software_architecture ) -> (104:software_processes_and_quality ): 0.39755351682
-(222:the_metalanguage_xml )(227:software_design_java ) -> (103:software_architecture ): 0.382716049383
-(220:digital_media_technology )(222:the_metalanguage_xml )(103:software_architecture ) -> (104:software_processes_and_quality ): 0.450819672131
-|verbatim
+\textit{
+(220 : digital\_media\_technology ) -$>$ (222 : the\_metalanguage\_xml ) : \\ 0.426310583581\\
+(220 : digital\_media\_technology )(103 : software\_architecture ) -$>$ (104 : software\_processes\_and\_quality ) :  0.435540069686\\
+(222 : the\_metalanguage\_xml ) (103 : software\_architecture ) -$>$ (104 : software\_processes\_and\_quality ) :  0.39755351682\\
+(222 : the\_metalanguage\_xml ) (227 : software\_design\_java ) -$>$ (103 : software\_architecture ) :  0.382716049383\\
+(220 : digital\_media\_technology )(222 : the\_metalanguage\_xml ) (103 : software\_architecture ) -$>$ (104 : software\_processes\_and\_quality ) :  0.450819672131\\
+}\\
 
 All in all it seems that most of the students are focusing in one subprogram primarily and only seldom take courses
 from other subprograms. This seems as the CS department has made a right choice in dividing the subprograms or
