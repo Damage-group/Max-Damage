@@ -3,7 +3,7 @@ from input import *
 from algorithms import *
 from measures import *
 import numpy
-
+import cProfile
 import sequences
 
 
@@ -73,22 +73,33 @@ def main(argv):
 	
 	print "\n"		
 	# Read and transform data
-	#all_meta = read_meta_file()
+	all_meta = read_meta_file()
 	
 	print "\n"
 	#pruned_meta = prune_variables(all_meta)
 	#print "%d variables after applying restrictions." % (len(pruned_meta))	
 	
-	seqs = transactionsFromFile(settings.DATA_FILE)
+	seqs = list(transactionsFromFile(settings.DATA_FILE))
 	#for s in seqs:
 	#	print s
 	
-	res = []
 	
-	frequent_sequences =  sequences.frequent_sequences(seqs)
+	results = sequences.frequent_sequences(seqs)
+	seq = results[0]
+	f = results[1]
 	
-	for k in frequent_sequences:
-		print "%s" % (k)
+	for s in seq[1:-1]:
+		for sequence in s:
+			str = ""
+			for e in sequence:
+				str += "("
+				for elem in e:
+					str += "%s " % (all_meta[elem].name)
+				str += ")"
+			str += ": %s" % (f[sequence])	
+			print str
+					
+
 	
 
 if __name__ == '__main__':
