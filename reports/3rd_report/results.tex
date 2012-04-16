@@ -22,3 +22,65 @@ Now it can also be, that some of the courses are taken within the same teaching 
 (digital\_media\_technology software\_design\_java)  (the\_metalanguage\_xml):       5\\
 
 As we can see Digital Media Technology and Software Architecture courses belong to the same teaching period and judging by students’ choices it does not make any sense to take over different periods. Software Process Quality and Software Architecture courses have higher match count, but this is not really a surprise, as here we deal with only two courses, as opposed to the three. Also the courses can be taken in the same teaching period or spread over different periods.
+
+When mining for frequent sequences we choosed to discard all the compulsory courses as uninteresting and
+decided to dig deeper into non-compulsory courses. They are the ones in which students really have a choice on.
+
+So we dropped all the compulsory courses from the data and then stripped of all the transactions with zero 
+courses in them. That diminished the row count to $6656$. We run the sequence mining algorithm with default 
+minimum support of $0.015$ and minimum rule confidence of $0.2$, but didn't really get any good results as the
+only real sequences contained the Introduction to Programming course, which by our guess is a mistake in database,
+since it seems to be one of the very first courses students in CS department take.
+
+We then made more runs now with stripping all the transactions that had no more than 2 non-compulsory courses in them.
+After that our transaction count was $3035$ and we started to get much more meaningful results. For example:
+
+\verbatim
+(220:digital_media_technology )(227:software_design_java ): 0.0645799011532
+(220:digital_media_technology )(220:digital_media_technology ): 0.0599670510708
+(220:digital_media_technology )(94:theory_of_computation ): 0.0771004942339
+(220:digital_media_technology )(127:information_technology_now ): 0.0520593080725
+(220:digital_media_technology )(103:software_architecture )(104:software_processes_and_quality ): 0.041186161449
+(103:software_architecture )(105:software_project_management_and_group_dynamics ): 0.0306425041186
+
+|verbatim
+
+There seemed to be few courses that had been taken many times in a row:
+
+\verbatim
+(94:theory_of_computation )(94:theory_of_computation )(94:theory_of_computation ): 0.0546952224053
+(83:introduction_to_programming )(83:introduction_to_programming )(83:introduction_to_programming ): 0.0965403624382
+|verbatim
+
+But since we don't know if the students have actually taken the course or just signed in them we can't draw any
+conclusions if the courses are really hard or do the students want to get better grades in them or are they just
+courses that people tend to sign in in case they might have time to actually take them. 
+
+We got some rules based on these results too. It seems that atleast for Theory of Computation the course itself
+might be hard since person's who have taken it two times have high changes of taking it third time also. It seems 
+that second taking of the course doesn't actually improve your changes of passing it since the confidence for
+takin first two iterations and then third or taking one iteration and then another is almost the same. The 
+confidence is taking the course fourth time after the third is higher than taking the course second time 
+after the first!
+
+\verbatim
+(94:theory_of_computation )(94:theory_of_computation ) -> (94:theory_of_computation ): 0.466292134831
+(94:theory_of_computation ) -> (94:theory_of_computation )(94:theory_of_computation ): 0.216710182768
+(94:theory_of_computation ) -> (94:theory_of_computation ): 0.464751958225
+(94:theory_of_computation )(94:theory_of_computation )(94:theory_of_computation ) -> (94:theory_of_computation ): 0.512048192771
+|verbatim
+
+Also some other interesting rules were generated. Some of which we had a hunch based on our findings in problem 2.
+
+\verbatim
+(220:digital_media_technology ) -> (222:the_metalanguage_xml ): 0.426310583581
+(220:digital_media_technology )(103:software_architecture ) -> (104:software_processes_and_quality ): 0.435540069686
+(222:the_metalanguage_xml )(103:software_architecture ) -> (104:software_processes_and_quality ): 0.39755351682
+(222:the_metalanguage_xml )(227:software_design_java ) -> (103:software_architecture ): 0.382716049383
+(220:digital_media_technology )(222:the_metalanguage_xml )(103:software_architecture ) -> (104:software_processes_and_quality ): 0.450819672131
+|verbatim
+
+All in all it seems that most of the students are focusing in one subprogram primarily and only seldom take courses
+from other subprograms. This seems as the CS department has made a right choice in dividing the subprograms or
+students want to get their master's degree fast without executing their academic freedom of leisurely picking
+any courses they like.
