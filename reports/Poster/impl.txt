@@ -1,0 +1,13 @@
+Implemented sequence mining algorithm
+
+* Candidate generation follows the instructions of the book.
+	* Takes advantage of alphabetically ordering venets inside elements.
+	* Prunes infrequent sequences based on contiguous {k-1}-seuqnces.
+* Support counting uses subsequence detection in brute force manner.
+* Subsequence detection is completely our own code.
+
+value		supported
+min gap		No
+max gap		Yes
+max span	No
+window size	No
