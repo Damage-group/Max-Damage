@@ -7,6 +7,7 @@ import random
 import itertools
 
 import settings
+import input
 
 freq_seqs = []
 frequencies = {}
@@ -79,21 +80,25 @@ def initial_supports(database):
 				if (c,) not in supports: supports[(c,)] = 1
 				else: supports[(c,)] = supports[(c,)] + 1
 	
+	
+	#print supports
 	for k, v in supports.items(): 
 		f = float(v) / float(8465)
 		#print "%s :%s" % (k, v)
 		if f > settings.FREQUENT_SEQUENCE_THRESHOLD:
-			#print supports[k]
+			#print f
 			ret.append([k])
 			frequencies[k] = f
 	
 	#print ret
-	freq_seqs.insert(1, ret)	
-	#print freq_seqs
+	#freq_seqs[1] = ret
+	freq_seqs.append([])
+	freq_seqs.append(ret)
+		#print freq_seqs
 		#print "%s: %s" % (k, v)
-	
+	#print freq_seqs
 		
-	return ret
+	return freq_seqs
 			
 def frequent_sequences(database):
 	# generate 1-sequences... to freq_seqs[1]
@@ -101,13 +106,12 @@ def frequent_sequences(database):
 	# remove infreq 1-seqs from freq_seqs[1]
 	for k in xrange(2,100):
 		if len(freq_seqs[k-1]) == 0: break
-		for f in freq_seqs[k-1]:
-			print "%s" % f
 		candidates = seq_candidate_generation(freq_seqs[k-1], k)
-		freq_seqs[k] = []
+		freq_seqs.append([])
 		for candidate in candidates:
-			if seq_frequency(candidate, database) >= settings.FREQUENT_SEQUENCE_THRESHOLD: 
-				
+			f = seq_frequency_fast(candidate, database)
+			if  f >= settings.FREQUENT_SEQUENCE_THRESHOLD: 	
+				print f
 				freq_seqs[k].append(candidate)
 	return freq_seqs	
 
@@ -160,17 +164,24 @@ def is_superevent(event, super_event):
 
 
 def seq_frequency(candidate, data):
+	data =  input.transactionsFromFile(settings.DATA_FILE)
 	support = 0
 	for transaction in data:
 		if is_subsequence(candidate,transaction):
 			support = support + 1
+	#print support
 	f = float(support) / float(8465)
 	frequencies[candidate] = f
+	#print f
 	return f 
 
 
 def seq_frequency_fast(candidate, data):
-	return numpy.sum([is_subsequence(candidate,transaction) for transaction in data])
+	data =  input.transactionsFromFile(settings.DATA_FILE)
+	s = numpy.sum([is_subsequence(candidate,transaction) for transaction in data])
+	f = float(s) / float(8465)
+	#print "%s: %s %s" % (candidate, s, f)
+	return f
 
 def seq_genrules(frequentSeqs, minConf, data):
 	rules = []
