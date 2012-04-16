@@ -96,7 +96,9 @@ def main(argv):
 	
 	seqs = []
 	for t in transactions:
-		if len(t[0]) > settings.STRIP:
+		sum = 0
+		sum += numpy.sum([len(s) for s in t])
+		if sum > settings.STRIP:
 			seqs.append(t)
 	
 	print "%d transactions after applying restrictions. \n" % len(seqs)
@@ -113,7 +115,7 @@ def main(argv):
 			
 	print "Generated rules are:"
 	
-	rules = sequences.seq_genrules(seq, settings.FREQUENT_SEQUENCE_THRESHOLD, seqs)
+	rules = sequences.seq_genrules(seq, settings.RULE_MIN_CONFIDENCE, seqs)
 	
 	for r in rules:
 		print "%s -> %s: %s" % (seq2str(r[0], meta_dict), seq2str(r[1], meta_dict), r[2])
