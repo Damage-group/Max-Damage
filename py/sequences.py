@@ -33,15 +33,15 @@ def seq_candidate_generation(sequences, k):
 		sequences - (k-1)-sequences
 		k - a positive integer, k > 1
 	"""
-	candidates = []
+	candidates = set()
 	if k == 2:
 		for s,t in itertools.combinations(sequences,2):
 			e1 = s[0]
 			e2 = t[0]
-			candidates.append( ((e1[0],e2[0]),) )
+			candidates.add( ((e1[0],e2[0]),) )
 		for s,t in all_pairs(sequences):
-			candidates.append( (s[0],t[0]) )
-		candidates.sort()
+			candidates.add( (s[0],t[0]) )
+		#candidates.sort()
 		return candidates
 	for s,t in all_pairs(sequences):
 		if exclude_first_event(s) == exclude_last_event(t):
@@ -60,11 +60,11 @@ def seq_candidate_generation(sequences, k):
 					if subseq not in sequences:
 						infreq = True
 						break
-			if not infreq: candidates.append(c)
+			if not infreq: candidates.add(c)
 	return candidates
 
 def initial_supports(database):
-	ret = list()
+	ret = set()
 	supports = {}
 	#print len(database)
 	for row in database:
@@ -87,8 +87,10 @@ def initial_supports(database):
 		#print "%s :%s" % (k, v)
 		if f > settings.FREQUENT_SEQUENCE_THRESHOLD:
 			#print f
+
 			ret.append((k,))
 			frequencies[(k,)] = f
+
 	
 	#print ret
 	#freq_seqs[1] = ret

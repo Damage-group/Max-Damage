@@ -60,6 +60,7 @@ MutualInfo = False
 CertaintyFactor = False
 
 FREQUENT_SEQUENCE_THRESHOLD =  0.1
+
 	
 
 
