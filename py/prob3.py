@@ -75,15 +75,18 @@ def main(argv):
 	# Read and transform data
 	all_meta = read_meta_file()
 	meta_dict = {}
+	meta = prune_variables(all_meta)
 	
-	for a in all_meta:
+	for a in meta:
 		meta_dict[a.fid] = a
 	
 	print "\n"
+	
+	transactions = list(transactionsFromFile(settings.DATA_FILE, meta_dict))
 	#pruned_meta = prune_variables(all_meta)
 	#print "%d variables after applying restrictions." % (len(pruned_meta))	
 	
-	seqs = list(transactionsFromFile(settings.DATA_FILE))
+	seqs = transactions
 	#for s in seqs:
 	#	print s
 	

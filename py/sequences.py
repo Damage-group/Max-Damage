@@ -83,7 +83,7 @@ def initial_supports(database):
 	
 	#print supports
 	for k, v in supports.items(): 
-		f = float(v) / float(8465)
+		f = float(v) / len(database)
 		#print "%s :%s" % (k, v)
 		if f > settings.FREQUENT_SEQUENCE_THRESHOLD:
 			#print f
@@ -171,7 +171,7 @@ def seq_frequency(candidate, data):
 		if is_subsequence(candidate,transaction):
 			support = support + 1
 	#print support
-	f = float(support) / float(8465)
+	f = float(support) / len(data)
 	frequencies[candidate] = f
 	#print f
 	return f 
@@ -179,7 +179,7 @@ def seq_frequency(candidate, data):
 
 def seq_frequency_fast(candidate, data):
 	s = numpy.sum([is_subsequence(candidate,transaction) for transaction in data])
-	f = float(s) / float(8465)
+	f = float(s) / len(data)
 	#print "%s: %s %s" % (candidate, s, f)
 	frequencies[candidate] = f
 	return f

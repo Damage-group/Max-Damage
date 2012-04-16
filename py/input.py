@@ -15,13 +15,13 @@ def splittedItemsets_old(iterable):
 	for item in iterable:
 		yield [i.strip() for i in item.split()]
 
-def splittedItemsets(iterable):
+def splittedItemsets(iterable, dict):
     """A generator that splits lines to itemsets."""
     for line in iterable:
-        yield [tuple(sorted([int(i) for i in item.split()])) for item in filter(None, re.split("\{{1} (.+?) \}", line))[:-1]]
+        yield [tuple(sorted([int(i) for i in item.split() if "%s" % i in dict])) for item in filter(None, re.split("\{{1} (.+?) \}", line))[:-1]]
 
-def transactionsFromFile(fileName):
-	return splittedItemsets(readlines(fileName))
+def transactionsFromFile(fileName, dict):
+	return splittedItemsets(readlines(fileName), dict)
 
 def to01Matrix(items, iterable):
 	"""Generates 0/1 matrix.
@@ -80,6 +80,7 @@ def	read_argv(argv):
 		'meta': 'META_FILE',
 		'strip': 'STRIP',
 		't' : 'FREQUENT_ITEMSET_THRESHOLD',
+		's' : 'FREQUENT_SEQUENCE_THRESHOLD',
 		'c' : 'RULE_MIN_CONFIDENCE',
 		'closed' : 'CLOSED_ITEMSETS',	
 		'max' : 'MAXIMAL_ITEMSETS',	
@@ -92,7 +93,7 @@ def	read_argv(argv):
 	for x in range(1, len(argv)):
 		key, value = argv[x].split("=", 2)
 
-		if key in ['strip', 'c', 't']:
+		if key in ['strip', 'c', 't', 's']:
 			value = float(value)
 			
 		if key in ['closed', 'max','lift','IS','MI','CF']:
