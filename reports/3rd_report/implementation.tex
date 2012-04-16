@@ -1,0 +1,26 @@
+\section{Implementation}
+
+Our implementation consist of two main parts, the candidate generation and the support counting. 
+We also implemented a sub-sequence detection method, which is beneficial for our support counting. 
+The Implementation was built upon that we had implemented in the previous two iterations.
+\newline
+
+The candidate generation follows the pseudocode in chapter 7, Association Analysis: Advanced Concepts of the book Introduction to Data Mining by Tan, Steinbach, and Kumar. 
+The code adapts the Apriori principle, a bottom up approach to find frequent sets, so that it  can handel sequential data instead of just sets. Therefor it is an Apriori-like algorithm for sequential pattern discovery.
+Our implementation of the candidate generation takes advantage of alphabetically ordered venets inside the elements, this avoids unnecessary compraisons and  improves the running time. We also prune infrequent sequences based on the contiguoius {k-1}-sequences.
+\newline
+
+The support counting is implemented in a brute force manner while using the subsequence detection method. 
+The subsequence detection method is a brute force approach with some optimizations. 
+As sequences are sorted, we do not have to go through them every time, but we can terminate the search if the next 
+character in the event of a subsequence is smaller than the next character of supersequence’s event. 
+Additionally if the max-gap is provided, we terminate the search, once we reach the gap.
+\newline
+
+The status of implementation
+Value	Yes
+Min gap	No
+Max gap	Yes
+Max span	No
+Window size	No
+

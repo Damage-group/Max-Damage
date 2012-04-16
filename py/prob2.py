@@ -3,6 +3,7 @@ from input import *
 from algorithms import *
 from measures import *
 import numpy
+import sequences
 
 
 def print_help(argv):
@@ -77,9 +78,10 @@ def main(argv):
 	pruned_meta = prune_variables(all_meta)
 	print "%d variables after applying restrictions." % (len(pruned_meta))	
 	
+	#testInterestingSequences()
 	seqs = transactionsFromFile(settings.DATA_FILE)
-	for s in seqs:
-		print s
+
+
 	
 	fids = [var.fid for var in pruned_meta]
 	matrix = to01Matrix(fids, transactionsFromFile(settings.DATA_FILE))
@@ -147,6 +149,41 @@ def main(argv):
                                 for item in CF_value:                                        
                                         print "%s --> %s %f" % (" ".join([pruned_meta[i].name for i in item[0]]), " ".join([pruned_meta[i].name for i in item[1]]), item[2])
 
+
+def testInterestingSequences(seqs):
+
+	#interesting sequences
+	#s9 = [(103,), (220,), (222,)]
+	s9 = [(103,220), (222,)]
+	#s10 = [(103,), (227,), (222,)]
+	s10 = [(103,227), (222,)]
+	#s11 = [(104,), (220,)]
+	s11 = [(104,220)]
+
+	i, j, k = 0,0,0
+
+	s9list = []
+	s10list = []
+	s11list = []
+
+	for s in seqs:
+		if sequences.is_subsequence(s9, s):
+			i = i+ 1
+			s9list.append(s)
+
+		if sequences.is_subsequence(s10, s):
+			j = j + 1
+			s10list.append(s)
+
+		if sequences.is_subsequence(s11, s):
+			k = k + 1
+			s10list.append(s)
+
+
+		print "%d %d %d" % (i, j, k)
+		print s9list
+		print s10list
+		print s11list
 
 
 
