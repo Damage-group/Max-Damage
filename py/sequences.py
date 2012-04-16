@@ -6,6 +6,12 @@ import sys
 import random
 import itertools
 
+import settings
+import input
+
+freq_seqs = []
+frequencies = {}
+
 def exclude_first_event(seq):
 	new_first_elem = seq[0][1:]
 	if new_first_elem: return (new_first_elem,) + seq[1:]
@@ -27,15 +33,15 @@ def seq_candidate_generation(sequences, k):
 		sequences - (k-1)-sequences
 		k - a positive integer, k > 1
 	"""
-	candidates = []
+	candidates = set()
 	if k == 2:
 		for s,t in itertools.combinations(sequences,2):
 			e1 = s[0]
 			e2 = t[0]
-			candidates.append( ((e1[0],e2[0]),) )
+			candidates.add( ((e1[0],e2[0]),) )
 		for s,t in all_pairs(sequences):
-			candidates.append( (s[0],t[0]) )
-		candidates.sort()
+			candidates.add( (s[0],t[0]) )
+		#candidates.sort()
 		return candidates
 	for s,t in all_pairs(sequences):
 		if exclude_first_event(s) == exclude_last_event(t):
@@ -54,19 +60,62 @@ def seq_candidate_generation(sequences, k):
 					if subseq not in sequences:
 						infreq = True
 						break
-			if not infreq: candidates.append(c)
+			if not infreq: candidates.add(c)
 	return candidates
 
+def initial_supports(database):
+	ret = set()
+	supports = {}
+	#print len(database)
+	for row in database:
+		encountered = []
+		for e in row:
+			#print "%s" % row
+			for c in e:
+				#print c
+				if c not in encountered:
+					encountered.append(c)
+		#rint encounteredp
+		for c in encountered:
+			if (c,) not in supports: supports[(c,)] = 1
+			else: supports[(c,)] = supports[(c,)] + 1
+	
+	
+	#print supports
+	for k, v in supports.items(): 
+		f = float(v) / float(8465)
+		#print "%s :%s" % (k, v)
+		if f > settings.FREQUENT_SEQUENCE_THRESHOLD:
+			#print f
+
+			ret.append((k,))
+			frequencies[(k,)] = f
+
+	
+	#print ret
+	#freq_seqs[1] = ret
+	freq_seqs.append([])
+	freq_seqs.append(ret)
+		#print freq_seqs
+		#print "%s: %s" % (k, v)
+	#print freq_seqs
+		
+	return freq_seqs
+			
 def frequent_sequences(database):
 	# generate 1-sequences... to freq_seqs[1]
-	freq_seqs = {} # dict: values of k as keys and sets of k-sequences as values
+	freq_seqs = initial_supports(database) # dict: values of k as keys and sets of k-sequences as values
 	# remove infreq 1-seqs from freq_seqs[1]
 	for k in xrange(2,100):
+		if len(freq_seqs[k-1]) == 0: break
 		candidates = seq_candidate_generation(freq_seqs[k-1], k)
+		freq_seqs.append([])
 		for candidate in candidates:
-			if seq_frequency(candidate, database) >= minsupp:
-				freq_sets[k].append(candidate)
-	return freq_seqs	
+			f = seq_frequency_fast(candidate, database)
+			if  f >= settings.FREQUENT_SEQUENCE_THRESHOLD: 	
+				print "%s: %s" % (candidate, f)
+				freq_seqs[k].append(candidate)
+	return (freq_seqs, frequencies)	
 
 
 def is_subsequence(seq, super_seq, gap=-1):
@@ -121,11 +170,19 @@ def seq_frequency(candidate, data):
 	for transaction in data:
 		if is_subsequence(candidate,transaction):
 			support = support + 1
-	return support
+	#print support
+	f = float(support) / float(8465)
+	frequencies[candidate] = f
+	#print f
+	return f 
 
 
 def seq_frequency_fast(candidate, data):
-	return numpy.sum([is_subsequence(candidate,transaction) for transaction in data])
+	s = numpy.sum([is_subsequence(candidate,transaction) for transaction in data])
+	f = float(s) / float(8465)
+	#print "%s: %s %s" % (candidate, s, f)
+	frequencies[candidate] = f
+	return f
 
 def seq_genrules(frequentSeqs, minConf, data):
 	rules = []
@@ -137,7 +194,7 @@ def seq_genrules(frequentSeqs, minConf, data):
 			confidence = seq_frequency(seq,data)/seq_frequency(cause,data)
 			if confidence >= minConf:
 				rules.append((cause,consequent,confidence))
-				print "%s->%s"%(cause,consequent)
+				#print "%s->%s"%(cause,consequent)
 	return rules
 		
 
@@ -166,5 +223,5 @@ if __name__ == "__main__":
     assert(is_subsequence(s7, superset, 0))
     assert(not is_subsequence(s8, superset, 0))
 
-    print seq_frequency_fast(s2,data)
+    #print seq_frequency_fast(s2,data)
     seq_genrules([s1,s3],0,data)
