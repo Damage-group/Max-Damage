@@ -74,6 +74,10 @@ def main(argv):
 	print "\n"		
 	# Read and transform data
 	all_meta = read_meta_file()
+	meta_dict = {}
+	
+	for a in all_meta:
+		meta_dict[a.fid] = a
 	
 	print "\n"
 	#pruned_meta = prune_variables(all_meta)
@@ -94,7 +98,8 @@ def main(argv):
 			for e in sequence:
 				str += "("
 				for elem in e:
-					str += "%s " % (all_meta[elem].name)
+					course = meta_dict["%s" % elem]
+					str += "%s:%s " % (elem, course.name)
 				str += ")"
 			str += ": %s" % (f[sequence])	
 			print str
