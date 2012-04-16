@@ -83,13 +83,13 @@ def main(argv):
 	print "\n"
 	
 	transactions = list(transactionsFromFile(settings.DATA_FILE, meta_dict))
-	#pruned_meta = prune_variables(all_meta)
-	#print "%d variables after applying restrictions." % (len(pruned_meta))	
 	
-	seqs = transactions
-	#for s in seqs:
-	#	print s
+	seqs = []
+	for t in transactions:
+		if len(t[0]) > settings.STRIP:
+			seqs.append(t)
 	
+	print len(seqs)
 	
 	results = sequences.frequent_sequences(seqs)
 	seq = results[0]

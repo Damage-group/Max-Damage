@@ -113,7 +113,7 @@ def frequent_sequences(database):
 		for candidate in candidates:
 			f = seq_frequency_fast(candidate, database)
 			if  f >= settings.FREQUENT_SEQUENCE_THRESHOLD: 	
-				print "%s: %s" % (candidate, f)
+				#print "%s: %s" % (candidate, f)
 				freq_seqs[k].append(candidate)
 	return (freq_seqs, frequencies)	
 
