@@ -75,31 +75,19 @@ def initial_supports(database):
 				#print c
 				if c not in encountered:
 					encountered.append(c)
-		#rint encounteredp
 		for c in encountered:
 			if (c,) not in supports: supports[(c,)] = 1
 			else: supports[(c,)] = supports[(c,)] + 1
 	
-	
-	#print supports
 	for k, v in supports.items(): 
 		f = float(v) / len(database)
 		#print "%s :%s" % (k, v)
 		if f > settings.FREQUENT_SEQUENCE_THRESHOLD:
-			#print f
-
 			ret.add((k,))
 			frequencies[(k,)] = f
 
-	
-	#print ret
-	#freq_seqs[1] = ret
 	freq_seqs.append([])
 	freq_seqs.append(ret)
-		#print freq_seqs
-		#print "%s: %s" % (k, v)
-	#print freq_seqs
-		
 	return freq_seqs
 			
 def frequent_sequences(database):
@@ -186,15 +174,16 @@ def seq_frequency_fast(candidate, data):
 
 def seq_genrules(frequentSeqs, minConf, data):
 	rules = []
-	for seq in frequentSeqs:
-		lenSeq = len(seq)
-		for i in range(1,lenSeq):
-			cause = seq[0:lenSeq-i]
-			consequent = seq[-i:lenSeq]
-			confidence = seq_frequency(seq,data)/seq_frequency(cause,data)
-			if confidence >= minConf:
-				rules.append((cause,consequent,confidence))
-				#print "%s->%s"%(cause,consequent)
+	for k in frequentSeqs:
+		for seq in k:
+			lenSeq = len(seq)
+			for i in range(1,lenSeq):
+				cause = seq[0:lenSeq-i]
+				consequent = seq[-i:lenSeq]
+				confidence = seq_frequency(seq,data)/seq_frequency(cause,data)
+				if confidence >= minConf:
+					rules.append((cause,consequent,confidence))
+					#print "%s->%s"%(cause,consequent)
 	return rules
 		
 

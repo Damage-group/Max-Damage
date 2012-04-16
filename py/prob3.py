@@ -65,6 +65,16 @@ def validate_argv(argv):
 			print "For more instructions try \'%s help\'" % (argv[0])
 			sys.exit(0)
 
+
+def seq2str(seq, meta_dict):
+	str = ""
+	for e in seq:
+		str += "("
+		for elem in e:
+			course = meta_dict["%s" % elem]
+			str += "%s:%s " % (elem, course.name)
+		str += ")"
+	return str
 		
 def main(argv):
 	validate_argv(argv)
@@ -89,7 +99,7 @@ def main(argv):
 		if len(t[0]) > settings.STRIP:
 			seqs.append(t)
 	
-	print len(seqs)
+	print "%d transactions after applying restrictions. \n" % len(seqs)
 	
 	results = sequences.frequent_sequences(seqs)
 	seq = results[0]
@@ -97,15 +107,16 @@ def main(argv):
 	
 	for s in seq[1:-1]:
 		for sequence in s:
-			str = ""
-			for e in sequence:
-				str += "("
-				for elem in e:
-					course = meta_dict["%s" % elem]
-					str += "%s:%s " % (elem, course.name)
-				str += ")"
+			str = seq2str(sequence, meta_dict)
 			str += ": %s" % (f[sequence])	
 			print str
+			
+	print "Generated rules are:"
+	
+	rules = sequences.seq_genrules(seq, settings.FREQUENT_SEQUENCE_THRESHOLD, seqs)
+	
+	for r in rules:
+		print "%s -> %s: %s" % (seq2str(r[0], meta_dict), seq2str(r[1], meta_dict), r[2])
 					
 
 	
