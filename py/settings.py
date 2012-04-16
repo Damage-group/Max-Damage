@@ -59,7 +59,8 @@ IS = False
 MutualInfo = False
 CertaintyFactor = False
 
-FREQUENT_SEQUENCE_THRESHOLD =  0.05	
+FREQUENT_SEQUENCE_THRESHOLD =  0.1
+
 	
 
 

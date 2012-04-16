@@ -87,8 +87,10 @@ def initial_supports(database):
 		#print "%s :%s" % (k, v)
 		if f > settings.FREQUENT_SEQUENCE_THRESHOLD:
 			#print f
-			ret.add((k,))
-			frequencies[k] = f
+
+			ret.append((k,))
+			frequencies[(k,)] = f
+
 	
 	#print ret
 	#freq_seqs[1] = ret
@@ -111,9 +113,9 @@ def frequent_sequences(database):
 		for candidate in candidates:
 			f = seq_frequency_fast(candidate, database)
 			if  f >= settings.FREQUENT_SEQUENCE_THRESHOLD: 	
-				print f
+				print "%s: %s" % (candidate, f)
 				freq_seqs[k].append(candidate)
-	return freq_seqs	
+	return (freq_seqs, frequencies)	
 
 
 def is_subsequence(seq, super_seq, gap=-1):
@@ -164,7 +166,6 @@ def is_superevent(event, super_event):
 
 
 def seq_frequency(candidate, data):
-	data =  input.transactionsFromFile(settings.DATA_FILE)
 	support = 0
 	for transaction in data:
 		if is_subsequence(candidate,transaction):
@@ -177,10 +178,10 @@ def seq_frequency(candidate, data):
 
 
 def seq_frequency_fast(candidate, data):
-	data =  input.transactionsFromFile(settings.DATA_FILE)
 	s = numpy.sum([is_subsequence(candidate,transaction) for transaction in data])
 	f = float(s) / float(8465)
 	#print "%s: %s %s" % (candidate, s, f)
+	frequencies[candidate] = f
 	return f
 
 def seq_genrules(frequentSeqs, minConf, data):
