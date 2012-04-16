@@ -6,12 +6,14 @@ Our implementation of the candidate generation takes advantage of alphabetically
 
 The support counting is implemented in a brute force manner while using the subsequence detection method. The subsequence detection method is a brute force approach with some optimizations. As sequences are sorted, we do not have to go through them every time, but we can terminate the search if the next character in the event of a subsequence is smaller than the next character of supersequence’s event. Additionally if the max-gap is provided, we terminate the search, once we reach the gap.\\
 
-The status of implementation
-\begin{tabular}{c|c}
+The status of implementation:\\
+\begin{center}
+\begin{tabular}{|c|c|}
 \hline Value&Yes\\
 \hline Min gap&No\\
 \hline Max gap&Yes\\
 \hline Max span&No\\
 \hline Window size&No\\
+\hline
 \end{tabular}
-
+\end{center}
