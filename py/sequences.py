@@ -75,10 +75,10 @@ def initial_supports(database):
 				#print c
 				if c not in encountered:
 					encountered.append(c)
-			#print encountered
-			for c in encountered:
-				if (c,) not in supports: supports[(c,)] = 1
-				else: supports[(c,)] = supports[(c,)] + 1
+		#rint encounteredp
+		for c in encountered:
+			if (c,) not in supports: supports[(c,)] = 1
+			else: supports[(c,)] = supports[(c,)] + 1
 	
 	
 	#print supports
