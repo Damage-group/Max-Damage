@@ -88,7 +88,7 @@ def initial_supports(database):
 		if f > settings.FREQUENT_SEQUENCE_THRESHOLD:
 			#print f
 
-			ret.append((k,))
+			ret.add((k,))
 			frequencies[(k,)] = f
 
 	
